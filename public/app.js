@@ -33,6 +33,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Servicios dropdown: en móvil funciona como acordeón (clic); en desktop se abre con hover (CSS)
+  document.querySelectorAll('.nav-dropdown-toggle').forEach(toggle => {
+    toggle.addEventListener('click', (e) => {
+      if (window.matchMedia('(max-width: 768px)').matches) {
+        e.preventDefault();
+        const dropdown = toggle.closest('.nav-dropdown');
+        const isOpen = dropdown.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      }
+    });
+  });
+
   const savedTheme = localStorage.getItem('theme');
   const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
