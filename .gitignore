@@ -1,0 +1,14 @@
+.vercel
+.netlify
+
+# Dependencias
+node_modules/
+
+# Herramientas y archivos temporales de trabajo
+temporary screenshots/
+videos tiktok/
+seo local/media_gbp/
+*.xlsx
+*.mp4
+*.mov
+

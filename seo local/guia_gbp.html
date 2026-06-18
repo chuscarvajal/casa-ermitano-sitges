@@ -1,0 +1,452 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Guía de configuración GBP — Casa del Ermitaño</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FAF4EA;
+    --surface:#FFFDF9;
+    --ink:#2B2620;
+    --ink-soft:#5C5347;
+    --clay:#BC6C42;
+    --clay-deep:#9A5230;
+    --olive:#586B4D;
+    --olive-deep:#3E4B37;
+    --gold:#C9A24B;
+    --sand:#E9DEC9;
+    --sand-line:#DCCDB2;
+    --cream-2:#F3EAD8;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  body{
+    font-family:'Mulish',sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    font-size:10.5pt;
+    line-height:1.6;
+  }
+  h1,h2,h3,h4{ font-family:'Fraunces',serif; font-weight:600; line-height:1.12; letter-spacing:-0.015em; }
+
+  @page{ size:A4; margin:0; }
+
+  .page{
+    width:210mm; min-height:297mm;
+    padding:18mm 16mm 16mm;
+    position:relative;
+    background:
+      radial-gradient(120% 80% at 100% 0%, rgba(188,108,66,0.06), transparent 60%),
+      radial-gradient(100% 70% at 0% 100%, rgba(88,107,77,0.07), transparent 55%),
+      var(--bg);
+    overflow:hidden;
+  }
+  .page + .page{ page-break-before:always; }
+
+  /* grain texture */
+  .page::after{
+    content:""; position:absolute; inset:0; pointer-events:none; opacity:0.5;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  }
+  .page > *{ position:relative; z-index:1; }
+
+  /* ============ COVER ============ */
+  .cover{ display:flex; flex-direction:column; min-height:265mm; }
+  .cover-top{ display:flex; justify-content:space-between; align-items:flex-start; }
+  .brand-tag{
+    font-family:'Mulish'; font-weight:700; font-size:8.5pt; letter-spacing:0.22em;
+    text-transform:uppercase; color:var(--clay-deep);
+    display:flex; align-items:center; gap:8px;
+  }
+  .brand-tag .dot{ width:6px;height:6px;border-radius:50%;background:var(--gold); }
+  .afijo{ font-size:8pt; color:var(--ink-soft); text-align:right; line-height:1.4; }
+
+  .cover-hero{ margin-top:auto; margin-bottom:auto; }
+  .eyebrow{
+    font-family:'Mulish'; font-weight:800; font-size:9pt; letter-spacing:0.18em;
+    text-transform:uppercase; color:var(--olive); margin-bottom:14px;
+    display:inline-flex; align-items:center; gap:10px;
+  }
+  .eyebrow::before{ content:""; width:26px;height:2px;background:var(--olive);display:inline-block; }
+  h1.title{ font-size:46pt; font-weight:600; color:var(--ink); }
+  h1.title em{ font-style:italic; color:var(--clay); }
+  .subtitle{ font-size:13pt; color:var(--ink-soft); margin-top:18px; max-width:130mm; line-height:1.5; }
+  .biz{ margin-top:22px; font-family:'Fraunces'; font-style:italic; font-size:12pt; color:var(--olive-deep); }
+
+  .cover-meta{ display:flex; gap:10mm; margin-top:30px; }
+  .meta-chip{
+    background:var(--surface); border:1px solid var(--sand-line); border-radius:14px;
+    padding:11px 16px; box-shadow:0 6px 16px -10px rgba(120,80,40,0.35);
+  }
+  .meta-chip .k{ font-size:7.5pt; letter-spacing:0.12em; text-transform:uppercase; color:var(--ink-soft); font-weight:700;}
+  .meta-chip .v{ font-family:'Fraunces'; font-size:13pt; color:var(--clay-deep); font-weight:600; }
+
+  .cover-illus{ position:absolute; right:-6mm; bottom:6mm; width:90mm; opacity:0.95; z-index:0;}
+  .cover-foot{ margin-top:auto; display:flex; align-items:center; gap:12px; padding-top:18px; border-top:1.5px solid var(--sand-line); }
+  .cover-foot .by{ font-size:8.5pt; color:var(--ink-soft); }
+  .cover-foot .by b{ color:var(--ink); }
+
+  /* security banner */
+  .alert{
+    display:flex; gap:12px; align-items:flex-start;
+    background:linear-gradient(180deg,#FBEAde,#F8E2D2);
+    border:1px solid #E9C3A6; border-left:4px solid var(--clay);
+    border-radius:12px; padding:12px 15px; margin-top:18px;
+  }
+  .alert svg{ flex-shrink:0; margin-top:1px; }
+  .alert p{ font-size:9pt; color:var(--clay-deep); line-height:1.45; }
+  .alert b{ color:var(--ink); }
+
+  /* ============ SECTION HEADERS ============ */
+  .sec-head{ display:flex; align-items:center; gap:14px; margin-bottom:18px; }
+  .sec-head .n{
+    font-family:'Fraunces'; font-size:11pt; font-weight:700; color:#fff;
+    background:var(--olive); width:30px;height:30px;border-radius:9px;
+    display:flex;align-items:center;justify-content:center; flex-shrink:0;
+  }
+  .sec-head h2{ font-size:21pt; color:var(--ink); }
+  .sec-head .line{ flex:1; height:1.5px; background:var(--sand-line); }
+
+  /* ============ CHECKLIST ============ */
+  .checklist{ display:grid; grid-template-columns:1fr 1fr; gap:10px 18px; }
+  .check-item{
+    display:flex; align-items:center; gap:12px;
+    background:var(--surface); border:1px solid var(--sand-line); border-radius:12px;
+    padding:11px 14px; box-shadow:0 4px 12px -10px rgba(120,80,40,0.4);
+  }
+  .check-item .box{
+    width:20px;height:20px;border-radius:6px;border:2px solid var(--olive);
+    flex-shrink:0; display:flex;align-items:center;justify-content:center;
+  }
+  .check-item .num{ font-family:'Fraunces'; font-weight:700; color:var(--clay); font-size:11pt; width:18px;}
+  .check-item .lbl{ font-weight:600; font-size:9.5pt; }
+
+  /* ============ STEP CARDS ============ */
+  .step{
+    background:var(--surface); border:1px solid var(--sand-line); border-radius:16px;
+    padding:16px 18px; margin-bottom:13px;
+    box-shadow:0 10px 24px -18px rgba(120,80,40,0.55);
+    page-break-inside:avoid;
+  }
+  .step-head{ display:flex; align-items:center; gap:13px; margin-bottom:9px; }
+  .step-badge{
+    width:38px;height:38px;border-radius:11px; flex-shrink:0;
+    background:linear-gradient(150deg,var(--clay),var(--clay-deep));
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 5px 12px -6px rgba(154,82,48,0.7);
+  }
+  .step-num{ font-family:'Mulish';font-weight:800;font-size:7pt;letter-spacing:0.12em;color:var(--clay-deep);text-transform:uppercase; }
+  .step-head h3{ font-size:14.5pt; color:var(--ink); margin-top:1px;}
+  .where{
+    display:inline-flex; align-items:center; gap:7px;
+    background:var(--cream-2); border-radius:20px; padding:4px 12px;
+    font-size:8pt; color:var(--olive-deep); font-weight:700; margin-bottom:9px;
+    border:1px solid var(--sand-line);
+  }
+  .step p{ font-size:9.7pt; color:var(--ink-soft); margin-bottom:6px; }
+  .step ul{ list-style:none; }
+  .step ul li{ position:relative; padding-left:18px; font-size:9.5pt; margin-bottom:4px; color:var(--ink); }
+  .step ul li::before{
+    content:""; position:absolute; left:2px; top:7px; width:6px;height:6px;border-radius:50%;
+    background:var(--gold);
+  }
+  .step ul li.no::before{ background:#C44; }
+  .step ul li.yes::before{ background:var(--olive); }
+  .pill{ display:inline-block; background:var(--olive); color:#fff; border-radius:6px; padding:1px 8px; font-family:'Mulish'; font-weight:700; font-size:8.5pt; }
+  .pill.clay{ background:var(--clay); }
+  code{ font-family:'Mulish'; font-weight:700; background:var(--cream-2); padding:1px 6px; border-radius:5px; font-size:9pt; color:var(--clay-deep); border:1px solid var(--sand-line);}
+  .quote{ font-family:'Fraunces'; font-style:italic; color:var(--olive-deep); font-size:9.7pt; padding:8px 12px; border-left:3px solid var(--gold); background:rgba(201,162,75,0.08); border-radius:0 8px 8px 0; margin-top:6px;}
+
+  /* after-config / files */
+  .panel{
+    background:linear-gradient(165deg,var(--olive-deep),#33402d); color:#F2ECDD;
+    border-radius:18px; padding:20px 22px; margin-top:6px;
+  }
+  .panel h3{ color:#fff; font-size:15pt; margin-bottom:12px; display:flex;align-items:center;gap:10px;}
+  .panel ul{ list-style:none; }
+  .panel ul li{ position:relative; padding-left:22px; font-size:9.7pt; margin-bottom:8px; color:#EBE4D3; }
+  .panel ul li::before{ content:""; position:absolute; left:0; top:6px; width:11px;height:11px;border-radius:4px;border:2px solid var(--gold); }
+
+  .files{ display:grid; grid-template-columns:1fr 1fr; gap:9px; margin-top:14px; }
+  .file{
+    background:var(--surface); border:1px solid var(--sand-line); border-radius:11px;
+    padding:10px 13px; display:flex; gap:10px; align-items:center;
+  }
+  .file .fn{ font-weight:700; font-size:8.7pt; color:var(--clay-deep);}
+  .file .fd{ font-size:8pt; color:var(--ink-soft); }
+
+  .footer-note{ text-align:center; margin-top:20px; font-size:8pt; color:var(--ink-soft); }
+  .footer-note .paw{ display:inline-block; vertical-align:middle; margin:0 5px; }
+
+  .page-num{ position:absolute; bottom:9mm; right:16mm; font-size:8pt; color:var(--ink-soft); font-weight:700; letter-spacing:0.1em; }
+  .running{ position:absolute; top:9mm; left:16mm; font-size:7.5pt; letter-spacing:0.18em; text-transform:uppercase; color:var(--sand-line); font-weight:800; }
+  .running b{ color:var(--clay); }
+</style>
+</head>
+<body>
+
+<!-- ===================== PAGE 1 — COVER ===================== -->
+<section class="page cover">
+  <div class="cover-top">
+    <div class="brand-tag"><span class="dot"></span> Casa del Ermitaño · Sitges</div>
+    <div class="afijo">Adiestramiento &amp; Psicología Canina<br>Afijo RSCE nº 8110</div>
+  </div>
+
+  <!-- decorative dog illustration -->
+  <svg class="cover-illus" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="120" cy="214" rx="78" ry="12" fill="#586B4D" opacity="0.10"/>
+    <!-- sitting dog -->
+    <path d="M88 210 q-6 -34 4 -66 q-14 6 -22 -6 q-10 -16 4 -30 q6 -6 16 -6 q4 -14 18 -20 q20 -9 40 2 q12 7 14 22 q14 4 18 20 q3 14 -8 22 q3 28 -2 60 l-10 0 q-3 -22 -2 -40 q-22 10 -46 2 q2 20 -2 40 z"
+      fill="#BC6C42"/>
+    <path d="M132 96 q-2 -16 10 -24" stroke="#9A5230" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="150" cy="92" r="4.5" fill="#2B2620"/>
+    <path d="M170 96 q10 -4 14 6" stroke="#9A5230" stroke-width="4" stroke-linecap="round"/>
+    <path d="M162 104 q4 6 -2 10" stroke="#2B2620" stroke-width="3" stroke-linecap="round"/>
+    <!-- ear -->
+    <path d="M134 70 q-12 -16 2 -28 q8 18 6 30 z" fill="#9A5230"/>
+    <!-- collar -->
+    <path d="M120 120 q24 10 44 0" stroke="#C9A24B" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="142" cy="128" r="4" fill="#C9A24B"/>
+  </svg>
+
+  <div class="cover-hero">
+    <span class="eyebrow">Manual operativo · Posicionamiento local</span>
+    <h1 class="title">Configura tu ficha de<br><em>Google Business</em></h1>
+    <p class="subtitle">Guía paso a paso para dejar tu perfil de empresa optimizado, visible en Sitges y el Garraf, y listo para captar clientes — en una sola sesión.</p>
+    <div class="biz">“Eduquemos primero a los humanos, para que los perros no sean el problema.”</div>
+
+    <div class="cover-meta">
+      <div class="meta-chip"><div class="k">Pasos</div><div class="v">11 acciones</div></div>
+      <div class="meta-chip"><div class="k">Tiempo</div><div class="v">60–90 min</div></div>
+      <div class="meta-chip"><div class="k">Modelo</div><div class="v">SAB · sin dirección</div></div>
+    </div>
+
+    <div class="alert">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2 3 6v6c0 5 3.5 8.5 9 10 5.5-1.5 9-5 9-10V6l-9-4Z" fill="#BC6C42"/><path d="M12 8v5" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.3" fill="#fff"/></svg>
+      <p><b>Seguridad ante todo.</b> Ninguna foto ni texto debe revelar la dirección exacta (riesgo de robo de cachorros). La ficha se configura como negocio de área de servicio: la dirección se usa solo para verificar, queda oculta al público.</p>
+    </div>
+  </div>
+
+  <div class="cover-foot">
+    <svg width="22" height="22" viewBox="0 0 24 24"><circle cx="7" cy="9" r="2.3" fill="#586B4D"/><circle cx="12" cy="6.5" r="2.3" fill="#586B4D"/><circle cx="17" cy="9" r="2.3" fill="#586B4D"/><path d="M12 11c-3 0-5 2.2-5 4.6 0 1.7 1.6 2.4 5 2.4s5-.7 5-2.4C17 13.2 15 11 12 11Z" fill="#BC6C42"/></svg>
+    <div class="by">Preparado por <b>Carvajal Photos · SEO Local</b> &nbsp;·&nbsp; 17 / 06 / 2026</div>
+  </div>
+</section>
+
+<!-- ===================== PAGE 2 — CHECKLIST + STEPS 1-3 ===================== -->
+<section class="page">
+  <div class="running">Casa del Ermitaño · <b>Configuración GBP</b></div>
+
+  <div class="sec-head"><span class="n">✓</span><h2>Checklist de ejecución</h2><span class="line"></span></div>
+  <div class="checklist">
+    <div class="check-item"><span class="num">1</span><span class="box"></span><span class="lbl">Modelo SAB · ocultar dirección</span></div>
+    <div class="check-item"><span class="num">2</span><span class="box"></span><span class="lbl">Categorías (1 + 3)</span></div>
+    <div class="check-item"><span class="num">3</span><span class="box"></span><span class="lbl">Descripción del negocio</span></div>
+    <div class="check-item"><span class="num">4</span><span class="box"></span><span class="lbl">Contacto + URL (quitar 404)</span></div>
+    <div class="check-item"><span class="num">5</span><span class="box"></span><span class="lbl">Horario</span></div>
+    <div class="check-item"><span class="num">6</span><span class="box"></span><span class="lbl">Servicios con precio</span></div>
+    <div class="check-item"><span class="num">7</span><span class="box"></span><span class="lbl">Atributos</span></div>
+    <div class="check-item"><span class="num">8</span><span class="box"></span><span class="lbl">Fotos (mínimo 10)</span></div>
+    <div class="check-item"><span class="num">9</span><span class="box"></span><span class="lbl">Preguntas y respuestas</span></div>
+    <div class="check-item"><span class="num">10</span><span class="box"></span><span class="lbl">Primer Google Post</span></div>
+    <div class="check-item"><span class="num">11</span><span class="box"></span><span class="lbl">Mensajería / WhatsApp</span></div>
+    <div class="check-item" style="border-style:dashed;"><span class="num" style="color:var(--olive)">→</span><span class="lbl" style="color:var(--olive-deep)">Seguimiento (NAP, reseñas…)</span></div>
+  </div>
+
+  <div style="height:18px"></div>
+
+  <!-- STEP 1 -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7Z" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="9" r="2.4" fill="#fff"/></svg></div>
+      <div><div class="step-num">Paso 01</div><h3>Modelo SAB — Service Area Business</h3></div>
+    </div>
+    <span class="where">📍 Editar perfil → Ubicación / Dirección</span>
+    <ul>
+      <li>A “¿Los clientes vienen a tu dirección?” → responde <span class="pill">NO</span></li>
+      <li>Introduce la dirección real <b>solo para verificación</b> (queda privada, no se muestra).</li>
+      <li class="yes">Añade <b>áreas de servicio</b> (hasta 20): Sitges · Sant Pere de Ribes · Vilanova i la Geltrú · El Garraf · Castelldefels · Gavà · Cubelles · Cunit · Calafell.</li>
+      <li class="no"><b>NO</b> añadas Sant Boi, Viladecans ni El Prat — otro mercado (Baix Llobregat).</li>
+    </ul>
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 12V5a2 2 0 0 1 2-2h7l9 9-9 9-9-9Z" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><circle cx="8" cy="8" r="1.6" fill="#fff"/></svg></div>
+      <div><div class="step-num">Paso 02</div><h3>Categorías</h3></div>
+    </div>
+    <span class="where">🏷️ Editar perfil → Categoría</span>
+    <ul>
+      <li class="yes"><b>Principal:</b> <code>Adiestrador de perros</code></li>
+      <li><b>Secundarias:</b> <code>Criador de perros</code> · <code>Residencia para mascotas</code> · <code>Escuela de adiestramiento canino</code></li>
+    </ul>
+    <div class="quote">Una sola categoría principal concentra la fuerza en el servicio de mayor valor. El criadero queda visible sin canibalizar el posicionamiento.</div>
+  </div>
+
+  <!-- STEP 3 -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 5h16M4 10h16M4 15h11M4 20h7" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></div>
+      <div><div class="step-num">Paso 03</div><h3>Descripción del negocio</h3></div>
+    </div>
+    <span class="where">📝 Editar perfil → Descripción (máx. 750 car.)</span>
+    <p>Pega el texto preparado en <code>GBP_CONTENIDO_LISTO</code> (sección 2). Empieza así:</p>
+    <div class="quote">“Eduardo Mangas lleva desde 1998 dedicado a la Psicología, Etología y Adiestramiento Canino en Sitges, Sant Pere de Ribes, Vilanova i la Geltrú y todo el Garraf…”</div>
+  </div>
+
+  <div class="page-num">2 / 4</div>
+</section>
+
+<!-- ===================== PAGE 3 — STEPS 4-8 ===================== -->
+<section class="page">
+  <div class="running">Casa del Ermitaño · <b>Configuración GBP</b></div>
+
+  <!-- STEP 4 -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M9 15l6-6M10 7l1-1a4 4 0 0 1 6 6l-1 1M14 17l-1 1a4 4 0 0 1-6-6l1-1" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></div>
+      <div><div class="step-num">Paso 04</div><h3>Contacto y sitio web</h3></div>
+    </div>
+    <span class="where">🔗 Editar perfil → Contacto</span>
+    <ul>
+      <li><b>Teléfono:</b> +34 674 091 010</li>
+      <li class="no"><b>Quitar</b> <code>casadelermitano.negocio.site</code> — da error 404 y penaliza.</li>
+      <li class="yes">Temporal: Instagram <code>@casadelermitano</code> · Definitiva: la nueva web al publicarse.</li>
+    </ul>
+  </div>
+
+  <!-- STEP 5 -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#fff" stroke-width="2"/><path d="M12 7v5l3 2" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></div>
+      <div><div class="step-num">Paso 05</div><h3>Horario</h3></div>
+    </div>
+    <span class="where">🕘 Editar perfil → Horario</span>
+    <ul>
+      <li>Confirma el horario real con Eduardo (en directorios aparece “24h”, incoherente).</li>
+      <li>Sugerido si no hay otro: <b>L–D 9:00–21:00</b>. Mantenlo idéntico en todos los directorios.</li>
+    </ul>
+  </div>
+
+  <!-- STEP 6 -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 7h18M3 12h18M3 17h12" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="19" cy="17" r="2" fill="#fff"/></svg></div>
+      <div><div class="step-num">Paso 06</div><h3>Servicios con precio</h3></div>
+    </div>
+    <span class="where">💶 Editar perfil → Servicios</span>
+    <ul>
+      <li>Adiestramiento Básico — <b>45 €</b> · Avanzado — <b>55 €</b> · Psicología Canina — <b>65 €</b></li>
+      <li>Educación de Cachorros · Sesión a Domicilio (<b>+20 €</b>) · Residencia &lt;5 kg · Criadero Chihuahua</li>
+      <li class="yes">Copia nombre + descripción + precio de <code>GBP_CONTENIDO_LISTO</code> (sección 3).</li>
+    </ul>
+  </div>
+
+  <!-- STEP 7 -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 8h14M5 16h14" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="9" cy="8" r="2.5" fill="#9A5230" stroke="#fff" stroke-width="2"/><circle cx="15" cy="16" r="2.5" fill="#9A5230" stroke="#fff" stroke-width="2"/></svg></div>
+      <div><div class="step-num">Paso 07</div><h3>Atributos</h3></div>
+    </div>
+    <span class="where">⚙️ Editar perfil → Más / Atributos</span>
+    <ul>
+      <li class="yes">Ofrece servicios a domicilio · Requiere cita previa · Mensajería activada</li>
+    </ul>
+  </div>
+
+  <!-- STEP 8 -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="14" rx="2.5" stroke="#fff" stroke-width="2"/><circle cx="12" cy="13" r="3.4" stroke="#fff" stroke-width="2"/><path d="M8 6l1.5-2h5L16 6" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></svg></div>
+      <div><div class="step-num">Paso 08</div><h3>Fotos — mínimo 10</h3></div>
+    </div>
+    <span class="where">🖼️ Pestaña Fotos → Añadir</span>
+    <ul>
+      <li>Logo + portada (Eduardo con un perro en el Garraf/Sitges).</li>
+      <li class="yes">Sube las de la carpeta <code>media_gbp/</code> (paseo Sitges, playa, sesiones, cachorro).</li>
+      <li class="no">Revisa que ninguna muestre la dirección. Relega la foto actual del “cachorro en venta”.</li>
+    </ul>
+  </div>
+
+  <div class="page-num">3 / 4</div>
+</section>
+
+<!-- ===================== PAGE 4 — STEPS 9-11 + AFTER + FILES ===================== -->
+<section class="page">
+  <div class="running">Casa del Ermitaño · <b>Configuración GBP</b></div>
+
+  <!-- STEP 9 -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 5h16v10H9l-4 4V5Z" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M9 9h6M9 12h4" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></div>
+      <div><div class="step-num">Paso 09</div><h3>Preguntas y respuestas (Q&amp;A)</h3></div>
+    </div>
+    <span class="where">💬 Ficha pública → Preguntas y respuestas</span>
+    <ul>
+      <li class="yes">Publica las 5 preguntas de <code>GBP_CONTENIDO_LISTO</code> (sección 5) y <b>autorrespóndelas</b> desde la cuenta del negocio.</li>
+    </ul>
+  </div>
+
+  <!-- STEP 10 -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 9l13-5v16L4 15v-6Z" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><path d="M4 9H3v6h1" stroke="#fff" stroke-width="2"/></svg></div>
+      <div><div class="step-num">Paso 10</div><h3>Primer Google Post</h3></div>
+    </div>
+    <span class="where">📣 Perfil → Añadir novedad</span>
+    <ul>
+      <li>Publica el <b>Post 1 del Mes 1</b> (presentación) + foto <code>media_gbp/adiestrador-canino-sitges-paseo-manada.jpg</code> + botón WhatsApp.</li>
+      <li class="yes">Después, sigue el <code>CALENDARIO_CONTENIDOS</code> — 1 post por semana.</li>
+    </ul>
+  </div>
+
+  <!-- STEP 11 -->
+  <div class="step">
+    <div class="step-head">
+      <div class="step-badge"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 3c5 0 9 3.4 9 7.6 0 4.2-4 7.6-9 7.6-1 0-2-.1-2.9-.4L4 19l1-3.6C3.7 14.2 3 12.5 3 10.6 3 6.4 7 3 12 3Z" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></svg></div>
+      <div><div class="step-num">Paso 11</div><h3>Mensajería / WhatsApp</h3></div>
+    </div>
+    <span class="where">📱 Editar perfil → Mensajes</span>
+    <ul>
+      <li>Activa la mensajería; enlaza al WhatsApp +34 674 091 010 si está disponible.</li>
+      <li class="yes">Usa los enlaces <code>wa.me</code> de <code>WHATSAPP_LINKS</code> como destino de los botones.</li>
+    </ul>
+  </div>
+
+  <!-- AFTER CONFIG PANEL -->
+  <div class="panel">
+    <h3><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="#C9A24B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Después de configurar (semanas siguientes)</h3>
+    <ul>
+      <li>Corregir el NAP en directorios (Infoisinfo, oopiniones, Páginas Amarillas) — nombre + teléfono coherentes, sin dirección.</li>
+      <li>Corregir el handle de Facebook <b>@casadelermltano → @casadelermitano</b> en Meta Business Suite.</li>
+      <li>Auditar reseñas de Google (pico del 27/11/2023) e iniciar captación orgánica tras cada servicio.</li>
+      <li>Publicar el resto de Posts y los 6 artículos de blog. Conectar la web nueva al estar lista.</li>
+    </ul>
+  </div>
+
+  <!-- FILES -->
+  <div style="margin-top:16px" class="sec-head"><span class="n" style="background:var(--clay)">📎</span><h2 style="font-size:16pt">Archivos a tener a mano</h2><span class="line"></span></div>
+  <div class="files">
+    <div class="file"><div><div class="fn">GBP_CONTENIDO_LISTO</div><div class="fd">Categorías, descripción, servicios, Q&amp;A</div></div></div>
+    <div class="file"><div><div class="fn">GBP_GOOGLE_POSTS_Mes1/2/3</div><div class="fd">Textos de los Posts listos</div></div></div>
+    <div class="file"><div><div class="fn">WHATSAPP_LINKS</div><div class="fd">Enlaces para los botones</div></div></div>
+    <div class="file"><div><div class="fn">CALENDARIO_CONTENIDOS</div><div class="fd">Qué publicar y cuándo</div></div></div>
+    <div class="file"><div><div class="fn">media_gbp/</div><div class="fd">Fotos y clips listos para subir</div></div></div>
+    <div class="file"><div><div class="fn">AUDITORIA_GBP</div><div class="fd">Diagnóstico y plan completo</div></div></div>
+  </div>
+
+  <div class="footer-note">
+    Casa del Ermitaño
+    <svg class="paw" width="16" height="16" viewBox="0 0 24 24"><circle cx="7" cy="9" r="2" fill="#BC6C42"/><circle cx="12" cy="6.5" r="2" fill="#BC6C42"/><circle cx="17" cy="9" r="2" fill="#BC6C42"/><path d="M12 11c-2.5 0-4 1.8-4 3.8 0 1.4 1.3 2 4 2s4-.6 4-2c0-2-1.5-3.8-4-3.8Z" fill="#586B4D"/></svg>
+    Carvajal Photos · SEO Local &nbsp;—&nbsp; Adiestramiento &amp; Psicología Canina en Sitges
+  </div>
+
+  <div class="page-num">4 / 4</div>
+</section>
+
+</body>
+</html>
