@@ -467,8 +467,9 @@ button { font-family: var(--font-body); }
 .hero-img {
   width: 100%;
   height: 520px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
+  background-color: var(--bg-secondary);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
 }
@@ -527,7 +528,8 @@ button { font-family: var(--font-body); }
 .about-img {
   width: 100%;
   height: 500px;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: var(--bg-secondary);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
   object-position: center;
@@ -602,13 +604,15 @@ button { font-family: var(--font-body); }
 
 .service-img-wrapper {
   position: relative;
-  height: 200px;
+  height: 240px;
   overflow: hidden;
+  background-color: var(--bg-secondary);
 }
 .service-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   transition: transform var(--transition-slow);
 }
 .service-card:hover .service-img { transform: scale(1.04); }
