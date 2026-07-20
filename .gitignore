@@ -12,3 +12,6 @@ seo local/media_gbp/
 *.mp4
 *.mov
 
+# Excepción: los vídeos ya optimizados que se publican en la web sí se versionan
+!public/assets/**/*.mp4
+
