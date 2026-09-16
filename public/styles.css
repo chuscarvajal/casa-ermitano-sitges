@@ -2036,3 +2036,16 @@ textarea.form-control { min-height: 120px; resize: vertical; }
 @media (max-width: 900px) {
   .buy-grid { grid-template-columns: 1fr; }
 }
+
+/* ============================
+   RESPUESTA DIRECTA (definiciones) + FECHA DE ACTUALIZACIÓN
+   ============================ */
+.answer-section { padding: 4.5rem 0 0; background-color: var(--bg-primary); }
+.answer-section + section { padding-top: 3.5rem; }
+.answer-block { max-width: 46rem; display: flex; flex-direction: column; align-items: flex-start; gap: 0.9rem; }
+.answer-block h2 { font-family: var(--font-title); font-size: clamp(1.8rem, 3vw, 2.4rem); font-weight: 700; line-height: 1.2; margin: 0; }
+.answer-block h3 { font-family: var(--font-title); font-size: 1.2rem; font-weight: 700; line-height: 1.3; margin: 0.8rem 0 0; }
+.answer-block p { color: var(--text-secondary); line-height: 1.75; margin: 0; }
+.answer-block .answer-lead { font-size: 1.08rem; color: var(--text-primary); }
+.page-updated { padding-top: 2rem; padding-bottom: 2rem; }
+.page-updated p { margin: 0; font-size: 0.85rem; color: var(--text-secondary); text-align: center; }
