@@ -2070,3 +2070,24 @@ textarea.form-control { min-height: 120px; resize: vertical; }
 .service-content p a:hover, .about-content p a:hover, .about-item-text p a:hover, .faq-content p a:hover, .case-content p a:hover { text-decoration-thickness: 2px; }
 .service-content p a:focus-visible, .about-content p a:focus-visible, .about-item-text p a:focus-visible, .faq-content p a:focus-visible, .case-content p a:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; border-radius: 2px; }
 .service-content p a:active, .about-content p a:active, .about-item-text p a:active, .faq-content p a:active, .case-content p a:active { opacity: 0.8; }
+
+/* Botón flotante de llamar (encima del de WhatsApp) */
+.call-float {
+  position: fixed;
+  bottom: calc(1.5rem + 56px + 0.75rem);
+  right: 1.5rem;
+  z-index: 999;
+  background-color: var(--color-primary);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(var(--color-primary-rgb), 0.35);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+.call-float svg { width: 26px; height: 26px; fill: #fff; }
+.call-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(var(--color-primary-rgb), 0.45); }
+.call-float:active, .whatsapp-float:active { transform: scale(0.95); }
+.call-float:focus-visible, .whatsapp-float:focus-visible { outline: 3px solid var(--color-accent); outline-offset: 3px; }
