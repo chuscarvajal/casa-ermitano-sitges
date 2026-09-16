@@ -1934,7 +1934,7 @@ textarea.form-control { min-height: 120px; resize: vertical; }
   line-height: 1.55;
 }
 .case-list li::before {
-  content: "¹3";
+  content: "\2713";
   position: absolute;
   left: 0;
   top: 0;
