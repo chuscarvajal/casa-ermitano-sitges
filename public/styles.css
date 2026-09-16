@@ -1884,3 +1884,65 @@ textarea.form-control { min-height: 120px; resize: vertical; }
   .pup-media { max-width: 340px; margin: 0 auto; width: 100%; }
   .pup-parent img { height: 160px; }
 }
+
+/* ============================
+   CASO REAL EN VÍDEO (perros agresivos y reactivos)
+   ============================ */
+.case-section { background-color: var(--bg-secondary); }
+.case-grid {
+  display: grid;
+  grid-template-columns: minmax(240px, 340px) 1fr;
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  align-items: center;
+  max-width: 62rem;
+  margin: 0 auto;
+}
+.case-media { margin: 0; }
+.case-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 576 / 1024;
+  object-fit: cover;
+  background-color: #1a1208;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+.case-media figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  text-align: center;
+}
+.case-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.1rem;
+}
+.case-content > p { color: var(--text-secondary); line-height: 1.75; max-width: 60ch; }
+.case-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.6rem;
+}
+.case-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+.case-list li::before {
+  content: "¹3";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--color-accent);
+  font-weight: 700;
+}
+.case-list strong { color: var(--text-primary); }
+@media (max-width: 800px) {
+  .case-grid { grid-template-columns: 1fr; }
+  .case-media { max-width: 320px; margin: 0 auto; width: 100%; }
+}
