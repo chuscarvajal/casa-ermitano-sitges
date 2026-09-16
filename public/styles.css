@@ -2091,3 +2091,28 @@ textarea.form-control { min-height: 120px; resize: vertical; }
 .call-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(var(--color-primary-rgb), 0.45); }
 .call-float:active, .whatsapp-float:active { transform: scale(0.95); }
 .call-float:focus-visible, .whatsapp-float:focus-visible { outline: 3px solid var(--color-accent); outline-offset: 3px; }
+
+/* ============================
+   CONTRASTE EN MODO OSCURO
+   En oscuro --color-primary pasa a dorado: el texto sobre fondos dorados
+   (botones, etiquetas, insignias, resumen de la calculadora) debe ser oscuro.
+   ============================ */
+:root { --on-accent: #2a1a08; }
+[data-theme="dark"] { --on-accent: #150e04; }
+
+.btn-accent, .service-tag, .dam-badge { color: var(--on-accent); }
+
+[data-theme="dark"] .btn-primary,
+[data-theme="dark"] .calc-summary,
+[data-theme="dark"] .calc-summary-title,
+[data-theme="dark"] .summary-row,
+[data-theme="dark"] .summary-row span { color: var(--on-accent); }
+[data-theme="dark"] .summary-row.total { border-top-color: rgba(21, 14, 4, 0.25); }
+[data-theme="dark"] .call-float svg { fill: var(--on-accent); }
+
+/* Títulos resaltados, antetítulos y precios de extras más luminosos en oscuro */
+[data-theme="dark"] .highlight,
+[data-theme="dark"] .litter-eyebrow,
+[data-theme="dark"] .addon-price { color: var(--color-accent); }
+.service-link-item:hover { color: var(--on-accent); }
+[data-theme="dark"] .review-author-avatar { color: var(--on-accent); }
