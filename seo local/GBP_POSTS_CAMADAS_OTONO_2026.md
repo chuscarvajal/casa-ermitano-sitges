@@ -27,17 +27,24 @@ distintos del de compañía ("desde 1.200 €"). Nada de envíos: entrega en per
 
 ---
 
-## 2. Cuando nazca la primera camada (esta semana)
+## 2. Primera camada nacida — PUBLICAR HOY (27/09/2026)
 
-**Foto:** la camada recién nacida con la madre. Publicar el mismo día.
+**Foto:** `seo local/_fotos_gbp_camadas_otono_2026/08-camada-waka-waka-recien-nacidos.jpg`
+**Tipo:** Novedad · **Botón:** Más información → enlace de arriba.
 
-> ¡Ya están aquí! Han nacido los cachorros de Casa del Ermitaño Waka Waka y de nuestro campeón
-> Razzle-Dazzle, la primera descendencia directa de él.
+> ¡Ya están aquí! Esta madrugada han nacido los cachorros de Casa del Ermitaño Waka Waka y de
+> nuestro Multi Ch Razzle-Dazzle: la primera descendencia directa de él.
 >
-> [nº] cachorros: [nº] machos y [nº] hembras. Madre y cachorros están bien, que era lo primero.
+> Parto natural y sin complicaciones, que en Chihuahua no es poca cosa: muchas veces acaba en
+> cesárea de urgencia. Waka Waka los ha sacado adelante ella sola, como una campeona, y madre y
+> cachorros están perfectamente.
 >
-> Podrán irse con su familia a partir de finales de noviembre, con dos meses cumplidos, al menos dos
-> vacunas y el microchip puesto. Si quieres uno, escríbenos: primero avisamos a la lista de espera.
+> En los próximos días os contamos cuántos son, los sexos y los colores. Podrán irse con su familia
+> a partir del 27 de noviembre, con dos meses cumplidos, al menos dos vacunas y el microchip puesto.
+> Si quieres uno, escríbenos: primero avisamos a la lista de espera.
+
+*Cuando Eduardo confirme el número y los sexos, añadir una línea: "Son [nº] cachorros: [nº] machos y
+[nº] hembras" (se puede editar la publicación o publicar otra con una foto nueva).*
 
 ---
 
@@ -81,7 +88,7 @@ Mismo mensaje, más corto y con llamada a la acción al enlace de la web:
 - Vídeo del macho (Razzle-Dazzle) presentándolo él mismo: dijo que aún no le ha dado tiempo.
 - Nº de núcleo zoológico y microchip de cada cachorro: obligatorios para anunciar en portales
   (Milanuncios, MundoAnimalia). Sin eso no se publican anuncios fuera de la web.
-- Confirmar el número y los sexos de la camada de Waka Waka al nacer.
+- Confirmar el número, los sexos y los colores de la camada de Waka Waka (nacida el 27/09, parto natural). Eduardo va a mandar un vídeo del parto/camada y otro de presentación.
 - Radiografía de Passione para saber cuántos cachorros vienen.
 - Aclarar el resultado de Crufts 2024: en el audio dice "segundo en los Crufts", pero la ficha de
   campeones de 2024 y el texto anterior de la web decían "campeón de Reino Unido en Crufts". La web
