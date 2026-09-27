@@ -3,8 +3,9 @@
 Datos confirmados por Eduardo el 26/09/2026. Enlace de destino de todas las publicaciones:
 `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/#camadas`
 
-**Regla:** no publicar número de cachorros de la segunda camada (aún no hay radiografía) ni precios
-distintos del de compañía ("desde 1.200 €"). Nada de envíos: entrega en persona.
+**Regla (28/09/2026): hasta tener el nº de núcleo zoológico, NADA de venta.** Ni precios, ni señal,
+ni reservas, ni "disponibles", ni fechas de entrega. Solo información de las camadas y lista de espera.
+Tampoco decir que está inscrito en el Núcleo Zoológico. Número de la segunda camada: aún sin confirmar.
 
 ---
 
@@ -39,9 +40,8 @@ distintos del de compañía ("desde 1.200 €"). Nada de envíos: entrega en per
 > cesárea de urgencia. Waka Waka los ha sacado adelante ella sola, como una campeona, y madre y
 > cachorros están perfectamente.
 >
-> Son cinco cachorros. En los próximos días os contamos los sexos y los colores. Podrán irse con su
-> familia a partir del 27 de noviembre, con dos meses cumplidos, al menos dos vacunas y el microchip
-> puesto. Si quieres uno, escríbenos: primero avisamos a la lista de espera.
+> Son cinco cachorros. En los próximos días os contamos los sexos y los colores, y os iremos
+> enseñando cómo crecen semana a semana.
 
 *Cuando Eduardo confirme los sexos, añadir: "[nº] machos y [nº] hembras" (se puede editar la
 publicación o publicar otra con una foto nueva).*
@@ -56,8 +56,8 @@ publicación o publicar otra con una foto nueva).*
 > a descubrir el mundo, y aquí se ve por qué elegimos con cuidado cada cruce: cabeza amanzanada,
 > buenas estructuras y ese carácter alegre del Chihuahua.
 >
-> Quedan cachorros sin reservar. Visitas concertadas cerca de Sitges, en el Garraf, para conocerlos
-> en persona a ellos y a sus padres.
+> Os seguiremos contando su evolución. Si quieres saber más de la raza o de nuestras líneas,
+> escríbenos.
 
 ---
 
@@ -66,8 +66,7 @@ publicación o publicar otra con una foto nueva).*
 > Segunda camada en casa: han nacido los cachorros de Casa del Ermitaño Passione ("Sara") y de
 > Razzle-Dazzle. [nº] cachorros, madre y crías bien.
 >
-> Se entregarán a partir de finales de diciembre, con todo en regla: pedigrí LOE, microchip,
-> cartilla, vacunas y garantía de salud. Lista de espera abierta.
+> Os iremos enseñando su evolución semana a semana.
 
 ---
 
