@@ -39,12 +39,12 @@ distintos del de compañía ("desde 1.200 €"). Nada de envíos: entrega en per
 > cesárea de urgencia. Waka Waka los ha sacado adelante ella sola, como una campeona, y madre y
 > cachorros están perfectamente.
 >
-> En los próximos días os contamos cuántos son, los sexos y los colores. Podrán irse con su familia
-> a partir del 27 de noviembre, con dos meses cumplidos, al menos dos vacunas y el microchip puesto.
-> Si quieres uno, escríbenos: primero avisamos a la lista de espera.
+> Son cinco cachorros. En los próximos días os contamos los sexos y los colores. Podrán irse con su
+> familia a partir del 27 de noviembre, con dos meses cumplidos, al menos dos vacunas y el microchip
+> puesto. Si quieres uno, escríbenos: primero avisamos a la lista de espera.
 
-*Cuando Eduardo confirme el número y los sexos, añadir una línea: "Son [nº] cachorros: [nº] machos y
-[nº] hembras" (se puede editar la publicación o publicar otra con una foto nueva).*
+*Cuando Eduardo confirme los sexos, añadir: "[nº] machos y [nº] hembras" (se puede editar la
+publicación o publicar otra con una foto nueva).*
 
 ---
 
@@ -85,10 +85,10 @@ Mismo mensaje, más corto y con llamada a la acción al enlace de la web:
 
 ## Pendiente de Eduardo para completar la promoción
 
-- Vídeo del macho (Razzle-Dazzle) presentándolo él mismo: dijo que aún no le ha dado tiempo.
+- ~~Vídeo del macho~~ recibido el 27/09 y publicado en la ficha del padre.
 - Nº de núcleo zoológico y microchip de cada cachorro: obligatorios para anunciar en portales
   (Milanuncios, MundoAnimalia). Sin eso no se publican anuncios fuera de la web.
-- Confirmar el número, los sexos y los colores de la camada de Waka Waka (nacida el 27/09, parto natural). Eduardo va a mandar un vídeo del parto/camada y otro de presentación.
+- Camada de Waka Waka: **cinco cachorros** (confirmado por Eduardo en vídeo el 27/09). Faltan sexos y colores, y el vídeo de la camada.
 - Radiografía de Passione para saber cuántos cachorros vienen.
 - Aclarar el resultado de Crufts 2024: en el audio dice "segundo en los Crufts", pero la ficha de
   campeones de 2024 y el texto anterior de la web decían "campeón de Reino Unido en Crufts". La web
