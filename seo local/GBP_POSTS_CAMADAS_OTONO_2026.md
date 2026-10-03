@@ -1,3 +1,5 @@
+> **03/10/2026 — SUSTITUIDO.** Los textos vigentes (sin venta, enlazados al diario de la web) están en `SISTEMA_TIKTOK_WEB_GBP_Camadas.md`. Este archivo se conserva solo como histórico.
+
 # Publicaciones para la ficha de Google — camadas otoño 2026
 
 Datos confirmados por Eduardo el 26/09/2026. Enlace de destino de todas las publicaciones:
