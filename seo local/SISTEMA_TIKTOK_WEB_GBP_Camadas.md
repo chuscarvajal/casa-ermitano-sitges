@@ -102,6 +102,48 @@ por fuera).
 
 ---
 
+## Calendario para la herramienta de programación (preparado el 03/10/2026)
+
+Seis publicaciones cuya foto y cuyo enlace **ya existen hoy**: se pueden programar todas ahora.
+Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más información**.
+
+| Fecha | Post | Foto | Enlace del botón |
+|---|---|---|---|
+| Vie 3 oct | 1. Nacimiento | `08-camada-waka-waka-recien-nacidos.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-24#diario-2026-09-24` |
+| Mar 7 oct | 2. El padre, Billy | `02-razzle-dazzle-campeon-ring.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-27#diario-2026-09-27` |
+| Vie 10 oct | 3. Las madres | `01-waka-waka-prenada-camada-septiembre.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-23#diario-2026-09-23` |
+| Mar 14 oct | 7. Cómo criamos | `06-eduardo-con-waka-waka.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=como-criamos#camadas` |
+| Vie 17 oct | 8. Pedigrí público | `04-razzle-dazzle-ficha-campeones-2024.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-12#diario-2026-09-12` |
+| Mar 21 oct | 9. Sara espera | `05-passione-sara-camada-octubre.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=sara#camadas` |
+
+**Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
+crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
+(finales de oct), 6. Primeros pasos (mediados de nov). Si la herramienta obliga a dejarlas creadas,
+usar como enlace `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=proximo#diario`, que siempre muestra lo más reciente arriba.
+
+### 7. Cómo criamos (Mar 14 oct)
+> ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
+> habitación, con su madre, con niños y adultos alrededor. No hay jaulas: huimos de ese tipo de cría.
+> Salen a la calle y al jardín a diario, se preparan como pequeños atletas y seleccionamos siempre un
+> carácter seguro, nunca tímido ni miedoso. Padres inscritos en la RSCE y la FCI, con test de ADN que
+> certifica la paternidad de cada camada. Es la diferencia entre un Chihuahua equilibrado y uno
+> nervioso toda su vida.
+
+### 8. Pedigrí público (Vie 17 oct)
+> «Si Dios quiere, pronto tendremos por primera vez descendientes de Billy.» Así anunciaba Eduardo en
+> septiembre las dos camadas de este otoño. Hoy ya son realidad. Lo bonito de criar con pedigrí es que
+> no hay que fiarse de nadie: el árbol genealógico de Razzle-Dazzle, con sus padres, abuelos y
+> bisabuelos campeones, es público y cualquiera puede consultarlo. En la web tienes su ficha de la
+> galería de nuevos campeones de 2024 y el enlace a su pedigrí completo.
+
+### 9. Sara espera (Mar 21 oct)
+> Mientras los cachorros de Waka Waka crecen, en casa esperamos la segunda camada: Casa del Ermitaño
+> Passione, «Sara», pelo corto blanca, sale de cuentas a finales de octubre. Su madre murió en un
+> accidente y hemos esperado a que tuviera la edad adecuada para criar con ella; esta camada es también
+> la forma de continuar esa línea. Mismo padre que la primera, Billy. Os lo contaremos en cuanto nazcan.
+
+---
+
 ## Publicaciones de adiestramiento (1 cada dos semanas), con el TikTok como fuente
 
 Cada una enlaza a su página de servicio, con `utm_content=<tema>`:
