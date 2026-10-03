@@ -229,16 +229,16 @@ td.num {{ text-align: right; font-variant-numeric: tabular-nums; }}
   <p class="lead">Ya aparecemos mucho; el trabajo ahora es convertir esas apariciones en llamadas y WhatsApps.</p>
   <div class="grid2">
     <div class="card"><div class="big">55</div><h3 style="margin-top:6px">“¿El pastor del Cáucaso es PPP?”</h3><p style="font-size:12.5px">Google nos enseña en el puesto 8 y nadie entra todavía. Vamos a cambiar el título de la página PPP para que esa gente haga clic.</p></div>
-    <div class="card"><div class="big">+100</div><h3 style="margin-top:6px">“Criadero chihuahua Barcelona”</h3><p style="font-size:12.5px">Más de 100 apariciones, aún en segunda página. Subir a la primera es cuestión de tiempo y de enlaces desde la RSCE y los portales de criadores.</p></div>
+    <div class="card"><div class="big">+100</div><h3 style="margin-top:6px">“Criadero chihuahua Barcelona”</h3><p style="font-size:12.5px">Más de 100 apariciones, aún en segunda página. Subir a la primera es cuestión de tiempo, de contenido nuevo cada semana y de reseñas.</p></div>
   </div>
   <div class="card" style="margin-top:14px">
     <h3>Plan para las próximas semanas</h3>
     <ol class="steps" style="margin-top:8px">
+      <li><b>Camadas:</b> diario de las camadas en la web y una publicación semanal en la ficha de Google con tus vídeos de TikTok. Google premia lo que se actualiza, y es lo que más gente trae ahora.</li>
       <li><b>Página PPP:</b> nuevo título y descripción para la pregunta del pastor del Cáucaso.</li>
-      <li><b>Núcleo zoológico:</b> en cuanto tengamos el número, lo ponemos en la web y damos de alta el criadero en la RSCE y en MundoAnimalia (gratis). Son los enlaces que más ayudan a “criadero chihuahua Barcelona”.</li>
       <li><b>Reseñas en Google:</b> pedir una a cada familia y a cada cliente de adiestramiento. Es lo que más pesa para salir en el mapa.</li>
-      <li><b>Camadas:</b> fotos y vídeos cada semana en la ficha de Google y la web. Google premia lo que se actualiza.</li>
       <li><b>Próxima medición:</b> a mediados de noviembre, con los cachorros ya crecidos.</li>
+      <li><b>Más adelante:</b> alta del criadero en la lista de criadores de la RSCE y en MundoAnimalia (gratis), cuando tengamos el número de registro. Son enlaces que ayudan a “criadero chihuahua Barcelona”.</li>
     </ol>
   </div>
   <div class="photos" style="margin-top:14px; height: 64mm">
