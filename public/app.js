@@ -470,3 +470,24 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
+
+// Botón "volver arriba": aparece tras bajar 600px, por encima de los botones de llamar y WhatsApp
+(function () {
+  const topBtn = document.querySelector('.top-float');
+  if (!topBtn) return;
+  let ticking = false;
+  const update = () => {
+    topBtn.classList.toggle('is-visible', window.scrollY > 600);
+    ticking = false;
+  };
+  window.addEventListener('scroll', () => {
+    if (!ticking) { window.requestAnimationFrame(update); ticking = true; }
+  }, { passive: true });
+  update();
+  topBtn.addEventListener('click', () => {
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+    const navLink = document.querySelector('.navbar a');
+    if (navLink) navLink.focus({ preventScroll: true });
+  });
+})();
