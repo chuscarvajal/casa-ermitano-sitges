@@ -1,3 +1,5 @@
+> ⚠️ **04/10/2026 — NO USAR TAL CUAL.** Este documento es anterior a la decisión de no publicar precios, señal, reservas ni "disponibles" de cachorros hasta tener el número de núcleo zoológico. Los textos vigentes están en `seo local/SISTEMA_TIKTOK_WEB_GBP_Camadas.md` y en la web publicada.
+
 # Versión final con capa de conversión — Página ③ "Criadero de Chihuahua (cachorros con pedigree RSCE/FCI)"
 *Lista para maquetar. Mantiene todas las keywords de los encabezados. Voz de Eduardo: directa, sin humo. Sin dirección exacta; discreción enmarcada como valor.*
 
