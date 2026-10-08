@@ -1469,6 +1469,23 @@ textarea.form-control { min-height: 120px; resize: vertical; }
 }
 .footer-link:hover { color: var(--color-primary); }
 
+/* Iconos de redes en el pie (mismos botones que la cabecera, un poco más pequeños) */
+.footer-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: 0.5rem;
+  padding-left: 0.75rem;
+  border-left: 1px solid var(--border-color);
+}
+.footer-social .social-icon-btn { width: 32px; height: 32px; }
+.footer-social .social-icon-btn:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+.footer-social .social-icon-btn:active { transform: scale(0.94); }
+@media (max-width: 768px) {
+  /* Fila propia y centrada: así los botones flotantes (llamar/WhatsApp) no tapan los iconos */
+  .footer-social { flex-basis: 100%; justify-content: center; margin: 0.5rem 0 0; padding-left: 0; border-left: 0; }
+}
+
 /* ============================
    RESPONSIVE
    ============================ */
