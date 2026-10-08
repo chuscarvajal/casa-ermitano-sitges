@@ -24,7 +24,7 @@
 | Q&A | No detectado |
 | Servicios/Productos | No listados |
 | Atributos | No configurados |
-| Instagram | @casadelermitano ✓ |
+| Instagram | @casadelermitano ✓ (desde el 8 oct 2026 la cuenta oficial es @eduardomangasb: cambiar el enlace en la ficha) |
 | Facebook | @casadelermltano ⚠️ TYPO (falta la "i") |
 
 ---

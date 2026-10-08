@@ -123,5 +123,5 @@ R: Adiestro todas las razas, incluidos PPP. El criadero, en cambio, es exclusiva
 
 ## 6. URL DE LA FICHA
 - ❌ Quitar `casadelermitano.negocio.site` (404)
-- ✅ Temporal: Instagram `@casadelermitano`
+- ✅ Temporal: Instagram `@eduardomangasb` (cuenta oficial desde el 8 oct 2026; antes @casadelermitano)
 - ✅ Definitiva: nueva web cuando esté publicada

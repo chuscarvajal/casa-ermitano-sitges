@@ -417,7 +417,7 @@ estado_data = [
     ['Sección Q&A', 'No detectada', '✗ Ausente'],
     ['Servicios/Productos', 'No listados', '✗ Ausente'],
     ['Atributos', 'No configurados', '✗ Ausente'],
-    ['Instagram', '@casadelermitano', '✓ Correcto'],
+    ['Instagram', '@casadelermitano', 'Cambiar a @eduardomangasb (cuenta oficial desde 8 oct 2026)'],
     ['Facebook', '@casadelermltano (falta la "i")', '⚠ Typo'],
 ]
 
@@ -474,7 +474,7 @@ story.append(KeepTogether([
     Spacer(1, 0.15*cm),
     Paragraph('<b>Acción inmediata:</b>', S['bold']),
     bullet('Sustituir la URL del GBP por la nueva web en construcción en cuanto esté disponible.'),
-    bullet('Mientras tanto, usar el perfil de Instagram (@casadelermitano) como URL temporal.'),
+    bullet('Mientras tanto, usar el perfil de Instagram (@eduardomangasb) como URL temporal.'),
     bullet('Cualquier URL funcional es mejor que un 404.'),
     Spacer(1, 0.3*cm),
 ]))

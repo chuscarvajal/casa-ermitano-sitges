@@ -55,7 +55,7 @@ Pegar el texto de `GBP_CONTENIDO_LISTO_CasaDelErmitano.md` (sección 2). Empieza
 **Dónde:** Editar perfil → **Contacto**.
 - **Teléfono:** +34 674 091 010
 - **Sitio web:** ❌ quitar `casadelermitano.negocio.site` (da 404).
-  - Temporal: `https://www.instagram.com/casadelermitano`
+  - Temporal: `https://www.instagram.com/eduardomangasb` (cuenta oficial desde el 8 oct 2026)
   - Definitiva: la nueva web cuando esté publicada.
 
 ---
