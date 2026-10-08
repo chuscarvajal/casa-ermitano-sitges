@@ -112,6 +112,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 |---|---|---|---|---|
 | Sáb 3 oct | 1. Nacimiento | `08-camada-waka-waka-recien-nacidos.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-24#diario-2026-09-24` | ✅ publicado |
 | Mar 6 oct | 2. El padre, Billy | `02-razzle-dazzle-campeon-ring.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-27#diario-2026-09-27` | ⏱ programado |
+| Jue 8 oct | **11. Reel de la playa** (nuevo, 30.000 reproducciones) | `media_gbp/adiestrador-canino-playa-sitges-manada-chihuahuas.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=reel-playa#playa` | por publicar |
 | Vie 9 oct | **10. Billy y Sara juntos** (nuevo) | `09-billy-y-sara-padres-segunda-camada.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-10-03#diario-2026-10-03` | por programar |
 | Mar 13 oct | 3. Las madres | (la que subiste) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-23#diario-2026-09-23` | ⏱ programado |
 | Vie 16 oct | 7. Cómo criamos | `06-eduardo-con-waka-waka.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=como-criamos#camadas` | por programar |
@@ -122,6 +123,28 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
 (finales de oct), 6. Primeros pasos (mediados de nov). Si la herramienta obliga a dejarlas creadas,
 usar como enlace `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=proximo#diario`.
+
+### 11. Reel de la playa (Jue 8 oct) — el Instagram que pasó Eduardo el 8 oct
+**Fuente:** https://www.instagram.com/reel/DeEC86xu7iQ/ (cuenta @eduardomangasb, subido el 4 oct; más de
+30.000 reproducciones y 1.600 «me gusta» en sus primeros días). En la web está en la sección
+"Quiénes somos" del criadero, ancla `#playa`, con el vídeo alojado y el enlace al reel.
+**Foto:** `media_gbp/adiestrador-canino-playa-sitges-manada-chihuahuas.jpg` (Eduardo sentado en la playa
+de Sitges con cuatro de sus Chihuahuas: nítida, mismo tema y sale él). El reel dura 44 s y Google solo
+admite vídeos de hasta 30 s en las publicaciones, por eso va con foto. Alternativa, si se quiere la
+imagen literal del reel: `media_gbp/gbp-post-reel-playa-sitges-chihuahuas-2026-10-08.jpg` (portada
+recortada a 4:3, 1200×900; sale movida porque es un fotograma en marcha).
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=reel-playa#playa`
+
+> «Buenos días en la mejor compañía, y con alegría ser felices.» Así empieza casi cada día en Casa del
+> Ermitaño: antes de que Sitges se despierte, Eduardo baja a la playa con sus Chihuahuas. Sueltos,
+> corriendo por la arena y volviendo con él a la primera llamada.
+>
+> Así viven los perros de casa, y entre ellos crecen los cachorros: con perros equilibrados, gente y
+> calle desde el primer día. Es la diferencia de un criador que además es psicólogo canino desde 1998.
+>
+> El vídeo ya pasa de 30.000 reproducciones en Instagram. Puedes verlo entero en nuestra web, junto con
+> el diario de las camadas de este otoño.
 
 ### 10. Billy y Sara juntos (Vie 9 oct) — foto que mandó Eduardo el 3 oct
 > Los padres de la próxima camada, juntos en el jardín: Billy, nuestro Multi Ch Razzle-Dazzle, y
