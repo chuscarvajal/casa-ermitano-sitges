@@ -1484,6 +1484,9 @@ textarea.form-control { min-height: 120px; resize: vertical; }
 @media (max-width: 768px) {
   /* Fila propia y centrada: así los botones flotantes (llamar/WhatsApp) no tapan los iconos */
   .footer-social { flex-basis: 100%; justify-content: center; margin: 0.5rem 0 0; padding-left: 0; border-left: 0; }
+  /* Hueco al final igual a la altura de la pila de botones flotantes (subir + llamar + WhatsApp),
+     para que al llegar al final de la página no tapen los enlaces del pie */
+  .footer { padding-bottom: calc(1.5rem + (56px + 0.75rem) * 2 + 44px + 1rem); }
 }
 
 /* ============================
