@@ -576,6 +576,42 @@ button { font-family: var(--font-body); }
 .about-item-text h4 { font-size: 0.92rem; font-weight: 700; margin-bottom: 0.2rem; }
 .about-item-text p { font-size: 0.85rem; color: var(--text-secondary); }
 
+/* Reel de Instagram (vídeo vertical + texto) dentro de Quiénes somos */
+.about-reel {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: minmax(200px, 280px) 1fr;
+  align-items: center;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  padding: clamp(1.25rem, 3vw, 2rem);
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+.about-reel video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  background-color: #1a1208;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+}
+.about-reel-body { display: flex; flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+.about-reel-body h3 {
+  font-family: var(--font-title);
+  font-size: clamp(1.25rem, 2.4vw, 1.6rem);
+  line-height: 1.25;
+  color: var(--text-primary);
+}
+.about-reel-body p { color: var(--text-secondary); line-height: 1.75; }
+.about-reel-meta { font-size: 0.92rem; }
+@media (max-width: 768px) {
+  .about-reel { grid-template-columns: 1fr; margin-top: 3rem; }
+  .about-reel video { max-width: 300px; margin: 0 auto; }
+}
+
 /* ============================
    SERVICES SECTION
    ============================ */
