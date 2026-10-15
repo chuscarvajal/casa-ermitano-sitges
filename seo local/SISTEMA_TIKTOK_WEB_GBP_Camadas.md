@@ -136,6 +136,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Vie 30 oct | **20. Vídeo: caso real, tres Staffordshire antes/después** (TikTok del 14 nov 2025, corte de 30 s del extracto de la web) | `media_gbp/gbp-video-caso-staffordshire-antes-despues-30s.mp4` (vídeo) | `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-staffordshire#caso-real` | por publicar |
 | Dom 1 nov | **21. Vídeo: Goldie, la chica de oro** (TikTok del 8 jun, recortado a 30 s) | `media_gbp/gbp-video-goldie-chica-de-oro-2026-06-08.mp4` (vídeo, 4,4 MB) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=goldie#cachorros` | por publicar |
 | Mar 3 nov | **22. Vídeo: caso real, Paco (Welsh Terrier reactivo) en la terraza** (TikTok del 8 sep, corte 58-87 s) | `media_gbp/gbp-video-caso-paco-welsh-terrier-terraza-2026-09-08.mp4` (vídeo, 5,4 MB) | `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-paco-terrier` | por publicar |
+| Jue 5 nov | **23. Vídeo: caso real, Nico (mestizo reactivo) en el pipicán** (TikTok del 5 sep, primeros 30 s) | `media_gbp/gbp-video-caso-nico-reactivo-pipican-2026-09-05.mp4` (vídeo) | `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-nico` | por publicar |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
@@ -375,6 +376,25 @@ Alternativa guardada en el scratchpad: corte 106-135 s (pasan perros y se queda 
 >
 > «Está aprendiendo a autocontrolarse y a autorrelajarse, que es superimportante.» Como siempre,
 > formando a las personas: Eduardo les dice qué hacer y ellos lo ponen en práctica cada día.
+>
+> Modificación de conducta a domicilio en Sitges y el Garraf. En la web tienes más casos y cómo pedir
+> una primera valoración.
+
+### 23. Vídeo: caso real, Nico en el pipicán (Jue 5 nov) — TikTok 7681938180760669462 del 5 sep
+**Qué es:** Nico, mestizo blanco de 3 años, reactivo con otros perros; segunda clase, en un pipicán.
+Eduardo explica que ya «sabe evitar en vez de sacar los dientes, como hacía antes cada vez que venía un
+perro» y que lo importante es formar a la persona. Original de 2:13 en HEVC + MP3, marca InShot; corte de
+los primeros 29,5 s (la explicación), sin caras reconocibles de clientes. 720×1280, H.264 + AAC.
+**Vídeo:** `media_gbp/gbp-video-caso-nico-reactivo-pipican-2026-09-05.mp4`. Subirlo también a Fotos → Vídeos.
+**Tipo:** Novedad. **Botón:** Más información (página de perros agresivos y reactivos).
+**Enlace:** `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-nico`
+
+> Nico, mestizo de tres años, reactivo con otros perros: cada vez que se acercaba uno, enseñaba los
+> dientes. Segunda clase con Eduardo, en el pipicán, y ya ha aprendido a evitar en lugar de atacar.
+>
+> «Es mucho más importante formar a la persona: con el perro se conecta al momento, pero la persona
+> tiene sus emociones.» Por eso Eduardo trabaja con los dueños, para que sepan guiar a su perro cada día y
+> pierdan el miedo a las situaciones que antes salían mal.
 >
 > Modificación de conducta a domicilio en Sitges y el Garraf. En la web tienes más casos y cómo pedir
 > una primera valoración.
