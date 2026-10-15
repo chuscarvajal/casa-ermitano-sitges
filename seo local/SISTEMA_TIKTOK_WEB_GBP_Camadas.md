@@ -115,6 +115,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Jue 8 oct | **11. Reel de la playa** (nuevo, 30.000 reproducciones) | `media_gbp/adiestrador-canino-playa-sitges-manada-chihuahuas.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=reel-playa#playa` | por publicar |
 | Vie 9 oct | **10. Billy y Sara juntos** (nuevo) | `09-billy-y-sara-padres-segunda-camada.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-10-03#diario-2026-10-03` | por programar |
 | Mar 13 oct | 3. Las madres | (la que subiste) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-23#diario-2026-09-23` | ⏱ programado |
+| Jue 15 oct | **12. Kala** (nuevo) | `media_gbp/gbp-post-kala-2026-10-15.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=kala#kala` | por publicar |
 | Vie 16 oct | 7. Cómo criamos | `06-eduardo-con-waka-waka.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=como-criamos#camadas` | por programar |
 | Mar 20 oct | 8. Pedigrí público | `04-razzle-dazzle-ficha-campeones-2024.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-12#diario-2026-09-12` | por programar |
 | Vie 23 oct | 9. Sara espera | `10-sara-embarazada-con-billy.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=sara#camadas` | por programar |
@@ -152,6 +153,25 @@ recortada a 4:3, 1200×900; sale movida porque es un fotograma en marcha).
 > octubre. Mientras tanto, los cinco cachorros de Waka Waka siguen creciendo con su madre. En pocas
 > semanas habrá en casa dos camadas del mismo padre, algo que no habíamos tenido nunca. Lo vamos
 > contando todo, con fotos y fecha, en el diario de las camadas de la web.
+
+### 12. Kala (Jue 15 oct) — la perrita que Eduardo pidió anunciar el 15 oct
+**Contexto:** su texto original era un anuncio de venta ("lista para su nueva familia"). Sin el nº de
+núcleo zoológico no se puede anunciar venta (ver `GUIA_NUCLEO_ZOOLOGICO_CATALUNA.md`), así que en la web
+va como presentación (ficha `#kala` al inicio de "Nuestros cachorros", con foto, dos vídeos y botón
+"Pregúntame por Kala" por WhatsApp). Esta publicación sigue la misma regla: sin "disponible", precio ni reserva.
+**Foto:** `media_gbp/gbp-post-kala-2026-10-15.jpg` (Kala de paseo con arnés, recorte 4:3 de la foto de Eduardo).
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=kala#kala`
+
+> Esta es Casa del Ermitaño Kala, nacida en casa el 3 de mayo de 2026. Pelo largo, blanca y crema, y
+> un pedigrí de lo mejor que hay hoy en el mundo: afijos y criadores de prestigio, con muchos campeones
+> detrás.
+>
+> Es una perra de calidad de exposición, con un carácter fuerte, alegre y seguro de sí misma, de las que
+> los jueces ven nada más entrar en el ring. Lleva sus vacunas, su microchip y su LOE, y va
+> fantásticamente bien con la correa: le encanta salir a pasear.
+>
+> En la web la ves en vídeo con mes y medio y ahora, y puedes preguntar por ella a Eduardo por WhatsApp.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
