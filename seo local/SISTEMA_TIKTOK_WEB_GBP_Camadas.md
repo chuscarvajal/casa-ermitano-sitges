@@ -115,7 +115,8 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Jue 8 oct | **11. Reel de la playa** (nuevo, 30.000 reproducciones) | `media_gbp/adiestrador-canino-playa-sitges-manada-chihuahuas.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=reel-playa#playa` | por publicar |
 | Vie 9 oct | **10. Billy y Sara juntos** (nuevo) | `09-billy-y-sara-padres-segunda-camada.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-10-03#diario-2026-10-03` | por programar |
 | Mar 13 oct | 3. Las madres | (la que subiste) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-23#diario-2026-09-23` | ⏱ programado |
-| Jue 15 oct | **12. Kala** (nuevo) | `media_gbp/gbp-post-kala-2026-10-15.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=kala#kala` | por publicar |
+| Jue 15 oct | **12. Kala** (nuevo) | `media_gbp/gbp-post-kala-2026-10-15.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=kala#kala` | publicada el 15 oct por el usuario con la extensión de Claude en Chrome (tipo Novedad) |
+| Jue 15 oct | **13. OFERTA: primera clase de adiestramiento** (tipo Oferta, vigencia 15 oct → 15 nov) | sin foto obligatoria (si pide: `_fotos_gbp_servicios/` la de obediencia) | `https://criaderocasadelermitano.es/adiestramiento-canino-obediencia-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=oferta-primera-clase` | publicada el 15 oct por el usuario con la extensión de Claude en Chrome |
 | Vie 16 oct | 7. Cómo criamos | `06-eduardo-con-waka-waka.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=como-criamos#camadas` | por programar |
 | Mar 20 oct | 8. Pedigrí público | `04-razzle-dazzle-ficha-campeones-2024.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-12#diario-2026-09-12` | por programar |
 | Vie 23 oct | 9. Sara espera | `10-sara-embarazada-con-billy.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=sara#camadas` | por programar |
@@ -172,6 +173,22 @@ va como presentación (ficha `#kala` al inicio de "Nuestros cachorros", con foto
 > fantásticamente bien con la correa: le encanta salir a pasear.
 >
 > En la web la ves en vídeo con mes y medio y ahora, y puedes preguntar por ella a Eduardo por WhatsApp.
+
+### 13. OFERTA: primera clase de adiestramiento (Jue 15 oct → 15 nov)
+Único post de tipo **Oferta** de la ficha. Es de adiestramiento, no de cachorros, por eso puede ir como
+oferta sin problema legal. (Kala NO va como oferta: sería un anuncio de venta sin nº de núcleo zoológico.)
+**Título:** Primera clase de adiestramiento a domicilio en Sitges y el Garraf
+**Vigencia:** 15 oct – 15 nov 2026. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/adiestramiento-canino-obediencia-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=oferta-primera-clase`
+
+> Una clase suelta, en tu casa, con Eduardo Mangas, psicólogo canino desde 1998. Ves cómo trabaja, te
+> llevas feedback sobre tu perro y decides después si seguís con un plan de seis clases. Obediencia,
+> perros reactivos, ansiedad por separación, cachorros y PPP.
+
+**Condiciones:** Sitges, Sant Pere de Ribes, Vilanova i la Geltrú, Cubelles y Garraf. Barcelona con
+suplemento de desplazamiento.
+**Medir:** clics del botón en GA4 (`utm_content=oferta-primera-clase`) y pulsaciones de llamar/WhatsApp
+en la página de obediencia en el panel de CTAs (`/.netlify/functions/stats?key=…`). Renovar el 15 nov si funciona.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
