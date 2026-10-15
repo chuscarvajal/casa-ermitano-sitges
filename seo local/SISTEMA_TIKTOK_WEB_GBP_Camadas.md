@@ -73,15 +73,21 @@ deja varias, `05-passione-sara-camada-octubre.jpg`
 > y con una genealogía preciosa, criadas en casa con nosotros. Eduardo las presenta en vídeo en el
 > diario de las camadas.
 
-### 4. Ojos abiertos (cuando Eduardo mande foto, ~8-15 de octubre)
-**Foto:** la que mande Eduardo (pedirle: cachorros con la madre, luz natural, sin que se vea la casa
-por fuera).
-**Enlace:** `…&utm_content=2026-10-XX#diario-2026-10-XX` (crear antes la entrada en la web).
+### 4. Ojos abiertos, tres semanas (Sáb 17 oct) — vídeo que mandó Eduardo el 15 oct
+**Foto:** `media_gbp/gbp-post-camada-3-semanas-2026-10-15.jpg` (fotograma del vídeo: Eduardo con cuatro
+cachorros en las manos). Vídeo completo (1:48) publicado en la web, entrada `#diario-2026-10-15`.
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-10-15#diario-2026-10-15`
 
-> Dos semanas de los cachorros de Waka Waka y Billy. Ya abren los ojos y empiezan a moverse por la
-> cesta. A esta edad lo importante es que mamen, duerman y estén calentitos; la socialización con
-> gente, ruidos y texturas empieza poco a poco, siempre con la madre delante. Seguimos contándolo en
-> el diario.
+> Tres semanas ya. Los cinco cachorros de Waka Waka y Billy tienen los ojos y los oídos abiertos y
+> empiezan a enseñar esas cabecitas de manzana que buscamos en un Chihuahua. Dos hembras, un macho y dos
+> hembras más pequeñitas, negros y fuego como su madre.
+>
+> Eduardo los presenta uno a uno en un vídeo nuevo del diario de la camada: «Estamos enormemente
+> encantados de ellos, cinco maravillosos cachorros». Crecen en casa, con su madre y con gente alrededor,
+> como siempre en Casa del Ermitaño.
+>
+> En la web puedes ver el vídeo y seguir el diario semana a semana.
 
 ### 5. Nace la camada de Sara (finales de octubre)
 **Foto:** la del parto que mande Eduardo.
@@ -118,6 +124,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Jue 15 oct | **12. Kala** (nuevo) | `media_gbp/gbp-post-kala-2026-10-15.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=kala#kala` | publicada el 15 oct por el usuario con la extensión de Claude en Chrome (tipo Novedad) |
 | Jue 15 oct | **13. OFERTA: primera clase de adiestramiento** (tipo Oferta, vigencia 15 oct → 15 nov) | sin foto obligatoria (si pide: `_fotos_gbp_servicios/` la de obediencia) | `https://criaderocasadelermitano.es/adiestramiento-canino-obediencia-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=oferta-primera-clase` | publicada el 15 oct por el usuario con la extensión de Claude en Chrome |
 | Vie 16 oct | 7. Cómo criamos | `06-eduardo-con-waka-waka.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=como-criamos#camadas` | por programar |
+| Sáb 17 oct | **4. Ojos abiertos, tres semanas** (vídeo del 15 oct) | `media_gbp/gbp-post-camada-3-semanas-2026-10-15.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-10-15#diario-2026-10-15` | por publicar |
 | Mar 20 oct | 8. Pedigrí público | `04-razzle-dazzle-ficha-campeones-2024.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-12#diario-2026-09-12` | por programar |
 | Vie 23 oct | 9. Sara espera | `10-sara-embarazada-con-billy.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=sara#camadas` | por programar |
 
