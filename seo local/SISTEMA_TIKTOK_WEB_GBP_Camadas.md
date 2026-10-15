@@ -130,6 +130,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Mar 21 oct | **15. Gigoló, ya en su casa** (TikTok fotos del 1 oct) | `media_gbp/gbp-post-gigolo-2026-10-01.jpg` (cachorro solo; la de la familia SOLO con permiso) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=gigolo#nuestros-cachorros` | por publicar |
 | Jue 22 oct | **16. Vídeo: tardeo chihuahueño en la playa** (TikTok del 15 sep, recortado a 30 s) | `media_gbp/gbp-video-tardeo-chihuahueno-playa-sitges-2026-09-15.mp4` (vídeo) | `https://criaderocasadelermitano.es/adiestramiento-canino-obediencia-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=tardeo-playa` | por publicar |
 | Vie 23 oct | 9. Sara espera | `10-sara-embarazada-con-billy.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=sara#camadas` | por programar |
+| Sáb 24 oct | **17. Vídeo: tardeo con los cachorros en la playa** (TikTok del 13 sep, 29 s) | `media_gbp/gbp-video-tardeo-cachorros-sitges-2026-09-13.mp4` (vídeo, 5,4 MB) | `https://criaderocasadelermitano.es/educacion-cachorros-socializacion-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=tardeo-cachorros` | por publicar |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
@@ -257,6 +258,23 @@ criadero → adiestramiento (obediencia y llamada sin correa), por eso enlaza a 
 > enseña a domicilio en Sitges y el Garraf: que tu perro venga cuando lo llamas, también con distracciones.
 >
 > En la web puedes ver cómo trabaja y pedir una primera clase.
+
+### 17. Vídeo: tardeo con los cachorros en la playa (Sáb 24 oct) — TikTok 7685077956988882208 del 13 sep
+**Qué es:** los Chihuahuas jóvenes de casa, con arnés, sueltos por la playa de piedras de Sitges al
+atardecer; Eduardo los llama («¡Aquí pasa!») y vuelven. Al final sale un niño de la familia agachado con
+uno de ellos (es el TikTok público de Eduardo). 29 s: no hace falta recortar. Codificado a 720×1280, 5,4 MB.
+**Vídeo:** `media_gbp/gbp-video-tardeo-cachorros-sitges-2026-09-13.mp4`. Subirlo también a Fotos → Vídeos.
+**Tipo:** Novedad. **Botón:** Más información (página de educación de cachorros).
+**Enlace:** `https://criaderocasadelermitano.es/educacion-cachorros-socializacion-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=tardeo-cachorros`
+
+> Tardeo chihuahueño con los cachorros de Casa del Ermitaño. Playa de piedras, mar, gente, bicis y
+> otros perros: todo lo que un cachorro tiene que conocer antes de los cuatro meses para ser un perro
+> adulto tranquilo y seguro.
+>
+> Así socializa Eduardo a los suyos, y así trabaja con los cachorros de sus clientes en Sitges y el
+> Garraf: en la calle, a su ritmo y sin miedo. Lo que se aprende ahora, se queda para toda la vida.
+>
+> En la web te contamos cómo son las clases para cachorros y cuándo empezar.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
