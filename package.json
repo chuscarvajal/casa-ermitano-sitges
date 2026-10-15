@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@netlify/blobs": "^11.1.4",
     "puppeteer-core": "^25.0.4"
   }
 }

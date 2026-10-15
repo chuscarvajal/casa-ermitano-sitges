@@ -3,3 +3,7 @@
   command = ""
 
 # deploy automatico verificado
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"

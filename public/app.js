@@ -491,3 +491,43 @@ document.addEventListener('DOMContentLoaded', () => {
     if (navLink) navLink.focus({ preventScroll: true });
   });
 })();
+
+/* ============================
+   Seguimiento de clics en CTAs (llamar / WhatsApp / email / mapa / formulario)
+   por página y sección. Sin cookies ni datos personales: envía solo tipo de CTA,
+   sección, ruta y hora a /.netlify/functions/track (Netlify Blobs).
+   ============================ */
+(function(){
+  function ctaOf(a){
+    var h=(a.getAttribute('href')||'');
+    if(h.indexOf('tel:')===0)return'llamar';
+    if(/wa\.me|whatsapp|api\.whatsapp/i.test(h))return'whatsapp';
+    if(h.indexOf('mailto:')===0)return'email';
+    if(/google\.[a-z.]+\/maps|maps\.app\.goo/i.test(h))return'mapa';
+    return a.getAttribute('data-cta')||null;
+  }
+  function sectionOf(el){
+    var d=el.closest('[data-section]'); if(d)return d.getAttribute('data-section');
+    if(el.closest('.whatsapp-float,.call-float'))return'flotante';
+    if(el.closest('footer'))return'footer';
+    if(el.closest('nav'))return'menu';
+    if(el.closest('header'))return'cabecera';
+    var s=el.closest('section,header,footer,nav,aside');
+    return s?((s.getAttribute('id')||s.className||'').toString().trim().split(/\s+/)[0]||'seccion'):'otro';
+  }
+  function send(cta,section){
+    try{
+      var b=JSON.stringify({cta:cta,section:section,page:location.pathname,ts:new Date().toISOString()});
+      if(navigator.sendBeacon){navigator.sendBeacon('/.netlify/functions/track',b);}
+      else{fetch('/.netlify/functions/track',{method:'POST',body:b,keepalive:true});}
+    }catch(e){}
+  }
+  document.addEventListener('click',function(e){
+    var a=e.target.closest&&e.target.closest('a[href],[data-cta]'); if(!a)return;
+    var c=ctaOf(a); if(!c)return; send(c,sectionOf(a));
+  },true);
+  document.addEventListener('submit',function(e){
+    var f=e.target;
+    if(f&&(f.getAttribute('data-cta-form')!=null||f.id==='leadform'||f.id==='contact-form')) send('formulario',sectionOf(f)||'formulario');
+  },true);
+})();
