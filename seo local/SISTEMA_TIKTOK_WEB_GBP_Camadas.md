@@ -138,6 +138,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Mar 3 nov | **22. Vídeo: caso real, Paco (Welsh Terrier reactivo) en la terraza** (TikTok del 8 sep, corte 58-87 s) | `media_gbp/gbp-video-caso-paco-welsh-terrier-terraza-2026-09-08.mp4` (vídeo, 5,4 MB) | `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-paco-terrier` | por publicar |
 | Jue 5 nov | **23. Vídeo: caso real, Nico (mestizo reactivo) en el pipicán** (TikTok del 5 sep, primeros 30 s) | `media_gbp/gbp-video-caso-nico-reactivo-pipican-2026-09-05.mp4` (vídeo) | `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-nico` | por publicar |
 | Sáb 7 nov | **24. Vídeo: buenos días** (TikTok del 31 ago, 25 s, sin música) | `media_gbp/gbp-video-buenos-dias-chihuahua-2026-08-31.mp4` (vídeo, 3,9 MB) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=buenos-dias#about` | por publicar |
+| Lun 9 nov | **25. Vídeo: el grupo jugando en el jardín** (TikTok del 4 sep, 21 s, sin música) | `media_gbp/gbp-video-grupo-jugando-jardin-2026-09-04.mp4` (vídeo) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=grupo-jugando#about` | por publicar |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
@@ -412,6 +413,20 @@ os desea Casa del Ermitaño». El original llevaba bandas negras grabadas (recor
 > Buenos días desde Casa del Ermitaño. Así empieza la mañana en casa: césped, piscina y un Chihuahua sentado entre los pies de Eduardo, tranquilo, mirando a cámara con esa cara de «aquí mando yo».
 >
 > Nuestros perros viven con nosotros, no en un patio ni en una jaula. Por eso los cachorros que nacen en casa crecen confiados y cariñosos desde el primer día.
+>
+> En la web puedes ver cómo vivimos y seguir el diario de las camadas de este otoño.
+
+### 25. Vídeo: el grupo jugando en el jardín (Lun 9 nov) — TikTok 7681585412137094422 del 4 sep
+**Qué es:** 21 s. Seis o siete Chihuahuas de casa jugando sueltos en el césped del jardín por la mañana,
+grabados desde la tumbona. Texto de Eduardo: «Cucú, buenos días, grupo de Casa del Ermitaño en su estado
+puro jugando». Original en HEVC → H.264 1080×1428; audio quitado (solo música de fondo).
+**Vídeo:** `media_gbp/gbp-video-grupo-jugando-jardin-2026-09-04.mp4`. Subirlo también a Fotos → Vídeos.
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=grupo-jugando#about`
+
+> Buenos días desde el jardín de Casa del Ermitaño: nuestros Chihuahuas en estado puro, sueltos y jugando entre ellos sobre el césped, con el sol de la mañana.
+>
+> Así se crían los perros equilibrados: en grupo, con espacio, aprendiendo unos de otros a jugar, a comunicarse y a respetarse. Y entre ellos crecen nuestros cachorros desde el primer día.
 >
 > En la web puedes ver cómo vivimos y seguir el diario de las camadas de este otoño.
 
