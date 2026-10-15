@@ -1933,6 +1933,29 @@ textarea.form-control { min-height: 120px; resize: vertical; }
   color: var(--text-secondary);
 }
 .pup-price strong { color: var(--color-primary); }
+/* Galería de la ficha: foto principal + dos vídeos verticales */
+.pup-gallery { display: grid; gap: 0.75rem; }
+.pup-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+}
+.pup-clips { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; }
+.pup-clips figure { margin: 0; }
+.pup-clips video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1; /* un clip es vertical y otro apaisado: en cuadrado conviven bien */
+  object-fit: cover;
+  background-color: #1a1208;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+.pup-clips figcaption { margin-top: 0.4rem; font-size: 0.78rem; color: var(--text-secondary); text-align: center; }
 @media (max-width: 860px) {
   .pup-featured { grid-template-columns: 1fr; }
   .pup-media { max-width: 340px; margin: 0 auto; width: 100%; }
