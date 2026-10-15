@@ -141,6 +141,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Lun 9 nov | **25. Vídeo: el grupo jugando en el jardín** (TikTok del 4 sep, 21 s, sin música) | `media_gbp/gbp-video-grupo-jugando-jardin-2026-09-04.mp4` (vídeo) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=grupo-jugando#about` | por publicar |
 | Mié 11 nov | **26. Un cachorro blanco, ya en su nuevo hogar** (TikTok de fotos del 22 jul) | `media_gbp/gbp-post-cachorro-blanco-nuevo-hogar-2026-07-22.jpg` (cachorro solo; la de la entrega SOLO con permiso) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=cachorro-blanco-nuevo-hogar#nuestros-cachorros` | por publicar |
 | Vie 13 nov | **27. Vídeo: Eduardo presenta a Brisa** (TikTok del 25 jul, primeros 30 s, sin la parte de venta) | `media_gbp/gbp-video-brisa-presentacion-2026-07-25.mp4` (vídeo, 5,5 MB) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=brisa#about` | por publicar · confirmar antes si Brisa sigue en casa |
+| Dom 15 nov | **28. Vídeo: pasión chihuahueña en el jardín** (TikTok del 29 jun, primeros 30 s, sin música) | `media_gbp/gbp-video-pasion-chihuahuena-jardin-2026-06-29.mp4` (vídeo) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=pasion-chihuahuena#about` | por publicar |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
@@ -467,6 +468,21 @@ transcripción del propio corte (no contiene «disponible» ni en audio ni en su
 > Viene de líneas muy fuertes de uno de los criaderos más emblemáticos de Estados Unidos, pero se ha criado aquí, en casa, en brazos y entre gente. Así salen todos nuestros cachorros: con su microchip, sus vacunas, su registro en la RSCE y la FCI, y padres con test de ADN. Todo oficial, como se tienen que hacer las cosas.
 >
 > En la web puedes ver cómo criamos y seguir el diario de las camadas de este otoño.
+
+### 28. Vídeo: pasión chihuahueña en el jardín (Dom 15 nov) — TikTok 7656703582338600214 del 29 jun
+**Qué es:** Chihuahuas de pelo largo y corto jugando sueltos en el césped del jardín con luz de
+atardecer; Eduardo solo dice «¡ay, qué guapos!». Texto original: «Pasión chihuahueña: conexión, familia,
+lealtad, amor». Original de 62 s en HEVC con marca InShot pequeña; corte de los primeros 29,5 s (el juego
+de cerca con la luz dorada), H.264 720×998, sin audio (música de fondo).
+**Vídeo:** `media_gbp/gbp-video-pasion-chihuahuena-jardin-2026-06-29.mp4`. Subirlo también a Fotos → Vídeos.
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=pasion-chihuahuena#about`
+
+> Pasión chihuahueña: conexión, familia, lealtad y amor. Así es una tarde cualquiera en el jardín de Casa del Ermitaño, con la luz del atardecer y nuestros Chihuahuas jugando, revolcándose y persiguiéndose por el césped.
+>
+> Juegan fuerte, pero saben jugar: se invitan, se respetan y paran a tiempo. Eso se aprende en grupo, con perros adultos equilibrados, y es lo que aprenden nuestros cachorros desde que abren los ojos.
+>
+> En la web puedes ver cómo vivimos y seguir el diario de las camadas de este otoño.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
