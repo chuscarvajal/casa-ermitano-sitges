@@ -140,6 +140,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Sáb 7 nov | **24. Vídeo: buenos días** (TikTok del 31 ago, 25 s, sin música) | `media_gbp/gbp-video-buenos-dias-chihuahua-2026-08-31.mp4` (vídeo, 3,9 MB) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=buenos-dias#about` | por publicar |
 | Lun 9 nov | **25. Vídeo: el grupo jugando en el jardín** (TikTok del 4 sep, 21 s, sin música) | `media_gbp/gbp-video-grupo-jugando-jardin-2026-09-04.mp4` (vídeo) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=grupo-jugando#about` | por publicar |
 | Mié 11 nov | **26. Un cachorro blanco, ya en su nuevo hogar** (TikTok de fotos del 22 jul) | `media_gbp/gbp-post-cachorro-blanco-nuevo-hogar-2026-07-22.jpg` (cachorro solo; la de la entrega SOLO con permiso) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=cachorro-blanco-nuevo-hogar#nuestros-cachorros` | por publicar |
+| Vie 13 nov | **27. Vídeo: Eduardo presenta a Brisa** (TikTok del 25 jul, primeros 30 s, sin la parte de venta) | `media_gbp/gbp-video-brisa-presentacion-2026-07-25.mp4` (vídeo, 5,5 MB) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=brisa#about` | por publicar · confirmar antes si Brisa sigue en casa |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
@@ -447,6 +448,25 @@ La de la entrega (`...-entrega-familia-...-SOLO-CON-PERMISO.jpg`) muestra la car
 > Cada entrega es así: Eduardo en persona, el cachorro con sus vacunas, su microchip y su pedigrí, y la tranquilidad de que la familia puede escribirle siempre que lo necesite.
 >
 > En la web puedes ver dónde viven ya nuestros cachorros y seguir el diario de las camadas de este otoño.
+
+### 27. Vídeo: Eduardo presenta a Brisa (Vie 13 nov) — TikTok 7666351117994954007 del 25 jul
+**Qué es:** Eduardo, en el jardín, con Brisa en brazos (hembra de pelo largo crema, 3 meses en julio):
+«una perra supercariñosa, juguetona… criada aquí en casa, viene de líneas muy fuertes de uno de los
+criaderos más emblemáticos de Estados Unidos». 14.700 visualizaciones (de los más vistos). Original de
+80 s en HEVC con subtítulos quemados.
+⚠️ A partir del segundo 35 dice «está disponible para encontrar una buena familia» (lenguaje de venta,
+prohibido sin NZ). El corte usa SOLO 1,5-31 s: termina en «espero que os guste mucho», comprobado con la
+transcripción del propio corte (no contiene «disponible» ni en audio ni en subtítulos). 720×1080, 5,5 MB.
+⚠️ Brisa tenía 3 meses en julio: confirmar con Eduardo si sigue en casa o ya se fue antes de publicar.
+**Vídeo:** `media_gbp/gbp-video-brisa-presentacion-2026-07-25.mp4`. Subirlo también a Fotos → Vídeos.
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=brisa#about`
+
+> Eduardo os presenta a Casa del Ermitaño Brisa: «una perra supercariñosa y juguetona», nacida y criada en casa, de pelo largo crema.
+>
+> Viene de líneas muy fuertes de uno de los criaderos más emblemáticos de Estados Unidos, pero se ha criado aquí, en casa, en brazos y entre gente. Así salen todos nuestros cachorros: con su microchip, sus vacunas, su registro en la RSCE y la FCI, y padres con test de ADN. Todo oficial, como se tienen que hacer las cosas.
+>
+> En la web puedes ver cómo criamos y seguir el diario de las camadas de este otoño.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
