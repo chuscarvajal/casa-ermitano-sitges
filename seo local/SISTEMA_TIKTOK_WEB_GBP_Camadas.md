@@ -135,6 +135,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Mié 28 oct | **19. Vídeo: Lola, antes y ahora** (TikTok del 7 sep, 11 s, sin música) | `media_gbp/gbp-video-lola-paseo-sitges-2026-09-07.mp4` (vídeo; sale la cara del dueño: confirmar permiso) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=lola#nuestros-cachorros` | por publicar |
 | Vie 30 oct | **20. Vídeo: caso real, tres Staffordshire antes/después** (TikTok del 14 nov 2025, corte de 30 s del extracto de la web) | `media_gbp/gbp-video-caso-staffordshire-antes-despues-30s.mp4` (vídeo) | `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-staffordshire#caso-real` | por publicar |
 | Dom 1 nov | **21. Vídeo: Goldie, la chica de oro** (TikTok del 8 jun, recortado a 30 s) | `media_gbp/gbp-video-goldie-chica-de-oro-2026-06-08.mp4` (vídeo, 4,4 MB) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=goldie#cachorros` | por publicar |
+| Mar 3 nov | **22. Vídeo: caso real, Paco (Welsh Terrier reactivo) en la terraza** (TikTok del 8 sep, corte 58-87 s) | `media_gbp/gbp-video-caso-paco-welsh-terrier-terraza-2026-09-08.mp4` (vídeo, 5,4 MB) | `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-paco-terrier` | por publicar |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
@@ -356,6 +357,27 @@ chica dorada». Solo sale su mano. Original de 34,6 s en HEVC → recortado a 29
 > crecido en casa, en brazos, con gente desde el primer día. Esa confianza no se compra: se cría.
 >
 > En la web puedes ver cómo criamos y seguir el diario de las camadas de este otoño.
+
+### 22. Vídeo: caso real, Paco en la terraza (Mar 3 nov) — TikTok 7683051752685325601 del 8 sep
+**Qué es:** Paco, Welsh Terrier de 10 meses, muy reactivo a otros perros («no se le podía sacar a pasear
+con calma, ni mucho menos estar en una terraza»). Tras 4-5 clases, tumbado en una terraza mientras sus
+dueños toman café y pasan perros, bicis y gente. Original de 2:38 con subtítulos quemados (InShot) y solo
+piernas de personas, sin caras. Corte 58-87,5 s (la explicación del antes/después), 720×1280, 5,4 MB.
+Alternativa guardada en el scratchpad: corte 106-135 s (pasan perros y se queda quieto).
+**Vídeo:** `media_gbp/gbp-video-caso-paco-welsh-terrier-terraza-2026-09-08.mp4`. Subirlo también a Fotos → Vídeos.
+**Tipo:** Novedad. **Botón:** Más información (página de perros agresivos y reactivos).
+**Enlace:** `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-paco-terrier`
+
+> Paco, Welsh Terrier de 10 meses, con el carácter fuerte de un terrier de verdad: reactivo a otros
+> perros, imposible sacarlo a la calle con calma y ni pensar en una terraza. Después de cuatro o cinco
+> clases con Eduardo, aquí lo tienes: tumbado en la terraza mientras sus dueños toman un café y pasan
+> perros, bicis y gente.
+>
+> «Está aprendiendo a autocontrolarse y a autorrelajarse, que es superimportante.» Como siempre,
+> formando a las personas: Eduardo les dice qué hacer y ellos lo ponen en práctica cada día.
+>
+> Modificación de conducta a domicilio en Sitges y el Garraf. En la web tienes más casos y cómo pedir
+> una primera valoración.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
