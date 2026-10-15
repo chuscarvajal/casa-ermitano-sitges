@@ -143,6 +143,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Vie 13 nov | **27. Vídeo: Eduardo presenta a Brisa** (TikTok del 25 jul, primeros 30 s, sin la parte de venta) | `media_gbp/gbp-video-brisa-presentacion-2026-07-25.mp4` (vídeo, 5,5 MB) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=brisa#about` | por publicar · confirmar antes si Brisa sigue en casa |
 | Dom 15 nov | **28. Vídeo: pasión chihuahueña en el jardín** (TikTok del 29 jun, primeros 30 s, sin música) | `media_gbp/gbp-video-pasion-chihuahuena-jardin-2026-06-29.mp4` (vídeo) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=pasion-chihuahuena#about` | por publicar |
 | Mar 17 nov | **29. La historia del Chihuahua** (texto propio; NO el vídeo del TikTok del 25 ago) | `media_gbp/gbp-post-historia-chihuahua-billy.jpg` (Billy de perfil) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=historia-chihuahua#faq` | por publicar |
+| Jue 19 nov | **30. Dos Chihuahuas, ya con su nueva familia** (TikTok del 10 ago, 5 s → foto) | `media_gbp/gbp-post-entrega-dos-chihuahuas-2026-08-10-SOLO-CON-PERMISO.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=entrega-dos-chihuahuas#nuestros-cachorros` | ⚠️ SOLO si los clientes dan permiso (salen sus caras) |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
@@ -500,6 +501,23 @@ También se ha añadido a la web como FAQ «¿De dónde viene el Chihuahua?» (H
 > Su nombre es el del estado mexicano de Chihuahua, donde viajeros estadounidenses lo encontraron en el siglo XIX. El American Kennel Club lo reconoció en 1904 y hoy la FCI lo registra con México como país de origen.
 >
 > De aquel perro ancestral le queda el carácter: valiente, muy apegado a su familia y con mucha más personalidad de la que cabe en dos o tres kilos. En la foto, nuestro Multi Ch Razzle-Dazzle, «Billy». En la web te contamos esto y todo lo que más nos preguntan sobre la raza.
+
+### 30. Dos Chihuahuas, ya con su nueva familia (Jue 19 nov) — TikTok 7672441132147674390 del 10 ago
+**Qué es:** clip de 5 s que es en realidad una foto fija con bandas negras: Eduardo con dos chicos (los
+nuevos dueños) que sostienen dos Chihuahuas (uno crema de pelo largo y uno negro y blanco). Texto de
+Eduardo: «En su nueva familia, muy feliz, disfrutarla y amarla mucho, chicos». No tiene sentido como
+vídeo: se ha sacado una foto limpia (sin bandas, 1200×1342; origen 576 px, algo blanda).
+⚠️ Se ven claramente las caras de los dos clientes: publicar SOLO si Eduardo confirma que están de acuerdo.
+Alternativa: difuminar sus caras (pedirlo).
+**Foto:** `media_gbp/gbp-post-entrega-dos-chihuahuas-2026-08-10-SOLO-CON-PERMISO.jpg`.
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=entrega-dos-chihuahuas#nuestros-cachorros`
+
+> Dos Chihuahuas de Casa del Ermitaño, ya con su nueva familia. Eduardo los entregó en persona este verano y así se despidieron: con una foto, muchas sonrisas y la promesa de disfrutarlos y quererlos mucho.
+>
+> Cada cachorro sale de casa con sus vacunas, su microchip y su pedigrí, y con Eduardo al otro lado del WhatsApp para todo lo que la familia necesite, también años después.
+>
+> En la web puedes ver dónde viven ya nuestros cachorros y seguir el diario de las camadas de este otoño.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
