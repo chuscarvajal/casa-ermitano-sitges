@@ -128,6 +128,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Dom 18 oct | **14. Vídeo: la vuelta a casa** (TikTok del 6 sep, 11 s) | `media_gbp/gbp-video-chihuahuas-vuelta-a-casa-2026-09-06.mp4` (vídeo, no foto) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=vuelta-a-casa#about` | por publicar |
 | Mar 20 oct | 8. Pedigrí público | `04-razzle-dazzle-ficha-campeones-2024.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-12#diario-2026-09-12` | por programar |
 | Mar 21 oct | **15. Gigoló, ya en su casa** (TikTok fotos del 1 oct) | `media_gbp/gbp-post-gigolo-2026-10-01.jpg` (cachorro solo; la de la familia SOLO con permiso) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=gigolo#nuestros-cachorros` | por publicar |
+| Jue 22 oct | **16. Vídeo: tardeo chihuahueño en la playa** (TikTok del 15 sep, recortado a 30 s) | `media_gbp/gbp-video-tardeo-chihuahueno-playa-sitges-2026-09-15.mp4` (vídeo) | `https://criaderocasadelermitano.es/adiestramiento-canino-obediencia-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=tardeo-playa` | por publicar |
 | Vie 23 oct | 9. Sara espera | `10-sara-embarazada-con-billy.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=sara#camadas` | por programar |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
@@ -237,6 +238,25 @@ solo si Eduardo confirma que la familia está de acuerdo (TikTok no equivale a p
 > lo que necesiten, para siempre.
 >
 > En la web puedes ver dónde viven ya nuestros cachorros y seguir el diario de las camadas de este otoño.
+
+### 16. Vídeo: tardeo chihuahueño en la playa (Jue 22 oct) — TikTok 7685816648565034272 del 15 sep
+**Qué es:** Eduardo, gorra roja, entra en la playa de Sitges al atardecer con todo el grupo de Chihuahuas
+sueltos: «Me encanta llevarlos sueltos y lo disfruto. Vamos a hacer una práctica». Es el puente perfecto
+criadero → adiestramiento (obediencia y llamada sin correa), por eso enlaza a la página de obediencia.
+**Preparación:** el original dura 33,7 s y TikTok solo lo sirve a 1024×576; para Google (máx. 30 s, mín.
+720p) se recortó a 29,5 s y se escaló a 1280×720 (algo más blando que un original 720p, pero válido).
+**Vídeo:** `media_gbp/gbp-video-tardeo-chihuahueno-playa-sitges-2026-09-15.mp4`. Subirlo también a Fotos → Vídeos.
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/adiestramiento-canino-obediencia-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=tardeo-playa`
+
+> De tardeo chihuahueño en Sitges. Eduardo entra en la playa con todo el grupo suelto, entre bicis y
+> paseantes, y ninguno se despista: «Me encanta llevarlos sueltos y lo disfruto. Vamos a hacer una
+> práctica».
+>
+> Esto no sale solo. Es socialización y obediencia trabajadas desde cachorros, lo mismo que Eduardo
+> enseña a domicilio en Sitges y el Garraf: que tu perro venga cuando lo llamas, también con distracciones.
+>
+> En la web puedes ver cómo trabaja y pedir una primera clase.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
