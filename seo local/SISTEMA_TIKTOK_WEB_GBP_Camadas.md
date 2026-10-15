@@ -134,6 +134,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Lun 26 oct | **18. Vídeo: vigilando el territorio** (TikTok del 4 oct, recortado a 30 s) | `media_gbp/gbp-video-chihuahuas-vigilando-territorio-2026-10-04.mp4` (vídeo) | `https://criaderocasadelermitano.es/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=vigilando-territorio` | por publicar |
 | Mié 28 oct | **19. Vídeo: Lola, antes y ahora** (TikTok del 7 sep, 11 s, sin música) | `media_gbp/gbp-video-lola-paseo-sitges-2026-09-07.mp4` (vídeo; sale la cara del dueño: confirmar permiso) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=lola#nuestros-cachorros` | por publicar |
 | Vie 30 oct | **20. Vídeo: caso real, tres Staffordshire antes/después** (TikTok del 14 nov 2025, corte de 30 s del extracto de la web) | `media_gbp/gbp-video-caso-staffordshire-antes-despues-30s.mp4` (vídeo) | `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-staffordshire#caso-real` | por publicar |
+| Dom 1 nov | **21. Vídeo: Goldie, la chica de oro** (TikTok del 8 jun, recortado a 30 s) | `media_gbp/gbp-video-goldie-chica-de-oro-2026-06-08.mp4` (vídeo, 4,4 MB) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=goldie#cachorros` | por publicar |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
@@ -338,6 +339,23 @@ escucha el silencio, es un cambio brutal»). 720×1280, H.264 comprimido.
 >
 > Modificación de conducta a domicilio en Sitges y el Garraf, con un psicólogo canino desde 1998. En la
 > web tienes el caso completo y cómo pedir una primera valoración.
+
+### 21. Vídeo: Goldie, la chica de oro (Dom 1 nov) — TikTok 7648981173577829654 del 8 jun
+**Qué es:** Goldie, cachorra crema de pelo corto de Casa del Ermitaño («mi pequeña Marilyn Monroe, la
+rubia»), panza arriba en la cama mientras Eduardo le acaricia la barriga: «ay, qué cosita hermosa… mi
+chica dorada». Solo sale su mano. Original de 34,6 s en HEVC → recortado a 29,5 s y convertido a H.264
+720×1280, 4,4 MB.
+**Vídeo:** `media_gbp/gbp-video-goldie-chica-de-oro-2026-06-08.mp4`. Subirlo también a Fotos → Vídeos.
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=goldie#cachorros`
+
+> Goldie, la chica de oro de Casa del Ermitaño. «Mi pequeña Marilyn Monroe, la rubia», dice Eduardo
+> mientras ella se deja hacer, panza arriba, sin un gramo de miedo.
+>
+> Un cachorro que se tumba así, relajado, con las manos de una persona encima, es un cachorro que ha
+> crecido en casa, en brazos, con gente desde el primer día. Esa confianza no se compra: se cría.
+>
+> En la web puedes ver cómo criamos y seguir el diario de las camadas de este otoño.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
