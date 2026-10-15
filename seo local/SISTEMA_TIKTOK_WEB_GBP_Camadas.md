@@ -132,6 +132,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Vie 23 oct | 9. Sara espera | `10-sara-embarazada-con-billy.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=sara#camadas` | por programar |
 | Sáb 24 oct | **17. Vídeo: tardeo con los cachorros en la playa** (TikTok del 13 sep, 29 s) | `media_gbp/gbp-video-tardeo-cachorros-sitges-2026-09-13.mp4` (vídeo, 5,4 MB) | `https://criaderocasadelermitano.es/educacion-cachorros-socializacion-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=tardeo-cachorros` | por publicar |
 | Lun 26 oct | **18. Vídeo: vigilando el territorio** (TikTok del 4 oct, recortado a 30 s) | `media_gbp/gbp-video-chihuahuas-vigilando-territorio-2026-10-04.mp4` (vídeo) | `https://criaderocasadelermitano.es/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=vigilando-territorio` | por publicar |
+| Mié 28 oct | **19. Vídeo: Lola, antes y ahora** (TikTok del 7 sep, 11 s, sin música) | `media_gbp/gbp-video-lola-paseo-sitges-2026-09-07.mp4` (vídeo; sale la cara del dueño: confirmar permiso) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=lola#nuestros-cachorros` | por publicar |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
@@ -294,6 +295,27 @@ recortado del segundo 18 al 47 (la parte del seto) y convertido a H.264 720×128
 > clientes en Sitges y el Garraf.
 >
 > En la web puedes ver cómo trabaja y pedir una primera clase.
+
+### 19. Vídeo: Lola, antes y ahora (Mié 28 oct) — TikTok 7682680005029088534 del 7 sep
+**Qué es:** 11 s. Lola de cachorrita en casa (patas arriba en su cama) y, al final, ya adulta con arnés
+rosa en brazos de su dueño, en Sitges. Texto de Eduardo: «Ayer paseando por Sitges, después de mucho
+tiempo, tuve el placer de ver de nuevo a Lola, ver su evolución; está preciosa, como no podía ser de
+otra manera». Convertido de HEVC a H.264 (1080×1440, 2,2 MB) y **sin audio**: la pista era una canción
+comercial de TikTok y en la ficha de Google no conviene usar música con derechos.
+⚠️ En los últimos 2-3 s se ve la cara del dueño (cliente): publicar solo si Eduardo confirma que está de
+acuerdo. Si no, se puede entregar una versión solo con la parte de cachorra (9 s) o con la cara difuminada.
+**Vídeo:** `media_gbp/gbp-video-lola-paseo-sitges-2026-09-07.mp4`. Subirlo también a Fotos → Vídeos.
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=lola#nuestros-cachorros`
+
+> Casa del Ermitaño Lola. Primero, de cachorrita en casa, patas arriba en su cama. Y ahora, paseando por
+> Sitges con su familia: Eduardo se la encontró después de mucho tiempo y pudo ver su evolución. «Está
+> preciosa, como no podía ser de otra manera.»
+>
+> Lo mejor de criar en casa es esto: encontrarte a tus cachorros tiempo después, sanos, felices y
+> queridos, y que te sigan reconociendo.
+>
+> En la web puedes ver dónde viven ya nuestros cachorros y seguir el diario de las camadas de este otoño.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
