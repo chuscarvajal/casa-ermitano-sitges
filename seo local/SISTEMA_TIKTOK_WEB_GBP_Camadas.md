@@ -137,6 +137,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Dom 1 nov | **21. Vídeo: Goldie, la chica de oro** (TikTok del 8 jun, recortado a 30 s) | `media_gbp/gbp-video-goldie-chica-de-oro-2026-06-08.mp4` (vídeo, 4,4 MB) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=goldie#cachorros` | por publicar |
 | Mar 3 nov | **22. Vídeo: caso real, Paco (Welsh Terrier reactivo) en la terraza** (TikTok del 8 sep, corte 58-87 s) | `media_gbp/gbp-video-caso-paco-welsh-terrier-terraza-2026-09-08.mp4` (vídeo, 5,4 MB) | `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-paco-terrier` | por publicar |
 | Jue 5 nov | **23. Vídeo: caso real, Nico (mestizo reactivo) en el pipicán** (TikTok del 5 sep, primeros 30 s) | `media_gbp/gbp-video-caso-nico-reactivo-pipican-2026-09-05.mp4` (vídeo) | `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-nico` | por publicar |
+| Sáb 7 nov | **24. Vídeo: buenos días** (TikTok del 31 ago, 25 s, sin música) | `media_gbp/gbp-video-buenos-dias-chihuahua-2026-08-31.mp4` (vídeo, 3,9 MB) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=buenos-dias#about` | por publicar |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
@@ -398,6 +399,21 @@ los primeros 29,5 s (la explicación), sin caras reconocibles de clientes. 720×
 >
 > Modificación de conducta a domicilio en Sitges y el Garraf. En la web tienes más casos y cómo pedir
 > una primera valoración.
+
+### 24. Vídeo: buenos días (Sáb 7 nov) — TikTok 7680091948589255958 del 31 ago
+**Qué es:** 25 s. Un Chihuahua de pelo corto negro, fuego y blanco sentado entre los pies de Eduardo, en
+el jardín con la piscina detrás, mirando a cámara. Texto de Eduardo: «Cucú, buenos días amigas y amigos,
+os desea Casa del Ermitaño». El original llevaba bandas negras grabadas (recortadas) y una canción de fondo
+(audio quitado por derechos de autor). Se desconoce el nombre del perro: no se nombra.
+**Vídeo:** `media_gbp/gbp-video-buenos-dias-chihuahua-2026-08-31.mp4` (960×1354, 3,9 MB). Subirlo también a Fotos → Vídeos.
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=buenos-dias#about`
+
+> Buenos días desde Casa del Ermitaño. Así empieza la mañana en casa: césped, piscina y un Chihuahua sentado entre los pies de Eduardo, tranquilo, mirando a cámara con esa cara de «aquí mando yo».
+>
+> Nuestros perros viven con nosotros, no en un patio ni en una jaula. Por eso los cachorros que nacen en casa crecen confiados y cariñosos desde el primer día.
+>
+> En la web puedes ver cómo vivimos y seguir el diario de las camadas de este otoño.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
