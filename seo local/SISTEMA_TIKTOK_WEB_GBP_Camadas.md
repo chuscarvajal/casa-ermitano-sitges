@@ -127,6 +127,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Sáb 17 oct | **4. Ojos abiertos, tres semanas** (vídeo del 15 oct) | `media_gbp/gbp-post-camada-3-semanas-2026-10-15.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-10-15#diario-2026-10-15` | por publicar |
 | Dom 18 oct | **14. Vídeo: la vuelta a casa** (TikTok del 6 sep, 11 s) | `media_gbp/gbp-video-chihuahuas-vuelta-a-casa-2026-09-06.mp4` (vídeo, no foto) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=vuelta-a-casa#about` | por publicar |
 | Mar 20 oct | 8. Pedigrí público | `04-razzle-dazzle-ficha-campeones-2024.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-12#diario-2026-09-12` | por programar |
+| Mar 21 oct | **15. Gigoló, ya en su casa** (TikTok fotos del 1 oct) | `media_gbp/gbp-post-gigolo-2026-10-01.jpg` (cachorro solo; la de la familia SOLO con permiso) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=gigolo#nuestros-cachorros` | por publicar |
 | Vie 23 oct | 9. Sara espera | `10-sara-embarazada-con-billy.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=sara#camadas` | por programar |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
@@ -214,6 +215,28 @@ Fotos → Vídeos de la ficha (queda permanente en la galería) y (2) como publi
 > ellos desde el primer día. Por eso salen como salen.
 >
 > En la web puedes ver cómo viven y seguir el diario de las camadas de este otoño.
+
+### 15. Gigoló, ya en su casa (Mar 21 oct) — TikTok de fotos 7691651244703616289 del 1 oct
+**Qué es:** publicación de fotos (no vídeo): Gigoló, cachorro de pelo corto crema, el día que se fue con
+su familia. Texto de Eduardo: «Hoy se nos va un perrazo a una familia maravillosa donde va a ser el rey
+de casa y nunca reemplazará a Greta, pero traerá una energía y amor muy especial a todos vosotros», con
+enlace a su pedigrí en BreedArchive. (Los posts de fotos de TikTok no los baja yt-dlp; las imágenes se
+sacaron con el navegador de Playwright desde la página del post.)
+**Foto:** `media_gbp/gbp-post-gigolo-2026-10-01.jpg` (Gigoló solo, en cuadrado). La foto con la familia
+(`...-familia-...-SOLO-CON-PERMISO.jpg`) muestra las caras de tres clientes: usarla en la ficha de Google
+solo si Eduardo confirma que la familia está de acuerdo (TikTok no equivale a permiso para Google).
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=gigolo#nuestros-cachorros`
+
+> Gigoló ya está en su casa. El 1 de octubre se fue con una familia maravillosa, donde va a ser el rey
+> de la casa. Nunca reemplazará a Greta, la perra que tuvieron antes, pero les va a traer una energía y
+> un cariño muy especiales.
+>
+> Así terminan las camadas de Casa del Ermitaño: con un cachorro criado en casa, socializado y con su
+> pedigrí, en una familia que lo va a cuidar como se merece. Y con Eduardo al otro lado del WhatsApp para
+> lo que necesiten, para siempre.
+>
+> En la web puedes ver dónde viven ya nuestros cachorros y seguir el diario de las camadas de este otoño.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
