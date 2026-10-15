@@ -142,6 +142,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Mié 11 nov | **26. Un cachorro blanco, ya en su nuevo hogar** (TikTok de fotos del 22 jul) | `media_gbp/gbp-post-cachorro-blanco-nuevo-hogar-2026-07-22.jpg` (cachorro solo; la de la entrega SOLO con permiso) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=cachorro-blanco-nuevo-hogar#nuestros-cachorros` | por publicar |
 | Vie 13 nov | **27. Vídeo: Eduardo presenta a Brisa** (TikTok del 25 jul, primeros 30 s, sin la parte de venta) | `media_gbp/gbp-video-brisa-presentacion-2026-07-25.mp4` (vídeo, 5,5 MB) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=brisa#about` | por publicar · confirmar antes si Brisa sigue en casa |
 | Dom 15 nov | **28. Vídeo: pasión chihuahueña en el jardín** (TikTok del 29 jun, primeros 30 s, sin música) | `media_gbp/gbp-video-pasion-chihuahuena-jardin-2026-06-29.mp4` (vídeo) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=pasion-chihuahuena#about` | por publicar |
+| Mar 17 nov | **29. La historia del Chihuahua** (texto propio; NO el vídeo del TikTok del 25 ago) | `media_gbp/gbp-post-historia-chihuahua-billy.jpg` (Billy de perfil) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=historia-chihuahua#faq` | por publicar |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
@@ -483,6 +484,22 @@ de cerca con la luz dorada), H.264 720×998, sin audio (música de fondo).
 > Juegan fuerte, pero saben jugar: se invitan, se respetan y paran a tiempo. Eso se aprende en grupo, con perros adultos equilibrados, y es lo que aprenden nuestros cachorros desde que abren los ojos.
 >
 > En la web puedes ver cómo vivimos y seguir el diario de las camadas de este otoño.
+
+### 29. La historia del Chihuahua (Mar 17 nov) — tema del TikTok 7678087026586946838 del 25 ago
+**Por qué no se usa el vídeo:** el TikTok es un montaje de vídeos AJENOS (perros que no son de casa, una
+calle de Japón, una estatua) con locución sintética: incumple la regla «solo Eduardo y sus perros» y puede
+tener derechos de terceros. Se aprovecha solo el tema, contado con texto propio y datos contrastados (se
+descartan afirmaciones del TikTok como «el perro más antiguo del planeta» o «ADN no modificado»).
+También se ha añadido a la web como FAQ «¿De dónde viene el Chihuahua?» (HTML + FAQPage), 16 oct 2026.
+**Foto:** `media_gbp/gbp-post-historia-chihuahua-billy.jpg` (Billy de perfil, propia).
+**Tipo:** Novedad. **Botón:** Más información (va a las preguntas frecuentes).
+**Enlace:** `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=historia-chihuahua#faq`
+
+> ¿Sabías que el Chihuahua tiene más de mil años de historia? Viene de México y se cree que desciende del techichi, un perro pequeño que ya criaban los toltecas y que después tuvieron los aztecas, que le atribuían un papel espiritual.
+>
+> Su nombre es el del estado mexicano de Chihuahua, donde viajeros estadounidenses lo encontraron en el siglo XIX. El American Kennel Club lo reconoció en 1904 y hoy la FCI lo registra con México como país de origen.
+>
+> De aquel perro ancestral le queda el carácter: valiente, muy apegado a su familia y con mucha más personalidad de la que cabe en dos o tres kilos. En la foto, nuestro Multi Ch Razzle-Dazzle, «Billy». En la web te contamos esto y todo lo que más nos preguntan sobre la raza.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
