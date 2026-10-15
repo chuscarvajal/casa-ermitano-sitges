@@ -131,6 +131,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Jue 22 oct | **16. Vídeo: tardeo chihuahueño en la playa** (TikTok del 15 sep, recortado a 30 s) | `media_gbp/gbp-video-tardeo-chihuahueno-playa-sitges-2026-09-15.mp4` (vídeo) | `https://criaderocasadelermitano.es/adiestramiento-canino-obediencia-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=tardeo-playa` | por publicar |
 | Vie 23 oct | 9. Sara espera | `10-sara-embarazada-con-billy.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=sara#camadas` | por programar |
 | Sáb 24 oct | **17. Vídeo: tardeo con los cachorros en la playa** (TikTok del 13 sep, 29 s) | `media_gbp/gbp-video-tardeo-cachorros-sitges-2026-09-13.mp4` (vídeo, 5,4 MB) | `https://criaderocasadelermitano.es/educacion-cachorros-socializacion-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=tardeo-cachorros` | por publicar |
+| Lun 26 oct | **18. Vídeo: vigilando el territorio** (TikTok del 4 oct, recortado a 30 s) | `media_gbp/gbp-video-chihuahuas-vigilando-territorio-2026-10-04.mp4` (vídeo) | `https://criaderocasadelermitano.es/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=vigilando-territorio` | por publicar |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
@@ -275,6 +276,24 @@ uno de ellos (es el TikTok público de Eduardo). 29 s: no hace falta recortar. C
 > Garraf: en la calle, a su ritmo y sin miedo. Lo que se aprende ahora, se queda para toda la vida.
 >
 > En la web te contamos cómo son las clases para cachorros y cuándo empezar.
+
+### 18. Vídeo: vigilando el territorio (Lun 26 oct) — TikTok 7692650308660464929 del 4 oct
+**Qué es:** el grupo de Chihuahuas en el jardín de casa; en cuanto oyen algo al otro lado del seto van
+todos en bloque a mirar, alerta, y vuelven con un «¡muy bien!» de Eduardo. Original de 58 s en HEVC:
+recortado del segundo 18 al 47 (la parte del seto) y convertido a H.264 720×1280, comprimido.
+**Vídeo:** `media_gbp/gbp-video-chihuahuas-vigilando-territorio-2026-10-04.mp4`. Subirlo también a Fotos → Vídeos.
+**Tipo:** Novedad. **Botón:** Más información (home: adiestramiento y psicología canina).
+**Enlace:** `https://criaderocasadelermitano.es/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=vigilando-territorio`
+
+> Chihuahuas vigilando el territorio. En cuanto oyen algo al otro lado del seto, todo el grupo va a
+> mirar: alerta, en bloque y sin perder la cabeza. Luego, una palabra de Eduardo («¡muy bien!») y
+> vuelven a lo suyo.
+>
+> Eso es un Chihuahua equilibrado: tiene instinto de guardián, como cualquier perro, pero sabe cuándo
+> parar. Es lo que trabaja Eduardo, psicólogo canino desde 1998, con los suyos y con los perros de sus
+> clientes en Sitges y el Garraf.
+>
+> En la web puedes ver cómo trabaja y pedir una primera clase.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
