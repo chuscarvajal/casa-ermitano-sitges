@@ -133,6 +133,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Sáb 24 oct | **17. Vídeo: tardeo con los cachorros en la playa** (TikTok del 13 sep, 29 s) | `media_gbp/gbp-video-tardeo-cachorros-sitges-2026-09-13.mp4` (vídeo, 5,4 MB) | `https://criaderocasadelermitano.es/educacion-cachorros-socializacion-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=tardeo-cachorros` | por publicar |
 | Lun 26 oct | **18. Vídeo: vigilando el territorio** (TikTok del 4 oct, recortado a 30 s) | `media_gbp/gbp-video-chihuahuas-vigilando-territorio-2026-10-04.mp4` (vídeo) | `https://criaderocasadelermitano.es/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=vigilando-territorio` | por publicar |
 | Mié 28 oct | **19. Vídeo: Lola, antes y ahora** (TikTok del 7 sep, 11 s, sin música) | `media_gbp/gbp-video-lola-paseo-sitges-2026-09-07.mp4` (vídeo; sale la cara del dueño: confirmar permiso) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=lola#nuestros-cachorros` | por publicar |
+| Vie 30 oct | **20. Vídeo: caso real, tres Staffordshire antes/después** (TikTok del 14 nov 2025, corte de 30 s del extracto de la web) | `media_gbp/gbp-video-caso-staffordshire-antes-despues-30s.mp4` (vídeo) | `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-staffordshire#caso-real` | por publicar |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
@@ -316,6 +317,27 @@ acuerdo. Si no, se puede entregar una versión solo con la parte de cachorra (9 
 > queridos, y que te sigan reconociendo.
 >
 > En la web puedes ver dónde viven ya nuestros cachorros y seguir el diario de las camadas de este otoño.
+
+### 20. Vídeo: caso real, tres Staffordshire antes/después (Vie 30 oct) — TikTok 7572507631093337366 del 14 nov 2025
+**Qué es:** el TikTok original dura 9:35 (clase de evaluación y modificación de conducta con una
+coalición de tres Staffordshire hembra, madre e hijas, en "zona roja") y lleva marca de agua de InShot.
+Para Google se parte del **extracto de 62 s ya montado para la web** (`public/assets/conducta/
+caso-staffordshire-reactividad-antes-despues.mp4`, sin caras de clientes, con rótulos ANTES/DESPUÉS y
+subtítulos quemados), recortado a 29,5 s: antes (13-25 s: «mirad de qué forma sale… tirando de la correa,
+reactiva a todo lo que se mueve») + después (44-61 s: «otra energía… era una olla a presión; ahora se
+escucha el silencio, es un cambio brutal»). 720×1280, H.264 comprimido.
+**Vídeo:** `media_gbp/gbp-video-caso-staffordshire-antes-despues-30s.mp4`. Subirlo también a Fotos → Vídeos.
+**Tipo:** Novedad. **Botón:** Más información (página de perros agresivos y reactivos, sección `#caso-real`).
+**Enlace:** `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-staffordshire#caso-real`
+
+> Tres Staffordshire en zona roja: madre, hija y hermana, con peleas cada vez más fuertes y una salida a
+> la calle tirando de la correa, reactivas a todo lo que se mueve. Así llegó Eduardo a esta casa.
+>
+> Y así estaba la misma casa al final de la primera clase: las tres tranquilas, sin jadeos, sin llorar.
+> «Cuando llegué, esto era una olla a presión. Ahora se escucha el silencio. Es un cambio brutal.»
+>
+> Modificación de conducta a domicilio en Sitges y el Garraf, con un psicólogo canino desde 1998. En la
+> web tienes el caso completo y cómo pedir una primera valoración.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
