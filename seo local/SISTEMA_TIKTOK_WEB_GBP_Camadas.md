@@ -125,6 +125,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Jue 15 oct | **13. OFERTA: primera clase de adiestramiento** (tipo Oferta, vigencia 15 oct → 15 nov) | sin foto obligatoria (si pide: `_fotos_gbp_servicios/` la de obediencia) | `https://criaderocasadelermitano.es/adiestramiento-canino-obediencia-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=oferta-primera-clase` | publicada el 15 oct por el usuario con la extensión de Claude en Chrome |
 | Vie 16 oct | 7. Cómo criamos | `06-eduardo-con-waka-waka.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=como-criamos#camadas` | por programar |
 | Sáb 17 oct | **4. Ojos abiertos, tres semanas** (vídeo del 15 oct) | `media_gbp/gbp-post-camada-3-semanas-2026-10-15.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-10-15#diario-2026-10-15` | por publicar |
+| Dom 18 oct | **14. Vídeo: la vuelta a casa** (TikTok del 6 sep, 11 s) | `media_gbp/gbp-video-chihuahuas-vuelta-a-casa-2026-09-06.mp4` (vídeo, no foto) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=vuelta-a-casa#about` | por publicar |
 | Mar 20 oct | 8. Pedigrí público | `04-razzle-dazzle-ficha-campeones-2024.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-12#diario-2026-09-12` | por programar |
 | Vie 23 oct | 9. Sara espera | `10-sara-embarazada-con-billy.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=sara#camadas` | por programar |
 
@@ -196,6 +197,23 @@ oferta sin problema legal. (Kala NO va como oferta: sería un anuncio de venta s
 suplemento de desplazamiento.
 **Medir:** clics del botón en GA4 (`utm_content=oferta-primera-clase`) y pulsaciones de llamar/WhatsApp
 en la página de obediencia en el panel de CTAs (`/.netlify/functions/stats?key=…`). Renovar el 15 nov si funciona.
+
+### 14. Vídeo: la vuelta a casa (Dom 18 oct) — TikTok 7682411499326819606 del 6 sep
+**Qué es:** 11 s; uno de los chicos de casa (Eduardo escribe "Eddie, Zohan y yo") vuelve tras dos meses
+fuera y todos los Chihuahuas se le echan encima. Voz de Eduardo: «¡Ay, qué contentos se ponen!». Sin marca
+de agua. Cumple los límites de Google (≤30 s, ≥720p, ≤75 MB): 1080×1920; el original era HEVC y se ha convertido a H.264 (7,7 MB).
+**Vídeo:** `media_gbp/gbp-video-chihuahuas-vuelta-a-casa-2026-09-06.mp4`. Subirlo DOS veces: (1) a
+Fotos → Vídeos de la ficha (queda permanente en la galería) y (2) como publicación Novedad con este texto.
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=vuelta-a-casa#about`
+
+> La felicidad de volver a casa. Dos meses sin verlo y así lo reciben: todos nuestros Chihuahuas a la
+> vez, encima, saltando y lamiendo. «¡Ay, qué contentos se ponen!»
+>
+> Esto es un criadero en casa: los perros viven con la familia, no en jaulas, y los cachorros crecen entre
+> ellos desde el primer día. Por eso salen como salen.
+>
+> En la web puedes ver cómo viven y seguir el diario de las camadas de este otoño.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
