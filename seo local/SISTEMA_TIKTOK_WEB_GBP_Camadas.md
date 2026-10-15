@@ -139,6 +139,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Jue 5 nov | **23. Vídeo: caso real, Nico (mestizo reactivo) en el pipicán** (TikTok del 5 sep, primeros 30 s) | `media_gbp/gbp-video-caso-nico-reactivo-pipican-2026-09-05.mp4` (vídeo) | `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-nico` | por publicar |
 | Sáb 7 nov | **24. Vídeo: buenos días** (TikTok del 31 ago, 25 s, sin música) | `media_gbp/gbp-video-buenos-dias-chihuahua-2026-08-31.mp4` (vídeo, 3,9 MB) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=buenos-dias#about` | por publicar |
 | Lun 9 nov | **25. Vídeo: el grupo jugando en el jardín** (TikTok del 4 sep, 21 s, sin música) | `media_gbp/gbp-video-grupo-jugando-jardin-2026-09-04.mp4` (vídeo) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=grupo-jugando#about` | por publicar |
+| Mié 11 nov | **26. Un cachorro blanco, ya en su nuevo hogar** (TikTok de fotos del 22 jul) | `media_gbp/gbp-post-cachorro-blanco-nuevo-hogar-2026-07-22.jpg` (cachorro solo; la de la entrega SOLO con permiso) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=cachorro-blanco-nuevo-hogar#nuestros-cachorros` | por publicar |
 
 **Las tres que dependen de fotos nuevas NO se programan**: se publican el día que ocurran, después de
 crear su entrada en el diario (10 minutos): 4. Ojos abiertos (8-15 oct), 5. Nace la camada de Sara
@@ -429,6 +430,23 @@ puro jugando». Original en HEVC → H.264 1080×1428; audio quitado (solo músi
 > Así se crían los perros equilibrados: en grupo, con espacio, aprendiendo unos de otros a jugar, a comunicarse y a respetarse. Y entre ellos crecen nuestros cachorros desde el primer día.
 >
 > En la web puedes ver cómo vivimos y seguir el diario de las camadas de este otoño.
+
+### 26. Un cachorro blanco, ya en su nuevo hogar (Mié 11 nov) — TikTok de fotos 7665285698299251990 del 22 jul
+**Qué es:** publicación de 3 fotos: Eduardo con la chica que se lleva al cachorro (en un centro comercial,
+con el cachorro dormido en brazos) y dos del cachorro blanco de pelo corto sentado junto a una manguera.
+Texto original de Eduardo: «Reservado!! Muy contento ya en su nuevo hogar y familia, donde será un rey…».
+⚠️ En la ficha NO usar «Reservado» (lenguaje de venta, ver regla sin NZ): el texto habla de la entrega.
+Nombre del cachorro: desconocido, no se nombra.
+**Foto:** `media_gbp/gbp-post-cachorro-blanco-nuevo-hogar-2026-07-22.jpg` (cachorro solo, cuadrada 1200×1200).
+La de la entrega (`...-entrega-familia-...-SOLO-CON-PERMISO.jpg`) muestra la cara de la clienta: solo con permiso.
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=cachorro-blanco-nuevo-hogar#nuestros-cachorros`
+
+> Ya está en su nuevo hogar. Este cachorro blanco de pelo corto, nacido y criado en Casa del Ermitaño, se fue este verano con una familia que lo recibió con los brazos abiertos. Allí va a ser el rey de la casa, a disfrutarlo y a quererlo muchísimo.
+>
+> Cada entrega es así: Eduardo en persona, el cachorro con sus vacunas, su microchip y su pedigrí, y la tranquilidad de que la familia puede escribirle siempre que lo necesite.
+>
+> En la web puedes ver dónde viven ya nuestros cachorros y seguir el diario de las camadas de este otoño.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
