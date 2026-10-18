@@ -32,14 +32,8 @@ JOBS = [
      "criadero-chihuahua-exposicion-danish-kennel-club-casa-del-ermitano.jpg",
      "Chihuahua de Casa del Ermitano exhibido en exposicion de la Danish Kennel Club. Criadero de Chihuahua "
      "con pedigri, afijo RSCE 8110, en Sitges y Vilanova i la Geltru."),
-    ("725599138_10238936859354129_8475573914691980410_n.jpg",
-     "cachorro-chihuahua-blanco-pelo-corto-casa-del-ermitano-sitges.jpg",
-     "Cachorro de Chihuahua de pelo corto blanco de Casa del Ermitano (afijo RSCE 8110), presentado en stack. "
-     "Criadero de Chihuahua en Sitges y Vilanova i la Geltru."),
-    ("725605592_10238936858034096_2708596785313608811_n.jpg",
-     "cachorro-chihuahua-blanco-tipico-casa-del-ermitano-sitges.jpg",
-     "Cachorro de Chihuahua de pelo corto, tipico y equilibrado, de Casa del Ermitano (afijo RSCE 8110). "
-     "Criadero de Chihuahua en Sitges y Vilanova i la Geltru."),
+    # 18 oct 2026: quitadas las dos fotos del cachorro blanco en la mesa roja (camiseta gris):
+    # es el perro de un amigo de Eduardo en Italia, no suyo. No volver a usarlas.
 ]
 
 def dms(dec):
