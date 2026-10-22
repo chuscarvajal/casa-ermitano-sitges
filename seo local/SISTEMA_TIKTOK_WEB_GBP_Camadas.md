@@ -129,6 +129,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Mar 20 oct | 8. Pedigrí público | `04-razzle-dazzle-ficha-campeones-2024.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=2026-09-12#diario-2026-09-12` | por programar |
 | Mar 21 oct | **15. Gigoló, ya en su casa** (TikTok fotos del 1 oct) | `media_gbp/gbp-post-gigolo-2026-10-01.jpg` (cachorro solo; la de la familia SOLO con permiso) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=gigolo#nuestros-cachorros` | por publicar |
 | Jue 22 oct | **16. Vídeo: tardeo chihuahueño en la playa** (TikTok del 15 sep, recortado a 30 s) | `media_gbp/gbp-video-tardeo-chihuahueno-playa-sitges-2026-09-15.mp4` (vídeo) | `https://criaderocasadelermitano.es/adiestramiento-canino-obediencia-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=tardeo-playa` | por publicar |
+| Jue 22 oct (extra, hoy) | **31. Vídeo: la manada socializada en el paseo de Sitges** (vídeo de WhatsApp del 22 oct, corte de 30 s) | `media_gbp/gbp-video-manada-socializada-paseo-sitges-2026-10-22.mp4` (vídeo) + `media_gbp/gbp-post-manada-socializada-paseo-sitges-2026-10-22.jpg` (foto) | `https://criaderocasadelermitano.es/adiestramiento-canino-obediencia-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=manada-socializada` | por publicar |
 | Vie 23 oct | 9. Sara espera | `10-sara-embarazada-con-billy.jpg` | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=sara#camadas` | por programar |
 | Sáb 24 oct | **17. Vídeo: tardeo con los cachorros en la playa** (TikTok del 13 sep, 29 s) | `media_gbp/gbp-video-tardeo-cachorros-sitges-2026-09-13.mp4` (vídeo, 5,4 MB) | `https://criaderocasadelermitano.es/educacion-cachorros-socializacion-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=tardeo-cachorros` | por publicar |
 | Lun 26 oct | **18. Vídeo: vigilando el territorio** (TikTok del 4 oct, recortado a 30 s) | `media_gbp/gbp-video-chihuahuas-vigilando-territorio-2026-10-04.mp4` (vídeo) | `https://criaderocasadelermitano.es/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=vigilando-territorio` | por publicar |
@@ -518,6 +519,24 @@ Alternativa: difuminar sus caras (pedirlo).
 > Cada cachorro sale de casa con sus vacunas, su microchip y su pedigrí, y con Eduardo al otro lado del WhatsApp para todo lo que la familia necesite, también años después.
 >
 > En la web puedes ver dónde viven ya nuestros cachorros y seguir el diario de las camadas de este otoño.
+
+### 31. Vídeo: la manada socializada en el paseo de Sitges (Jue 22 oct, extra) — vídeo de WhatsApp de Eduardo del 22 oct
+**Qué es:** vídeo de 69 s grabado hoy (guardado por error en `media/NUEVA CAMADA 26092026/CAMADA 1/`,
+pero NO es la camada): la manada de Chihuahuas de Eduardo suelta en el césped del paseo marítimo de Sitges
+saludando a Pelut, un perro grande y blanco del barrio. Una paseante pregunta «¿son chihuahuas
+socializados y educados?»; Eduardo: «tienen mucho mérito… es una manada entera y cuando se dispara alguno
+tienes que poner límites inmediatos». Después presenta a Pipa (la más pequeña) y Tesorito (la mayor, 13 años).
+Corte 7,5-37 s (la conversación), 720×1280, 5,6 MB. Al fondo pasan peatones lejos (sin primeros planos).
+**Vídeo:** `media_gbp/gbp-video-manada-socializada-paseo-sitges-2026-10-22.mp4` → (1) Fotos → Vídeos y
+(2) publicación. **Foto alternativa sin personas:** `media_gbp/gbp-post-manada-socializada-paseo-sitges-2026-10-22.jpg`.
+**Tipo:** Novedad. **Botón:** Más información (obediencia).
+**Enlace:** `https://criaderocasadelermitano.es/adiestramiento-canino-obediencia-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=manada-socializada`
+
+> «¿Son Chihuahuas socializados y educados?» Nos lo preguntaron ayer en el paseo de Sitges, mientras toda la manada de Casa del Ermitaño, suelta en el césped, saludaba con calma a Pelut, un perro del barrio.
+>
+> La respuesta es sí, y tiene mérito: es una manada entera, y cuando alguno se acelera hay que poner límites en el momento. Lo de que los Chihuahuas «son ladradores y follonero» no es la raza: es la educación que reciben.
+>
+> Eso mismo es lo que Eduardo enseña a domicilio en Sitges y el Garraf: un perro que convive tranquilo con otros perros y con la gente. En la web puedes ver cómo trabaja y pedir una primera clase.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
