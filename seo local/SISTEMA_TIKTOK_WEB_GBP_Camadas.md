@@ -532,9 +532,9 @@ Corte 7,5-37 s (la conversación), 720×1280, 5,6 MB. Al fondo pasan peatones le
 **Tipo:** Novedad. **Botón:** Más información (obediencia).
 **Enlace:** `https://criaderocasadelermitano.es/adiestramiento-canino-obediencia-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=manada-socializada`
 
-> «¿Son Chihuahuas socializados y educados?» Nos lo preguntaron ayer en el paseo de Sitges, mientras toda la manada de Casa del Ermitaño, suelta en el césped, saludaba con calma a Pelut, un perro del barrio.
+> «¿Son Chihuahuas socializados y educados?» Nos lo preguntaron hoy en el paseo de Sitges, mientras toda la manada de Casa del Ermitaño, suelta en el césped, saludaba con calma a Pelut, un perro del barrio.
 >
-> La respuesta es sí, y tiene mérito: es una manada entera, y cuando alguno se acelera hay que poner límites en el momento. Lo de que los Chihuahuas «son ladradores y follonero» no es la raza: es la educación que reciben.
+> La respuesta es sí, y tiene mérito: es una manada entera, y cuando alguno se acelera hay que poner límites en el momento. Lo de que los Chihuahuas «son ladradores y folloneros» no es la raza: es la educación que reciben.
 >
 > Eso mismo es lo que Eduardo enseña a domicilio en Sitges y el Garraf: un perro que convive tranquilo con otros perros y con la gente. En la web puedes ver cómo trabaja y pedir una primera clase.
 
