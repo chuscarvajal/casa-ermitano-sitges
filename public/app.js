@@ -531,3 +531,24 @@ document.addEventListener('DOMContentLoaded', () => {
     if(f&&(f.getAttribute('data-cta-form')!=null||f.id==='leadform'||f.id==='contact-form')) send('formulario',sectionOf(f)||'formulario');
   },true);
 })();
+
+/* Publicaciones de Facebook (campeones): se cargan solo al pulsar, para no meter cookies de Facebook a todos los visitantes */
+(function(){
+  document.querySelectorAll('.fb-post').forEach(function(fig){
+    var btn = fig.querySelector('.fb-load');
+    if (!btn) return;
+    btn.addEventListener('click', function(){
+      var href = fig.getAttribute('data-fb-href');
+      var h = fig.getAttribute('data-fb-height') || '600';
+      var f = document.createElement('iframe');
+      f.src = 'https://www.facebook.com/plugins/post.php?href=' + encodeURIComponent(href) + '&show_text=true&width=500';
+      f.height = h;
+      f.loading = 'lazy';
+      f.title = 'Publicación de Facebook de Eduardo Mangas';
+      f.setAttribute('allow', 'encrypted-media; picture-in-picture; web-share');
+      var img = fig.querySelector('img');
+      if (img) img.replaceWith(f);
+      btn.remove();
+    });
+  });
+})();
