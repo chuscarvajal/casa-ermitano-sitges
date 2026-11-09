@@ -140,6 +140,7 @@ Fotos en `seo local/_fotos_gbp_camadas_otono_2026/`. Botón siempre **Más infor
 | Jue 5 nov | **23. Vídeo: caso real, Nico (mestizo reactivo) en el pipicán** (TikTok del 5 sep, primeros 30 s) | `media_gbp/gbp-video-caso-nico-reactivo-pipican-2026-09-05.mp4` (vídeo) | `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-nico` | por publicar |
 | Sáb 7 nov | **24. Vídeo: buenos días** (TikTok del 31 ago, 25 s, sin música) | `media_gbp/gbp-video-buenos-dias-chihuahua-2026-08-31.mp4` (vídeo, 3,9 MB) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=buenos-dias#about` | por publicar |
 | Lun 9 nov | **25. Vídeo: el grupo jugando en el jardín** (TikTok del 4 sep, 21 s, sin música) | `media_gbp/gbp-video-grupo-jugando-jardin-2026-09-04.mp4` (vídeo) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=grupo-jugando#about` | por publicar |
+| Lun 9 nov (hoy) | **32. Vídeo: caso real, Río (pastor alemán, reactividad por dolor)** (vídeo de Eduardo del 9 nov, corte de 30 s con subtítulos) | `media_gbp/gbp-video-caso-rio-reactividad-dolor-2026-11-09.mp4` (vídeo, 4,6 MB) | `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-rio#caso-rio` | por publicar |
 | Mié 11 nov | **26. Un cachorro blanco, ya en su nuevo hogar** (TikTok de fotos del 22 jul) | `media_gbp/gbp-post-cachorro-blanco-nuevo-hogar-2026-07-22.jpg` (cachorro solo; la de la entrega SOLO con permiso) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=cachorro-blanco-nuevo-hogar#nuestros-cachorros` | por publicar |
 | Vie 13 nov | **27. Vídeo: Eduardo presenta a Brisa** (TikTok del 25 jul, primeros 30 s, sin la parte de venta) | `media_gbp/gbp-video-brisa-presentacion-2026-07-25.mp4` (vídeo, 5,5 MB) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=brisa#about` | por publicar · confirmar antes si Brisa sigue en casa |
 | Dom 15 nov | **28. Vídeo: pasión chihuahueña en el jardín** (TikTok del 29 jun, primeros 30 s, sin música) | `media_gbp/gbp-video-pasion-chihuahuena-jardin-2026-06-29.mp4` (vídeo) | `https://criaderocasadelermitano.es/criadero-chihuahua-barcelona/?utm_source=google&utm_medium=gbp&utm_campaign=camadas-2026&utm_content=pasion-chihuahuena#about` | por publicar |
@@ -537,6 +538,24 @@ Corte 7,5-37 s (la conversación), 720×1280, 5,6 MB. Al fondo pasan peatones le
 > La respuesta es sí, y tiene mérito: es una manada entera, y cuando alguno se acelera hay que poner límites en el momento. Lo de que los Chihuahuas «son ladradores y folloneros» no es la raza: es la educación que reciben.
 >
 > Eso mismo es lo que Eduardo enseña a domicilio en Sitges y el Garraf: un perro que convive tranquilo con otros perros y con la gente. En la web puedes ver cómo trabaja y pedir una primera clase.
+
+### 32. Vídeo: caso real, Río (Lun 9 nov) — vídeo de WhatsApp de Eduardo del 9 nov
+**Qué es:** clase en un pipicán con Río, pastor alemán de 6 meses, reactivo con otros perros con correa,
+y otro pastor alemán joven. Eduardo explica que Río tiene un problema de tren trasero (en tratamiento
+veterinario) y que se sienta y enseña los dientes «para pedir espacio, nunca por agresividad». Original
+de 5 min, 576×1024, marca InShot. En la web: montaje de 1:45 con subtítulos quemados en la sección nueva
+`#caso-rio` de `/perros-agresivos-reactivos-garraf/` (+ VideoObject). Para Google: corte 241-270 s (la
+explicación del dolor), con subtítulos, 720×1280, 4,6 MB. Sin caras de clientes (piernas y un hombre de
+espaldas/lejos).
+**Vídeo:** `media_gbp/gbp-video-caso-rio-reactividad-dolor-2026-11-09.mp4` → (1) Fotos → Vídeos y (2) publicación.
+**Tipo:** Novedad. **Botón:** Más información.
+**Enlace:** `https://criaderocasadelermitano.es/perros-agresivos-reactivos-garraf/?utm_source=google&utm_medium=gbp&utm_campaign=servicios-2026&utm_content=caso-rio#caso-rio`
+
+> Río, pastor alemán de seis meses, reacciona con otros perros: se sienta, se protege y enseña los dientes. Parece agresividad, pero no lo es.
+>
+> Río tiene un problema en el tren trasero, que ya están tratando los veterinarios. Cuando llegan perros fuertes y musculados, no puede seguirles el ritmo y pide espacio de la única forma que sabe. «Nunca por agresividad: por sentirse protegido.» De por sí es un perro noble y juguetón.
+>
+> Por eso, antes de etiquetar a un perro como agresivo, Eduardo descarta siempre que le duela algo. Modificación de conducta a domicilio en Sitges y el Garraf: en la web tienes el caso completo en vídeo.
 
 ### 7. Cómo criamos (Vie 16 oct)
 > ¿Cómo se crían los cachorros en Casa del Ermitaño? Desde que nacen hasta el destete viven en nuestra
