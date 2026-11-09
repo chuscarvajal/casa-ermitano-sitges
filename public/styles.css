@@ -2624,3 +2624,24 @@ textarea.form-control { min-height: 120px; resize: vertical; }
 .fb-load:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
 .fb-load:active { transform: scale(0.98); }
 .fb-note { margin-top: 1.25rem; font-size: 0.8rem; color: var(--text-secondary); }
+
+/* Calculadora con tarifas por servicio y desplazamiento por zona (nov 2026) */
+.package-pill:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+.package-pill:active { transform: scale(0.99); }
+.calc-select {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  background-color: var(--bg-card);
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+}
+.calc-select:hover { border-color: var(--color-primary); }
+.calc-select:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; border-color: var(--color-primary); }
+.calc-help { font-size: 0.78rem; line-height: 1.5; color: var(--text-secondary); }
+.summary-wrap { max-width: 210px; text-align: right; line-height: 1.3; }
+.calc-note { margin-top: 1rem; font-size: 0.74rem; line-height: 1.5; color: rgba(255,255,255,0.78); }
+.slider-wrapper[hidden], .calc-help[hidden] { display: none; }

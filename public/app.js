@@ -233,20 +233,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (rec === 'basico') {
-      resultTitle.innerText = "Adiestramiento Básico — el punto de partida ideal";
+      resultTitle.innerText = "Curso de Educación Básica — el punto de partida ideal";
       resultDesc.innerText = "Tu perro necesita construir una base sólida de obediencia y comunicación contigo. Las sesiones de adiestramiento canino son el primer paso para transformar la convivencia diaria.";
       recDesc.innerText = "Trabajaremos la obediencia básica, el paseo con correa, el recall y la concentración. Resultados visibles desde las primeras sesiones con la metodología de Eduardo Mangas.";
       btnSelectResultPackage.setAttribute('data-target-package', 'basico');
     } else if (rec === 'psicologia') {
-      resultTitle.innerText = "Psicología Canina — abordamos el origen del problema";
+      resultTitle.innerText = "Clases de conducta — abordamos el origen del problema";
       resultDesc.innerText = "Tu perro muestra señales que requieren un trabajo más profundo sobre su estado emocional y conductual. La especialidad de Eduardo en psicología y etología está diseñada exactamente para esta situación.";
       recDesc.innerText = "Evaluación exhaustiva del perfil conductual, identificación de los desencadenantes y diseño de un protocolo personalizado. El cambio es profundo y duradero.";
-      btnSelectResultPackage.setAttribute('data-target-package', 'psicologia');
+      btnSelectResultPackage.setAttribute('data-target-package', 'clase');
     } else {
-      resultTitle.innerText = "Adiestramiento Avanzado — saca el máximo potencial";
-      resultDesc.innerText = "Tu perro ya tiene una buena base y estás listo para dar el siguiente paso. El programa avanzado te abrirá un mundo nuevo de comunicación y complicidad.";
-      recDesc.innerText = "Obediencia de alta precisión, órdenes a distancia, trabajo en entornos con distracciones y un nivel de respuesta que sorprenderá a quienes os rodeen.";
-      btnSelectResultPackage.setAttribute('data-target-package', 'avanzado');
+      resultTitle.innerText = "Curso de Educación Completa — saca el máximo potencial";
+      resultDesc.innerText = "Tu perro ya tiene una buena base y estás listo para dar el siguiente paso. El curso completo te abrirá un mundo nuevo de comunicación y complicidad.";
+      recDesc.innerText = "Obediencia completa sin correa: seguimiento, sentado, acostado, quieto y llamada, más control de ruidos y un comportamiento pacífico y amistoso con perros y personas.";
+      btnSelectResultPackage.setAttribute('data-target-package', 'completo');
     }
   }
 
@@ -261,18 +261,27 @@ document.addEventListener('DOMContentLoaded', () => {
   initQuiz();
 
   // ==========================================
-  // 4. Pricing Calculator
+  // 4. Calculadora de presupuesto (tarifas de Eduardo, noviembre 2026)
+  //    Clases de conducta 75 €/h · Pack de 6 clases a 75 €/clase ·
+  //    Curso básico 1.000 € · Curso completo 1.500 € · desplazamiento aparte por zona y clase
   // ==========================================
-  const pkgBasico = document.getElementById('pkg-basico');
-  const pkgAvanzado = document.getElementById('pkg-avanzado');
-  const pkgPsicologia = document.getElementById('pkg-psicologia');
+  const packages = {
+    clase:    { name: 'Clases de conducta (agresividad y trastornos)', type: 'hora', unit: 75, label: '75 €/hora' },
+    pack:     { name: 'Pack de 6 clases', type: 'pack', unit: 75, classes: 6, label: '75 €/clase',
+                note: '6 clases de 1 hora. El pack se paga por adelantado.' },
+    basico:   { name: 'Curso de Educación Básica', type: 'curso', price: 1000, label: '1.000 €', count: '2-3 por semana, 1-2 meses',
+                note: '2 o 3 clases por semana durante 1 a 2 meses. Seguimiento, sentado, acostado, quieto y llamada, con correa.' },
+    completo: { name: 'Curso de Educación Completa', type: 'curso', price: 1500, label: '1.500 €', count: '2-3 por semana, 2-3 meses',
+                note: '2 o 3 clases por semana durante 2 a 3 meses. Todo sin correa, más control de ruidos y comportamiento pacífico y amistoso.' }
+  };
+
+  const pkgEls = {};
+  Object.keys(packages).forEach(k => { pkgEls[k] = document.getElementById(`pkg-${k}`); });
   const rangeSessions = document.getElementById('range-sessions');
   const sessionCountVal = document.getElementById('session-count-val');
-  const sessionsLabel = document.getElementById('sessions-label');
-
-  const addonHome = document.getElementById('addon-home');
-  const addonSupport = document.getElementById('addon-support');
-  const addonMaterials = document.getElementById('addon-materials');
+  const sessionsSlider = document.getElementById('sessions-slider');
+  const sessionsNote = document.getElementById('sessions-note');
+  const zoneSelect = document.getElementById('calc-zona');
 
   const summaryPackageName = document.getElementById('summary-package-name');
   const summaryPackagePrice = document.getElementById('summary-package-price');
@@ -283,107 +292,116 @@ document.addEventListener('DOMContentLoaded', () => {
   const summaryTotalPrice = document.getElementById('summary-total-price');
   const btnBookSession = document.getElementById('btn-book-session');
 
-  const packages = {
-    basico:    { name: "Adiestramiento Básico",    unitPrice: 45, unitLabel: "sesiones", sliderMin: 1, sliderMax: 10, sliderDefault: 5, priceLabel: "45€/sesión" },
-    avanzado:  { name: "Adiestramiento Avanzado",  unitPrice: 55, unitLabel: "sesiones", sliderMin: 1, sliderMax: 10, sliderDefault: 5, priceLabel: "55€/sesión" },
-    psicologia:{ name: "Psicología Canina",        unitPrice: 65, unitLabel: "sesiones", sliderMin: 1, sliderMax: 10, sliderDefault: 5, priceLabel: "65€/sesión" }
-  };
+  // 1000 -> "1.000 €" (es-ES no agrupa los números de 4 cifras con toLocaleString)
+  const eur = n => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '.') + ' €';
 
-  let activePackage = 'basico';
+  let activePackage = Object.keys(pkgEls).find(k => pkgEls[k] && pkgEls[k].classList.contains('selected')) || 'pack';
+
+  function currentZone() {
+    if (!zoneSelect) return { name: 'Sitges', fee: 20 };
+    const opt = zoneSelect.options[zoneSelect.selectedIndex];
+    return { name: opt.getAttribute('data-zona') || opt.text, fee: parseInt(zoneSelect.value, 10) || 0 };
+  }
 
   function selectPackage(pkgKey) {
     if (!packages[pkgKey]) return;
     activePackage = pkgKey;
-
-    [pkgBasico, pkgAvanzado, pkgPsicologia].forEach(el => { if (el) el.classList.remove('selected'); });
-    const targetEl = document.getElementById(`pkg-${pkgKey}`);
-    if (targetEl) targetEl.classList.add('selected');
-
+    Object.keys(pkgEls).forEach(k => {
+      const el = pkgEls[k];
+      if (!el) return;
+      el.classList.toggle('selected', k === pkgKey);
+      el.setAttribute('aria-pressed', k === pkgKey ? 'true' : 'false');
+    });
     const pkg = packages[pkgKey];
-    rangeSessions.min = pkg.sliderMin;
-    rangeSessions.max = pkg.sliderMax;
-    rangeSessions.value = pkg.sliderDefault;
-    sessionCountVal.innerText = pkg.sliderDefault;
-
-    if (sessionsLabel) {
-      sessionsLabel.innerText = "2. Número de Sesiones";
-    }
-
+    const porHoras = pkg.type === 'hora';
+    if (sessionsSlider) sessionsSlider.hidden = !porHoras;
+    if (sessionsNote) { sessionsNote.hidden = porHoras; sessionsNote.textContent = pkg.note || ''; }
+    if (sessionCountVal) sessionCountVal.textContent = porHoras ? rangeSessions.value : (pkg.type === 'pack' ? '6' : '');
     calculateCosts();
   }
 
+  function calculateCosts() {
+    if (!summaryTotalPrice) return;
+    const pkg = packages[activePackage];
+    const zone = currentZone();
+    let classes = null;
+    let serviceCost;
+    let countText;
+
+    if (pkg.type === 'hora') {
+      classes = parseInt(rangeSessions.value, 10);
+      serviceCost = pkg.unit * classes;
+      countText = classes === 1 ? '1 hora' : `${classes} horas`;
+    } else if (pkg.type === 'pack') {
+      classes = pkg.classes;
+      serviceCost = pkg.unit * classes;
+      countText = `${classes} clases`;
+    } else {
+      serviceCost = pkg.price;
+      countText = pkg.count;
+    }
+
+    let total;
+    if (zone.fee > 0 && classes) {
+      const travel = zone.fee * classes;
+      summaryAddonsList.textContent = `${zone.name} · ${eur(zone.fee)} × ${classes}`;
+      summaryAddonsPrice.textContent = '+' + eur(travel);
+      total = eur(serviceCost + travel);
+    } else if (zone.fee > 0) {
+      summaryAddonsList.textContent = `${zone.name} · ${eur(zone.fee)} por clase`;
+      summaryAddonsPrice.textContent = 'aparte';
+      total = `${eur(serviceCost)} + desplazamiento`;
+    } else {
+      summaryAddonsList.textContent = 'Otra zona';
+      summaryAddonsPrice.textContent = 'a consultar';
+      total = `${eur(serviceCost)} + desplazamiento`;
+    }
+
+    summaryPackageName.textContent = pkg.name;
+    summaryPackagePrice.textContent = pkg.label;
+    summarySessionsCount.textContent = countText;
+    summarySessionsPrice.textContent = eur(serviceCost);
+
+    summaryTotalPrice.classList.remove('pulse');
+    void summaryTotalPrice.offsetWidth;
+    summaryTotalPrice.classList.add('pulse');
+    summaryTotalPrice.textContent = total;
+  }
+
   function setupCalculatorEvents() {
-    if (!pkgBasico) return;
-
-    pkgBasico.addEventListener('click', () => selectPackage('basico'));
-    pkgAvanzado.addEventListener('click', () => selectPackage('avanzado'));
-    pkgPsicologia.addEventListener('click', () => selectPackage('psicologia'));
-
-    rangeSessions.addEventListener('input', (e) => {
-      sessionCountVal.innerText = e.target.value;
-      calculateCosts();
+    if (!summaryTotalPrice) return;
+    Object.keys(pkgEls).forEach(k => {
+      const el = pkgEls[k];
+      if (!el) return;
+      el.addEventListener('click', () => selectPackage(k));
+      el.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); selectPackage(k); }
+      });
     });
-
-    [addonHome, addonSupport, addonMaterials].forEach(addon => {
-      if (addon) addon.addEventListener('click', () => { addon.classList.toggle('selected'); calculateCosts(); });
-    });
+    if (rangeSessions) {
+      rangeSessions.addEventListener('input', (e) => {
+        if (sessionCountVal) sessionCountVal.textContent = e.target.value;
+        calculateCosts();
+      });
+    }
+    if (zoneSelect) zoneSelect.addEventListener('change', calculateCosts);
 
     if (btnBookSession) {
       btnBookSession.addEventListener('click', () => {
         const pkg = packages[activePackage];
-        const qty = rangeSessions.value;
-        const total = summaryTotalPrice.innerText;
-        const msg = `Hola, me gustaría información sobre: *${pkg.name}* — ${qty} ${pkg.unitLabel}. Presupuesto estimado: *${total}*.`;
+        const zone = currentZone();
+        const horas = pkg.type === 'hora' ? ` (${rangeSessions.value} h)` : '';
+        const msg = `Hola, me gustaría información sobre: *${pkg.name}*${horas}. Zona: ${zone.name}. Presupuesto estimado: *${summaryTotalPrice.textContent}*.`;
         const contactMessage = document.getElementById('message');
         if (contactMessage) contactMessage.value = msg;
-        document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        const contactSection = document.getElementById('contact') || document.getElementById('contacto');
+        if (contactSection) contactSection.scrollIntoView({ behavior: 'smooth' });
       });
     }
   }
 
-  function calculateCosts() {
-    if (!rangeSessions) return;
-
-    const pkg = packages[activePackage];
-    const qty = parseInt(rangeSessions.value);
-    const baseCost = pkg.unitPrice * qty;
-
-    let addonsTotal = 0;
-    const activeAddonsNames = [];
-
-    if (addonHome && addonHome.classList.contains('selected')) {
-      const homeCost = qty * 20;
-      addonsTotal += homeCost;
-      activeAddonsNames.push(`A domicilio (+${homeCost}€)`);
-    }
-    if (addonSupport && addonSupport.classList.contains('selected')) {
-      addonsTotal += 30;
-      activeAddonsNames.push("Soporte WhatsApp (+30€)");
-    }
-    if (addonMaterials && addonMaterials.classList.contains('selected')) {
-      addonsTotal += 25;
-      activeAddonsNames.push("Informe evaluación (+25€)");
-    }
-
-    const grandTotal = baseCost + addonsTotal;
-
-    if (summaryPackageName) {
-      summaryPackageName.innerText = pkg.name;
-      summaryPackagePrice.innerText = pkg.priceLabel;
-      summarySessionsCount.innerText = `${qty} ${pkg.unitLabel}`;
-      summarySessionsPrice.innerText = `${baseCost}€`;
-      summaryAddonsList.innerText = activeAddonsNames.length > 0 ? activeAddonsNames.join(', ') : 'Ninguno';
-      summaryAddonsPrice.innerText = `+${addonsTotal}€`;
-
-      summaryTotalPrice.classList.remove('pulse');
-      void summaryTotalPrice.offsetWidth;
-      summaryTotalPrice.classList.add('pulse');
-      summaryTotalPrice.innerText = `${grandTotal}€`;
-    }
-  }
-
   setupCalculatorEvents();
-  calculateCosts();
+  if (summaryTotalPrice) selectPackage(activePackage);
 
   // ==========================================
   // 5. Testimonial Carousel

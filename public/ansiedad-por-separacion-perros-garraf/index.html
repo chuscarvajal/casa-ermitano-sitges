@@ -181,7 +181,7 @@
         "name": "¿Cuánto cuesta el tratamiento de la ansiedad por separación?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Depende de tu caso y del número de sesiones, y lo tienes claro, sin sorpresas, en la calculadora de presupuesto de la web. Lo que no hago es atarte a un bono por adelantado: empezamos por una primera clase de valoración y, si no ves el cambio en tu perro, no sigues. Trabajo a domicilio en Sitges y el Garraf, y si vives en Barcelona también voy, con un suplemento por el desplazamiento. El tratamiento de la ansiedad por separación es un proceso, no una sesión suelta."
+          "text": "Las clases para trastornos como la ansiedad por separación cuestan 75 € la hora (mínimo una hora), sueltas o en un pack de 6 clases a 75 € la clase. Empezamos por una primera clase de valoración y, si no ves el cambio en tu perro, no sigues. El desplazamiento va aparte según tu zona (20 € en Sitges, 30 € en Vilanova i la Geltrú, 85 € en Barcelona) y lo tienes todo en la calculadora. El tratamiento de la ansiedad por separación es un proceso, no una sesión suelta."
         }
       },
       {
@@ -407,46 +407,58 @@
       <div class="section-header">
         <span class="section-tag">Precio</span>
         <h2>Calcula tu <span class="highlight">presupuesto</span></h2>
-        <p>Sin sorpresas y sin letra pequeña. La ansiedad por separación es modificación de conducta, así que parte de la franja de Psicología Canina. Y recuerda: empezamos por una primera clase de valoración; no pagas el bono hasta ver el cambio.</p>
+        <p>Sin sorpresas y sin letra pequeña. La ansiedad por separación es un trastorno de conducta, así que se trabaja con clases de 75 € la hora. Y recuerda: empezamos por una primera clase de valoración; no pagas un pack hasta ver el cambio.</p>
       </div>
       <div class="calc-grid">
         <div class="calc-card">
           <div class="calc-group">
-            <label class="calc-label">1. Selecciona el Programa</label>
+            <label class="calc-label">1. Elige el servicio</label>
             <div class="calc-packages">
-              <div id="pkg-basico" class="package-pill"><h4>Adiestramiento Básico</h4><p>Desde 45€ / sesión</p></div>
-              <div id="pkg-avanzado" class="package-pill"><h4>Adiestramiento Avanzado</h4><p>Desde 55€ / sesión</p></div>
-              <div id="pkg-psicologia" class="package-pill selected"><h4>Psicología Canina</h4><p>Desde 65€ / sesión</p></div>
+              <div id="pkg-clase" class="package-pill selected" role="button" tabindex="0" aria-pressed="true"><h4>Clases de conducta (agresividad y trastornos)</h4><p>75 €/hora · mínimo 1 hora</p></div>
+              <div id="pkg-pack" class="package-pill" role="button" tabindex="0" aria-pressed="false"><h4>Pack de 6 clases</h4><p>75 €/clase · 450 € por adelantado</p></div>
+              <div id="pkg-basico" class="package-pill" role="button" tabindex="0" aria-pressed="false"><h4>Curso de Educación Básica</h4><p>1.000 € · con correa · de 1 a 2 meses</p></div>
+              <div id="pkg-completo" class="package-pill" role="button" tabindex="0" aria-pressed="false"><h4>Curso de Educación Completa</h4><p>1.500 € · sin correa · de 2 a 3 meses</p></div>
             </div>
           </div>
           <div class="calc-group">
-            <label class="calc-label"><span id="sessions-label">2. Número de Sesiones</span><span id="session-count-val">5</span></label>
-            <div class="slider-wrapper">
-              <input type="range" id="range-sessions" class="range-input" min="1" max="10" value="5" step="1" aria-label="Número de sesiones">
-              <div class="range-labels"><span>1 (Mínimo)</span><span>10 (Paquete completo)</span></div>
+            <label class="calc-label" for="range-sessions"><span id="sessions-label">2. Número de clases</span><span id="session-count-val">1</span></label>
+            <div id="sessions-slider" class="slider-wrapper">
+              <input type="range" id="range-sessions" class="range-input" min="1" max="10" value="1" step="1" aria-label="Número de horas de clase">
+              <div class="range-labels"><span>1 hora (mínimo)</span><span>10 horas</span></div>
             </div>
+            <p id="sessions-note" class="calc-help" hidden></p>
           </div>
           <div class="calc-group">
-            <label class="calc-label">3. Opciones Adicionales</label>
-            <div class="add-ons-list">
-              <div id="addon-home" class="addon-item selected"><div class="addon-left"><div class="addon-checkbox"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></div><div><span class="addon-name">Sesiones a Domicilio</span><p style="font-size: 0.75rem;">Imprescindible aquí: la ansiedad se trabaja donde tu perro se queda solo.</p></div></div><span class="addon-price">+20€/ses.</span></div>
-              <div id="addon-support" class="addon-item"><div class="addon-left"><div class="addon-checkbox"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></div><div><span class="addon-name">Soporte WhatsApp Mensual</span><p style="font-size: 0.75rem;">Consultas entre sesiones para resolver dudas al momento.</p></div></div><span class="addon-price">+30€/mes</span></div>
-              <div id="addon-materials" class="addon-item"><div class="addon-left"><div class="addon-checkbox"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></div><div><span class="addon-name">Informe de Evaluación</span><p style="font-size: 0.75rem;">Documento con el perfil conductual y el plan de trabajo de tu perro.</p></div></div><span class="addon-price">+25€</span></div>
-            </div>
+            <label class="calc-label" for="calc-zona">3. ¿Dónde vives? Desplazamiento por clase</label>
+            <select id="calc-zona" class="calc-select">
+              <option value="20" data-zona="Sitges" selected>Sitges — 20 €</option>
+              <option value="25" data-zona="Les Roquetes">Les Roquetes — 25 €</option>
+              <option value="25" data-zona="Sant Pere de Ribes">Sant Pere de Ribes — 25 €</option>
+              <option value="30" data-zona="Vilanova i la Geltrú">Vilanova i la Geltrú — 30 €</option>
+              <option value="35" data-zona="Canyelles">Canyelles — 35 €</option>
+              <option value="35" data-zona="Olivella">Olivella — 35 €</option>
+              <option value="40" data-zona="L'Arboç">L'Arboç — 40 €</option>
+              <option value="50" data-zona="Vilafranca del Penedès">Vilafranca del Penedès — 50 €</option>
+              <option value="60" data-zona="Sant Martí Sarroca">Sant Martí Sarroca — 60 €</option>
+              <option value="85" data-zona="Barcelona">Barcelona — 85 €</option>
+              <option value="0" data-zona="Otra zona">Otra zona — te lo confirmo</option>
+            </select>
+            <p class="calc-help">Imprescindible aquí: la ansiedad se trabaja donde tu perro se queda solo. El desplazamiento no está incluido en las tarifas.</p>
           </div>
         </div>
         <div class="calc-summary">
           <h3 class="calc-summary-title">Resumen de tu plan</h3>
           <div class="calc-summary-items">
-            <div class="summary-row"><span>Programa</span><span id="summary-package-name">Psicología Canina</span></div>
-            <div class="summary-row"><span>Precio Base</span><span id="summary-package-price">65€/sesión</span></div>
-            <div class="summary-row"><span>Nº de Sesiones</span><span id="summary-sessions-count">5 sesiones</span></div>
-            <div class="summary-row"><span>Coste Sesiones</span><span id="summary-sessions-price">325€</span></div>
-            <div class="summary-row"><span>Extras</span><span id="summary-addons-list" style="max-width: 200px; text-align: right; line-height: 1.3;">A domicilio (+100€)</span></div>
-            <div class="summary-row"><span>Coste Extras</span><span id="summary-addons-price">+100€</span></div>
-            <div class="summary-row total"><span>Total Estimado</span><span id="summary-total-price">425€</span></div>
+            <div class="summary-row"><span>Servicio</span><span id="summary-package-name">Clases de conducta (agresividad y trastornos)</span></div>
+            <div class="summary-row"><span>Precio</span><span id="summary-package-price">75 €/hora</span></div>
+            <div class="summary-row"><span>Clases</span><span id="summary-sessions-count">1 hora</span></div>
+            <div class="summary-row"><span>Coste del servicio</span><span id="summary-sessions-price">75 €</span></div>
+            <div class="summary-row"><span>Desplazamiento</span><span id="summary-addons-list" class="summary-wrap">Sitges · 20 € × 1</span></div>
+            <div class="summary-row"><span>Coste desplazamiento</span><span id="summary-addons-price">+20 €</span></div>
+            <div class="summary-row total"><span>Total estimado</span><span id="summary-total-price">95 €</span></div>
           </div>
           <button id="btn-book-session" class="btn btn-accent" style="width: 100%;">Solicitar mi primera clase</button>
+          <p class="calc-note">Precios para perros de 3 a 12 meses; a partir del año pueden variar según la aptitud, la raza o el carácter. Pago: el 50 % al empezar las clases y el resto en la sexta clase; el pack de 6 clases se paga por adelantado.</p>
         </div>
       </div>
     </div>
@@ -468,7 +480,7 @@
         <div class="faq-item"><div class="faq-header"><span>¿Cómo es la primera sesión y tengo que contratar un pack?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>No. Antes de venderte ningún bono hacemos una primera clase de valoración. Veo a tu perro en su entorno, en tu casa de Sitges o el Garraf, valoro de dónde viene la ansiedad y tú compruebas el cambio con tus propios ojos. Si no ves resultados, no sigues: no pagas un pack hasta estar seguro de que funciona. Para mí es clave que te impliques, así que esa primera clase también me sirve para ver si vamos a trabajar bien juntos.</p></div></div></div>
         <div class="faq-item"><div class="faq-header"><span>¿Mi perro necesita medicación o pastillas para la ansiedad?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Casi nunca. La ansiedad por separación se trabaja sobre todo con conducta y rutinas, no con fármacos. En la mayoría de los casos que trato en Sitges y el Garraf, el perro mejora sin medicación. Si en algún caso concreto hiciera falta un apoyo, eso lo valora siempre tu veterinario, y sería un complemento puntual, nunca la base del tratamiento. Darle una pastilla sin cambiar cómo vive la soledad no soluciona el problema, solo lo tapa un rato.</p></div></div></div>
         <div class="faq-item"><div class="faq-header"><span>¿Tengo que estar yo? ¿Se trabaja en mi casa?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Sí a las dos cosas. La ansiedad por separación hay que trabajarla en tu casa, que es donde tu perro se queda solo; por eso voy siempre a domicilio, en Sitges, el Garraf y alrededores. Y tienes que estar tú, porque yo formo a la persona, no solo al perro: solucionar la ansiedad de tu perro empieza por cómo gestionas tú las salidas, las llegadas y el espacio. Te doy las pautas, pero quien las pone en práctica en el día a día eres tú.</p></div></div></div>
-        <div class="faq-item"><div class="faq-header"><span>¿Cuánto cuesta el tratamiento de la ansiedad por separación?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Depende de tu caso y del número de sesiones, y lo tienes claro, sin sorpresas, en la calculadora de presupuesto de la web. Lo que no hago es atarte a un bono por adelantado: empezamos por una primera clase de valoración y, si no ves el cambio en tu perro, no sigues. Trabajo a domicilio en Sitges y el Garraf, y si vives en Barcelona también voy, con un suplemento por el desplazamiento. El tratamiento de la ansiedad por separación es un proceso, no una sesión suelta.</p></div></div></div>
+        <div class="faq-item"><div class="faq-header"><span>¿Cuánto cuesta el tratamiento de la ansiedad por separación?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Las clases para trastornos como la ansiedad por separación cuestan 75 € la hora (mínimo una hora), sueltas o en un pack de 6 clases a 75 € la clase. Empezamos por una primera clase de valoración y, si no ves el cambio en tu perro, no sigues. El desplazamiento va aparte según tu zona (20 € en Sitges, 30 € en Vilanova i la Geltrú, 85 € en Barcelona) y lo tienes todo en la calculadora. El tratamiento de la ansiedad por separación es un proceso, no una sesión suelta.</p></div></div></div>
         <div class="faq-item"><div class="faq-header"><span>¿En cuánto tiempo deja de destrozar y de ladrar?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Los primeros cambios suelen verse pronto, en las primeras semanas. Cuánto tarda en consolidarse depende del punto de partida y, sobre todo, de cuánto practiques entre sesiones, porque solucionar la ansiedad por separación es trabajo de casa, no solo mío. En Sitges y el Garraf, tras la primera valoración te digo con sinceridad qué esperar en tu caso; no te voy a prometer milagros por teléfono. Con constancia, vuelves a salir de casa sin miedo a lo que te encontrarás al volver.</p></div></div></div>
         <div class="faq-item"><div class="faq-header"><span>¿Y si es un cachorro, un perro adoptado o un perro mayor? ¿Puedo dejarlo en una jaula?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Trabajo la ansiedad por separación en <a href="/educacion-cachorros-socializacion-garraf/">cachorros</a>, en perros adoptados —que a veces arrastran un abandono— y en perros mayores; el enfoque cambia según el caso, pero todos pueden aprender a estar mejor solos. Sobre la jaula: no la recomiendo, porque normalmente empeora la ansiedad: el perro se angustia igual, pero encerrado. En Sitges y el Garraf te enseño a que aprenda a quedarse solo de verdad, sin jaula. Lo valoro todo en la primera visita a domicilio.</p></div></div></div>
       </div>

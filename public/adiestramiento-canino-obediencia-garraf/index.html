@@ -173,7 +173,7 @@
         "name": "¿Cuánto cuesta el adiestramiento canino?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Depende del programa y del número de sesiones que necesite tu perro, y lo tienes claro, sin sorpresas, en la calculadora de presupuesto de la web. Lo que no hago es atarte a un bono por adelantado: empezamos con una primera clase de valoración y, si no ves el cambio, no sigues. Trabajo a domicilio en Sitges y el Garraf, y si vives en Barcelona también voy, con un suplemento por el desplazamiento. Prefiero que hagas las clases justas y no una más."
+          "text": "El Curso de Educación Básica cuesta 1.000 € (seguimiento, sentado, acostado, quieto y llamada, todo con correa) y el Curso de Educación Completa, 1.500 € (lo mismo sin correa, más control de ruidos y un comportamiento pacífico y amistoso). Se hacen 2 o 3 clases a la semana: de 1 a 2 meses la básica y de 2 a 3 la completa. Si prefieres ir poco a poco, hay clases sueltas y un pack de 6 clases a 75 € la clase. El desplazamiento va aparte según tu zona (20 € en Sitges, 30 € en Vilanova i la Geltrú, 85 € en Barcelona) y lo tienes todo en la calculadora. Estos precios son para perros de 3 a 12 meses; a partir del año pueden variar según el perro."
         }
       },
       {
@@ -197,7 +197,7 @@
         "name": "¿En qué zona trabajáis?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Trabajo a domicilio en Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles y toda la zona del Garraf. Si vives en Barcelona, también voy, con un pequeño suplemento por el desplazamiento. Voy yo a tu casa porque es donde aparecen los problemas y donde tu perro se comporta de verdad. Soy Eduardo Mangas, adiestrador y educador canino; escríbeme y vemos tu caso sin compromiso."
+          "text": "Trabajo a domicilio en Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles y toda la zona del Garraf. También voy a Barcelona; el desplazamiento se cobra aparte según la zona (de 20 € en Sitges a 85 € en Barcelona). Voy yo a tu casa porque es donde aparecen los problemas y donde tu perro se comporta de verdad. Soy Eduardo Mangas, adiestrador y educador canino; escríbeme y vemos tu caso sin compromiso."
         }
       }
     ]
@@ -401,46 +401,58 @@
       <div class="section-header">
         <span class="section-tag">Precio</span>
         <h2>Calcula tu <span class="highlight">presupuesto</span></h2>
-        <p>Sin sorpresas y sin letra pequeña. Elige programa y número de sesiones y verás cuánto cuesta. Y recuerda: empezamos por una primera clase de prueba; no pagas el bono hasta ver el cambio.</p>
+        <p>Sin sorpresas y sin letra pequeña. Elige el servicio y tu zona y verás cuánto cuesta. Y recuerda: antes de un curso o un pack puedes hacer una primera clase suelta para ver cómo trabajamos.</p>
       </div>
       <div class="calc-grid">
         <div class="calc-card">
           <div class="calc-group">
-            <label class="calc-label">1. Selecciona el Programa</label>
+            <label class="calc-label">1. Elige el servicio</label>
             <div class="calc-packages">
-              <div id="pkg-basico" class="package-pill selected"><h4>Adiestramiento Básico</h4><p>Desde 45€ / sesión</p></div>
-              <div id="pkg-avanzado" class="package-pill"><h4>Adiestramiento Avanzado</h4><p>Desde 55€ / sesión</p></div>
-              <div id="pkg-psicologia" class="package-pill"><h4>Psicología Canina</h4><p>Desde 65€ / sesión</p></div>
+              <div id="pkg-clase" class="package-pill" role="button" tabindex="0" aria-pressed="false"><h4>Clases de conducta (agresividad y trastornos)</h4><p>75 €/hora · mínimo 1 hora</p></div>
+              <div id="pkg-pack" class="package-pill" role="button" tabindex="0" aria-pressed="false"><h4>Pack de 6 clases</h4><p>75 €/clase · 450 € por adelantado</p></div>
+              <div id="pkg-basico" class="package-pill selected" role="button" tabindex="0" aria-pressed="true"><h4>Curso de Educación Básica</h4><p>1.000 € · con correa · de 1 a 2 meses</p></div>
+              <div id="pkg-completo" class="package-pill" role="button" tabindex="0" aria-pressed="false"><h4>Curso de Educación Completa</h4><p>1.500 € · sin correa · de 2 a 3 meses</p></div>
             </div>
           </div>
           <div class="calc-group">
-            <label class="calc-label"><span id="sessions-label">2. Número de Sesiones</span><span id="session-count-val">5</span></label>
-            <div class="slider-wrapper">
-              <input type="range" id="range-sessions" class="range-input" min="1" max="10" value="5" step="1" aria-label="Número de sesiones">
-              <div class="range-labels"><span>1 (Mínimo)</span><span>10 (Paquete completo)</span></div>
+            <label class="calc-label" for="range-sessions"><span id="sessions-label">2. Número de clases</span><span id="session-count-val"></span></label>
+            <div id="sessions-slider" class="slider-wrapper" hidden>
+              <input type="range" id="range-sessions" class="range-input" min="1" max="10" value="1" step="1" aria-label="Número de horas de clase">
+              <div class="range-labels"><span>1 hora (mínimo)</span><span>10 horas</span></div>
             </div>
+            <p id="sessions-note" class="calc-help">2 o 3 clases por semana durante 1 a 2 meses. Seguimiento, sentado, acostado, quieto y llamada, con correa.</p>
           </div>
           <div class="calc-group">
-            <label class="calc-label">3. Opciones Adicionales</label>
-            <div class="add-ons-list">
-              <div id="addon-home" class="addon-item selected"><div class="addon-left"><div class="addon-checkbox"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></div><div><span class="addon-name">Sesiones a Domicilio</span><p style="font-size: 0.75rem;">Voy yo a tu casa, en tu entorno real.</p></div></div><span class="addon-price">+20€/ses.</span></div>
-              <div id="addon-support" class="addon-item"><div class="addon-left"><div class="addon-checkbox"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></div><div><span class="addon-name">Soporte WhatsApp Mensual</span><p style="font-size: 0.75rem;">Consultas entre sesiones para resolver dudas al momento.</p></div></div><span class="addon-price">+30€/mes</span></div>
-              <div id="addon-materials" class="addon-item"><div class="addon-left"><div class="addon-checkbox"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></div><div><span class="addon-name">Informe de Evaluación</span><p style="font-size: 0.75rem;">Documento con el perfil conductual y el plan de trabajo de tu perro.</p></div></div><span class="addon-price">+25€</span></div>
-            </div>
+            <label class="calc-label" for="calc-zona">3. ¿Dónde vives? Desplazamiento por clase</label>
+            <select id="calc-zona" class="calc-select">
+              <option value="20" data-zona="Sitges" selected>Sitges — 20 €</option>
+              <option value="25" data-zona="Les Roquetes">Les Roquetes — 25 €</option>
+              <option value="25" data-zona="Sant Pere de Ribes">Sant Pere de Ribes — 25 €</option>
+              <option value="30" data-zona="Vilanova i la Geltrú">Vilanova i la Geltrú — 30 €</option>
+              <option value="35" data-zona="Canyelles">Canyelles — 35 €</option>
+              <option value="35" data-zona="Olivella">Olivella — 35 €</option>
+              <option value="40" data-zona="L'Arboç">L'Arboç — 40 €</option>
+              <option value="50" data-zona="Vilafranca del Penedès">Vilafranca del Penedès — 50 €</option>
+              <option value="60" data-zona="Sant Martí Sarroca">Sant Martí Sarroca — 60 €</option>
+              <option value="85" data-zona="Barcelona">Barcelona — 85 €</option>
+              <option value="0" data-zona="Otra zona">Otra zona — te lo confirmo</option>
+            </select>
+            <p class="calc-help">Voy yo a tu casa, en tu entorno real. El desplazamiento no está incluido en las tarifas.</p>
           </div>
         </div>
         <div class="calc-summary">
           <h3 class="calc-summary-title">Resumen de tu plan</h3>
           <div class="calc-summary-items">
-            <div class="summary-row"><span>Programa</span><span id="summary-package-name">Adiestramiento Básico</span></div>
-            <div class="summary-row"><span>Precio Base</span><span id="summary-package-price">45€/sesión</span></div>
-            <div class="summary-row"><span>Nº de Sesiones</span><span id="summary-sessions-count">5 sesiones</span></div>
-            <div class="summary-row"><span>Coste Sesiones</span><span id="summary-sessions-price">225€</span></div>
-            <div class="summary-row"><span>Extras</span><span id="summary-addons-list" style="max-width: 200px; text-align: right; line-height: 1.3;">A domicilio (+100€)</span></div>
-            <div class="summary-row"><span>Coste Extras</span><span id="summary-addons-price">+100€</span></div>
-            <div class="summary-row total"><span>Total Estimado</span><span id="summary-total-price">325€</span></div>
+            <div class="summary-row"><span>Servicio</span><span id="summary-package-name">Curso de Educación Básica</span></div>
+            <div class="summary-row"><span>Precio</span><span id="summary-package-price">1.000 €</span></div>
+            <div class="summary-row"><span>Clases</span><span id="summary-sessions-count">2-3 por semana, 1-2 meses</span></div>
+            <div class="summary-row"><span>Coste del servicio</span><span id="summary-sessions-price">1.000 €</span></div>
+            <div class="summary-row"><span>Desplazamiento</span><span id="summary-addons-list" class="summary-wrap">Sitges · 20 € por clase</span></div>
+            <div class="summary-row"><span>Coste desplazamiento</span><span id="summary-addons-price">aparte</span></div>
+            <div class="summary-row total"><span>Total estimado</span><span id="summary-total-price">1.000 € + desplazamiento</span></div>
           </div>
           <button id="btn-book-session" class="btn btn-accent" style="width: 100%;">Solicitar mi primera clase</button>
+          <p class="calc-note">Precios para perros de 3 a 12 meses; a partir del año pueden variar según la aptitud, la raza o el carácter. Pago: el 50 % al empezar las clases y el resto en la sexta clase; el pack de 6 clases se paga por adelantado.</p>
         </div>
       </div>
     </div>
@@ -461,10 +473,10 @@
         <div class="faq-item"><div class="faq-header"><span>¿Las clases son a domicilio o tengo que llevarlo a un centro?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>A domicilio, siempre. No tengo un centro al que llevar al perro: voy yo a tu casa, en Sitges, el Garraf y alrededores. Es más cómodo para ti y mucho más eficaz, porque tu perro se comporta de verdad en su entorno, no como en una pista cerrada donde es un santo y luego en la calle, nada. Además son clases individuales, no en grupo: como mucho atiendo tres perros al día para no perder calidad.</p></div></div></div>
         <div class="faq-item"><div class="faq-header"><span>¿Usáis castigo, collares de fuerza o métodos duros?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>No. Nada de collares de castigo ni de hacer daño al perro. Trabajo con energía, lenguaje corporal y liderazgo tranquilo: firme, sí, pero cruel jamás. En Sitges y el Garraf mi forma de adiestrar busca que el perro entienda qué esperas de él, no que obedezca por miedo, porque eso a la larga falla y empeora la relación. Un perro educado con respeto es un perro feliz y, sobre todo, fiable.</p></div></div></div>
         <div class="faq-item"><div class="faq-header"><span>¿Tengo que estar yo en las clases o me lo dejáis adiestrado?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Tienes que estar tú, es lo más importante. Yo formo a la persona, no solo al perro: por eso no hago internado ni soy un colegio de perros donde dejas al animal y te lo devuelven "adiestrado". Eso no funciona a la larga, porque si tú no aprendes a manejarlo, vuelve a las andadas. En Sitges y el Garraf trabajo contigo, en tu casa, para que mantengas los resultados en el día a día. Te doy las herramientas; las usas tú.</p></div></div></div>
-        <div class="faq-item"><div class="faq-header"><span>¿Cuánto cuesta el adiestramiento canino?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Depende del programa y del número de sesiones que necesite tu perro, y lo tienes claro, sin sorpresas, en la calculadora de presupuesto de la web. Lo que no hago es atarte a un bono por adelantado: empezamos con una primera clase de valoración y, si no ves el cambio, no sigues. Trabajo a domicilio en Sitges y el Garraf, y si vives en Barcelona también voy, con un suplemento por el desplazamiento. Prefiero que hagas las clases justas y no una más.</p></div></div></div>
+        <div class="faq-item"><div class="faq-header"><span>¿Cuánto cuesta el adiestramiento canino?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>El Curso de Educación Básica cuesta 1.000 € (seguimiento, sentado, acostado, quieto y llamada, todo con correa) y el Curso de Educación Completa, 1.500 € (lo mismo sin correa, más control de ruidos y un comportamiento pacífico y amistoso). Se hacen 2 o 3 clases a la semana: de 1 a 2 meses la básica y de 2 a 3 la completa. Si prefieres ir poco a poco, hay clases sueltas y un pack de 6 clases a 75 € la clase. El desplazamiento va aparte según tu zona (20 € en Sitges, 30 € en Vilanova i la Geltrú, 85 € en Barcelona) y lo tienes todo en la calculadora. Estos precios son para perros de 3 a 12 meses; a partir del año pueden variar según el perro.</p></div></div></div>
         <div class="faq-item"><div class="faq-header"><span>¿Cuántas sesiones va a necesitar mi perro?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Depende del punto de partida y, sobre todo, de cuánto practiques entre clases. Para la obediencia básica suelen bastar pocas sesiones; para problemas de conducta, algo más. En Sitges y el Garraf no te inflo el número de clases: si puedes resolverlo en dos, no te cobro tres. Tras la primera valoración te doy una estimación realista y honesta, sin prometerte milagros ni alargar el proceso para sacarte dinero.</p></div></div></div>
         <div class="faq-item"><div class="faq-header"><span>¿Trabajáis con todas las razas y también con perros adultos?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Sí, con todas las razas y todos los tamaños, desde un Chihuahua hasta un perro de las listas, y con perros de cualquier edad. Llevo más de 25 años adiestrando en Sitges y el Garraf, y cada perro es un mundo: lo que cambia es el carácter y la energía, no el hecho de que se pueda educar. Un perro adulto aprende perfectamente; solo hacen falta el método adecuado y constancia por tu parte.</p></div></div></div>
-        <div class="faq-item"><div class="faq-header"><span>¿En qué zona trabajáis?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Trabajo a domicilio en Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles y toda la zona del Garraf. Si vives en Barcelona, también voy, con un pequeño suplemento por el desplazamiento. Voy yo a tu casa porque es donde aparecen los problemas y donde tu perro se comporta de verdad. Soy Eduardo Mangas, adiestrador y educador canino; escríbeme y vemos tu caso sin compromiso.</p></div></div></div>
+        <div class="faq-item"><div class="faq-header"><span>¿En qué zona trabajáis?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Trabajo a domicilio en Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles y toda la zona del Garraf. También voy a Barcelona; el desplazamiento se cobra aparte según la zona (de 20 € en Sitges a 85 € en Barcelona). Voy yo a tu casa porque es donde aparecen los problemas y donde tu perro se comporta de verdad. Soy Eduardo Mangas, adiestrador y educador canino; escríbeme y vemos tu caso sin compromiso.</p></div></div></div>
       </div>
     </div>
   </section>

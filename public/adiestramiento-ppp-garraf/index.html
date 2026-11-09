@@ -181,7 +181,7 @@
         "name": "¿Trabajáis a domicilio y en qué zona?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sí, siempre a domicilio. Voy a tu casa y a tu barrio, que es donde de verdad tienes que controlar a tu perro: en el paseo, en el portal, con la gente alrededor. Trabajo en Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles y toda la zona del Garraf, y si vives en Barcelona también voy, con un suplemento por el desplazamiento. Llevo más de 25 años con perros, y con razas potentes en particular."
+          "text": "Sí, siempre a domicilio. Voy a tu casa y a tu barrio, que es donde de verdad tienes que controlar a tu perro: en el paseo, en el portal, con la gente alrededor. Trabajo en Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles y toda la zona del Garraf, y también voy a Barcelona; el desplazamiento se cobra aparte según la zona (de 20 € en Sitges a 85 € en Barcelona). Llevo más de 25 años con perros, y con razas potentes en particular."
         }
       },
       {
@@ -189,7 +189,7 @@
         "name": "¿Cuánto cuesta el adiestramiento de un PPP?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Depende de tu perro y del número de sesiones, y lo tienes claro, sin sorpresas, en la calculadora de presupuesto de la web. No te ato a un bono por adelantado: empezamos por una primera clase de valoración y, si no ves el cambio, no sigues. Trabajo a domicilio en Sitges y el Garraf, y a Barcelona voy con un suplemento. El seguro y la licencia van aparte: eso es coste legal que pagas a tu ayuntamiento y a tu aseguradora, no a mí."
+          "text": "Las clases de manejo y conducta cuestan 75 € la hora, sueltas o en un pack de 6 clases (75 € la clase, por adelantado). Si lo que buscas es obediencia, el Curso de Educación Básica cuesta 1.000 € y el Completo, 1.500 €. Empezamos por una primera clase de valoración y, si no ves el cambio, no sigues. El desplazamiento va aparte según tu zona (20 € en Sitges, 30 € en Vilanova i la Geltrú, 85 € en Barcelona) y lo tienes todo en la calculadora. El seguro y la licencia van aparte: eso es coste legal que pagas a tu ayuntamiento y a tu aseguradora, no a mí."
         }
       },
       {
@@ -430,41 +430,53 @@
       <div class="calc-grid">
         <div class="calc-card">
           <div class="calc-group">
-            <label class="calc-label">1. Selecciona el Programa</label>
+            <label class="calc-label">1. Elige el servicio</label>
             <div class="calc-packages">
-              <div id="pkg-basico" class="package-pill selected"><h4>Manejo / Obediencia</h4><p>Desde 45€ / sesión</p></div>
-              <div id="pkg-avanzado" class="package-pill"><h4>Obediencia Avanzada</h4><p>Desde 55€ / sesión</p></div>
-              <div id="pkg-psicologia" class="package-pill"><h4>Conducta (reactividad)</h4><p>Desde 65€ / sesión</p></div>
+              <div id="pkg-clase" class="package-pill" role="button" tabindex="0" aria-pressed="false"><h4>Clases de conducta (agresividad y trastornos)</h4><p>75 €/hora · mínimo 1 hora</p></div>
+              <div id="pkg-pack" class="package-pill selected" role="button" tabindex="0" aria-pressed="true"><h4>Pack de 6 clases</h4><p>75 €/clase · 450 € por adelantado</p></div>
+              <div id="pkg-basico" class="package-pill" role="button" tabindex="0" aria-pressed="false"><h4>Curso de Educación Básica</h4><p>1.000 € · con correa · de 1 a 2 meses</p></div>
+              <div id="pkg-completo" class="package-pill" role="button" tabindex="0" aria-pressed="false"><h4>Curso de Educación Completa</h4><p>1.500 € · sin correa · de 2 a 3 meses</p></div>
             </div>
           </div>
           <div class="calc-group">
-            <label class="calc-label"><span id="sessions-label">2. Número de Sesiones</span><span id="session-count-val">5</span></label>
-            <div class="slider-wrapper">
-              <input type="range" id="range-sessions" class="range-input" min="1" max="10" value="5" step="1" aria-label="Número de sesiones">
-              <div class="range-labels"><span>1 (Mínimo)</span><span>10 (Paquete completo)</span></div>
+            <label class="calc-label" for="range-sessions"><span id="sessions-label">2. Número de clases</span><span id="session-count-val">6</span></label>
+            <div id="sessions-slider" class="slider-wrapper" hidden>
+              <input type="range" id="range-sessions" class="range-input" min="1" max="10" value="1" step="1" aria-label="Número de horas de clase">
+              <div class="range-labels"><span>1 hora (mínimo)</span><span>10 horas</span></div>
             </div>
+            <p id="sessions-note" class="calc-help">6 clases de 1 hora. El pack se paga por adelantado.</p>
           </div>
           <div class="calc-group">
-            <label class="calc-label">3. Opciones Adicionales</label>
-            <div class="add-ons-list">
-              <div id="addon-home" class="addon-item selected"><div class="addon-left"><div class="addon-checkbox"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></div><div><span class="addon-name">Sesiones a Domicilio</span><p style="font-size: 0.75rem;">En tu casa y tu barrio, donde tienes que controlarlo.</p></div></div><span class="addon-price">+20€/ses.</span></div>
-              <div id="addon-support" class="addon-item"><div class="addon-left"><div class="addon-checkbox"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></div><div><span class="addon-name">Soporte WhatsApp Mensual</span><p style="font-size: 0.75rem;">Consultas entre sesiones para resolver dudas al momento.</p></div></div><span class="addon-price">+30€/mes</span></div>
-              <div id="addon-materials" class="addon-item"><div class="addon-left"><div class="addon-checkbox"><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></div><div><span class="addon-name">Informe de Evaluación</span><p style="font-size: 0.75rem;">Documento con el perfil conductual y el plan de trabajo de tu perro.</p></div></div><span class="addon-price">+25€</span></div>
-            </div>
+            <label class="calc-label" for="calc-zona">3. ¿Dónde vives? Desplazamiento por clase</label>
+            <select id="calc-zona" class="calc-select">
+              <option value="20" data-zona="Sitges" selected>Sitges — 20 €</option>
+              <option value="25" data-zona="Les Roquetes">Les Roquetes — 25 €</option>
+              <option value="25" data-zona="Sant Pere de Ribes">Sant Pere de Ribes — 25 €</option>
+              <option value="30" data-zona="Vilanova i la Geltrú">Vilanova i la Geltrú — 30 €</option>
+              <option value="35" data-zona="Canyelles">Canyelles — 35 €</option>
+              <option value="35" data-zona="Olivella">Olivella — 35 €</option>
+              <option value="40" data-zona="L'Arboç">L'Arboç — 40 €</option>
+              <option value="50" data-zona="Vilafranca del Penedès">Vilafranca del Penedès — 50 €</option>
+              <option value="60" data-zona="Sant Martí Sarroca">Sant Martí Sarroca — 60 €</option>
+              <option value="85" data-zona="Barcelona">Barcelona — 85 €</option>
+              <option value="0" data-zona="Otra zona">Otra zona — te lo confirmo</option>
+            </select>
+            <p class="calc-help">En tu casa y tu barrio, donde tienes que controlarlo. El desplazamiento no está incluido en las tarifas.</p>
           </div>
         </div>
         <div class="calc-summary">
           <h3 class="calc-summary-title">Resumen de tu plan</h3>
           <div class="calc-summary-items">
-            <div class="summary-row"><span>Programa</span><span id="summary-package-name">Manejo / Obediencia</span></div>
-            <div class="summary-row"><span>Precio Base</span><span id="summary-package-price">45€/sesión</span></div>
-            <div class="summary-row"><span>Nº de Sesiones</span><span id="summary-sessions-count">5 sesiones</span></div>
-            <div class="summary-row"><span>Coste Sesiones</span><span id="summary-sessions-price">225€</span></div>
-            <div class="summary-row"><span>Extras</span><span id="summary-addons-list" style="max-width: 200px; text-align: right; line-height: 1.3;">A domicilio (+100€)</span></div>
-            <div class="summary-row"><span>Coste Extras</span><span id="summary-addons-price">+100€</span></div>
-            <div class="summary-row total"><span>Total Estimado</span><span id="summary-total-price">325€</span></div>
+            <div class="summary-row"><span>Servicio</span><span id="summary-package-name">Pack de 6 clases</span></div>
+            <div class="summary-row"><span>Precio</span><span id="summary-package-price">75 €/clase</span></div>
+            <div class="summary-row"><span>Clases</span><span id="summary-sessions-count">6 clases</span></div>
+            <div class="summary-row"><span>Coste del servicio</span><span id="summary-sessions-price">450 €</span></div>
+            <div class="summary-row"><span>Desplazamiento</span><span id="summary-addons-list" class="summary-wrap">Sitges · 20 € × 6</span></div>
+            <div class="summary-row"><span>Coste desplazamiento</span><span id="summary-addons-price">+120 €</span></div>
+            <div class="summary-row total"><span>Total estimado</span><span id="summary-total-price">570 €</span></div>
           </div>
           <button id="btn-book-session" class="btn btn-accent" style="width: 100%;">Solicitar mi primera clase</button>
+          <p class="calc-note">Precios para perros de 3 a 12 meses; a partir del año pueden variar según la aptitud, la raza o el carácter. Pago: el 50 % al empezar las clases y el resto en la sexta clase; el pack de 6 clases se paga por adelantado.</p>
         </div>
       </div>
     </div>
@@ -486,8 +498,8 @@
         <div class="faq-item"><div class="faq-header"><span>¿Puedo quitarle el bozal a mi PPP en algún momento?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>En la vía pública, no: el bozal es obligatorio para un perro potencialmente peligroso, igual que la correa corta no extensible. En tu casa o en espacios privados es otra cosa. Que tu perro lleve el bozal sin estrés se entrena, y es justo de lo que te ayudo en Sitges y el Garraf: a que el paseo cumpla la ley y, a la vez, sea tranquilo para los dos. Saltarse el bozal en la calle es una de las infracciones que más multas genera.</p></div></div></div>
         <div class="faq-item"><div class="faq-header"><span>Mi PPP es reactivo o agresivo, ¿tiene solución?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Sí. Ser un perro potencialmente peligroso no significa ser un perro problemático. Si el tuyo es reactivo o agresivo, se reconduce igual que cualquier otro perro: el tamaño y la fuerza cambian, pero el trabajo de fondo —leer su conducta y reconducirla— es el mismo. En Sitges y el Garraf lo trabajo desde la primera sesión, enseñándote a ti a llevar el control con seguridad. Cuanto antes lo atajemos, mejor, porque con un perro potente los sustos salen caros.</p></div></div></div>
         <div class="faq-item"><div class="faq-header"><span>¿Enseñáis a estos perros a atacar o a hacer guarda y defensa?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>No, y es importante que quede claro: no enseño ataque, defensa ni guarda. Mi trabajo es justo el contrario: que tu perro sea seguro, no peligroso. Trabajo la tenencia responsable, el manejo y la convivencia, para que tú lleves el control, tu familia esté tranquila y nadie en la calle tenga motivo para asustarse. En Sitges y el Garraf reconduzco perros potentes para que sean equilibrados, no para que sean un arma. Eso ni lo hago ni lo recomiendo a nadie.</p></div></div></div>
-        <div class="faq-item"><div class="faq-header"><span>¿Trabajáis a domicilio y en qué zona?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Sí, siempre a domicilio. Voy a tu casa y a tu barrio, que es donde de verdad tienes que controlar a tu perro: en el paseo, en el portal, con la gente alrededor. Trabajo en Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles y toda la zona del Garraf, y si vives en Barcelona también voy, con un suplemento por el desplazamiento. Llevo más de 25 años con perros, y con razas potentes en particular.</p></div></div></div>
-        <div class="faq-item"><div class="faq-header"><span>¿Cuánto cuesta el adiestramiento de un PPP?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Depende de tu perro y del número de sesiones, y lo tienes claro, sin sorpresas, en la calculadora de presupuesto de la web. No te ato a un bono por adelantado: empezamos por una primera clase de valoración y, si no ves el cambio, no sigues. Trabajo a domicilio en Sitges y el Garraf, y a Barcelona voy con un suplemento. El seguro y la licencia van aparte: eso es coste legal que pagas a tu ayuntamiento y a tu aseguradora, no a mí.</p></div></div></div>
+        <div class="faq-item"><div class="faq-header"><span>¿Trabajáis a domicilio y en qué zona?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Sí, siempre a domicilio. Voy a tu casa y a tu barrio, que es donde de verdad tienes que controlar a tu perro: en el paseo, en el portal, con la gente alrededor. Trabajo en Sitges, Vilanova i la Geltrú, Sant Pere de Ribes, Cubelles y toda la zona del Garraf, y también voy a Barcelona; el desplazamiento se cobra aparte según la zona (de 20 € en Sitges a 85 € en Barcelona). Llevo más de 25 años con perros, y con razas potentes en particular.</p></div></div></div>
+        <div class="faq-item"><div class="faq-header"><span>¿Cuánto cuesta el adiestramiento de un PPP?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Las clases de manejo y conducta cuestan 75 € la hora, sueltas o en un pack de 6 clases (75 € la clase, por adelantado). Si lo que buscas es obediencia, el Curso de Educación Básica cuesta 1.000 € y el Completo, 1.500 €. Empezamos por una primera clase de valoración y, si no ves el cambio, no sigues. El desplazamiento va aparte según tu zona (20 € en Sitges, 30 € en Vilanova i la Geltrú, 85 € en Barcelona) y lo tienes todo en la calculadora. El seguro y la licencia van aparte: eso es coste legal que pagas a tu ayuntamiento y a tu aseguradora, no a mí.</p></div></div></div>
         <div class="faq-item"><div class="faq-header"><span>¿Qué multas hay por no tener la licencia de PPP?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Tener un perro potencialmente peligroso sin licencia, o pasearlo sin bozal y correa reglamentaria, conlleva sanciones económicas importantes, y en los casos más graves pueden llegar a retirarte el perro. Los importes exactos los marca la normativa y tu ayuntamiento, pero no merece la pena el riesgo. En Sitges y el Garraf te recomiendo regularizar la situación cuanto antes; mientras tanto, yo te ayudo con la parte que más cuesta: tener al perro de verdad bajo control.</p></div></div></div>
         <div class="faq-item"><div class="faq-header"><span>¿Tenéis experiencia de verdad con pitbull y razas potentes?</span><div class="faq-icon"><svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg></div></div><div class="faq-body"><div class="faq-content"><p>Sí, y mucha. Llevo más de 25 años trabajando con perros, y he criado presa canario y pastor del Cáucaso, que son perros que no se controlan de cualquier manera. Con esa base, manejar a tu pitbull, tu Rottweiler o tu dogo —y, sobre todo, enseñarte a ti a hacerlo— es lo que mejor sé hacer. En Sitges y el Garraf no te doy teoría de manual: te doy lo que he aprendido en la calle con perros de verdad.</p></div></div></div>
       </div>
