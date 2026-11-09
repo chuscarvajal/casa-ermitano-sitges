@@ -69,14 +69,15 @@ Pegar el texto de `GBP_CONTENIDO_LISTO_CasaDelErmitano.md` (sección 2). Empieza
 
 ## PASO 6 — Servicios con precio
 **Dónde:** Editar perfil → **Servicios** (añadir por categoría).
-Copiar nombre + descripción + precio de `GBP_CONTENIDO_LISTO_CasaDelErmitano.md` (sección 3):
-- Adiestramiento Básico — 45 €
-- Adiestramiento Avanzado — 55 €
-- Psicología Canina — 65 €
-- Educación de Cachorros
-- Sesión a Domicilio (+20 €)
-- Residencia / Guardería (<5 kg)
-- Criadero de Chihuahua
+Copiar nombre + descripción + precio de `GBP_CONTENIDO_LISTO_CasaDelErmitano.md` (sección 3) — tarifas de nov 2026:
+- Clases de conducta (agresividad y trastornos) — 75 € (por hora)
+- Pack de 6 clases — 450 €
+- Curso de Educación Básica — 1.000 €
+- Curso de Educación Completa — 1.500 €
+- Educación de Cachorros (sin precio)
+- Clases a domicilio — desde 20 € de desplazamiento
+- Residencia canina — desde 35 €
+- Criadero de Chihuahua (SIN precio)
 
 ---
 

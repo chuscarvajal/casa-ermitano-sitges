@@ -32,29 +32,33 @@ Eduardo Mangas lleva desde 1998 dedicado a la Psicología, Etología y Adiestram
 
 ---
 
-## 3. SERVICIOS (nombre + descripción + precio)
+## 3. SERVICIOS (nombre + descripción + precio) — actualizado el 9 nov 2026 con el folleto de tarifas de Eduardo
 
-**Adiestramiento Básico — 45 €/sesión**
-> Obediencia, paseo sin tirones, llamada y normas de convivencia. Método positivo, con implicación del dueño para resultados duraderos. Garraf, Sitges y alrededores.
+**Clases de conducta (agresividad y trastornos) — 75 € (por hora)**
+> Clases para agresividad, reactividad, miedos, ansiedad por separación y otros trastornos. 75 € la hora, mínimo 1 hora. Casos puntuales y específicos, a domicilio en Sitges y el Garraf. Desplazamiento aparte según la zona.
 
-**Adiestramiento Avanzado — 55 €/sesión**
-> Trabajo de conducta avanzada y consolidación de pautas para perros que ya dominan lo básico. Adaptado a todas las razas.
+**Pack de 6 clases — 450 €**
+> 6 clases de 1 hora a 75 € la clase. Se paga por adelantado. Desplazamiento aparte según la zona.
 
-**Psicología Canina — 65 €/sesión**
-> Modificación de conducta para reactividad, miedos, ansiedad y agresividad. Evaluación etológica y plan de trabajo personalizado.
+**Curso de Educación Básica — 1.000 €**
+> Obediencia básica: seguimiento, sentado, acostado, quieto y llamada, todo con correa. 2 o 3 clases por semana durante 1 a 2 meses. Para perros de 3 a 12 meses. Desplazamiento aparte.
 
-**Educación de Cachorros**
-> Socialización, hábitos e higiene y prevención de problemas de conducta desde las primeras semanas.
+**Curso de Educación Completa — 1.500 €**
+> Obediencia completa sin correa: seguimiento, sentado, acostado, quieto y llamada, más control de ruidos y comportamiento pacífico y amistoso. 2 o 3 clases por semana durante 2 a 3 meses. Desplazamiento aparte.
 
-**Sesión a Domicilio (+20 €)**
-> Suplemento para realizar la sesión en el entorno del perro. Disponible en Garraf, Sitges, Cubelles, Vilanova i la Geltrú y Sant Pere de Ribes (Barcelona con suplemento de desplazamiento).
+**Educación de Cachorros (sin precio)**
+> Socialización, hábitos y prevención de problemas de conducta desde las primeras semanas. Se trabaja con el Curso de Educación Básica o con clases sueltas.
 
-**Residencia / Guardería (perros <5 kg)**
-> Estancia sin jaulas, en entorno familiar, con videollamada diaria. Plazas muy limitadas.
+**Clases a domicilio — desde 20 € de desplazamiento**
+> Desplazamiento por clase: Sitges 20 €, Les Roquetes y Sant Pere de Ribes 25 €, Vilanova i la Geltrú 30 €, Canyelles y Olivella 35 €, L'Arboç 40 €, Vilafranca del Penedès 50 €, Sant Martí Sarroca 60 €, Barcelona 85 €.
 
-**Criadero de Chihuahua**
+**Residencia canina — desde 35 €**
+> Para perros de hasta 15 kg (no razas grandes): 35 € al día de 1 a 5 kg y 40 € al día de 5 a 15 kg. Sin jaulas, atención 24 h, salida diaria y videollamada diaria. Recogida no incluida. Pago por adelantado.
+
+**Criadero de Chihuahua (SIN precio — no publicar precio de cachorros)**
 > Cría y exposición de Chihuahua (pelo corto y largo), registrado RSCE/FCI. Información por privado.
 
+*Precios retirados (ya no existen): Adiestramiento Básico 45 €, Avanzado 55 €, Psicología Canina 65 €/sesión, Sesión a domicilio +20 €, Residencia <5 kg.*
 ---
 
 ## 3b. ÁREAS DE SERVICIO (GBP permite hasta 20)
